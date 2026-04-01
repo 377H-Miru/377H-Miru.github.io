@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: 'ja' }}">
+<head>
+    <!-- Google tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-SDV8KXD68X"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-SDV8KXD68X');
+    </script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }} | 宮原 渉</title>
+    
+    <style>
+        :root {
+            --bg-color: #0d1117;
+            --text-color: #c9d1d9;
+            --link-color: #58a6ff;
+            --border-color: #30363d;
+            --nav-bg: #161b22;
+            --card-bg: #161b22;
+        }
+        [data-theme="light"] {
+            --bg-color: #ffffff;
+            --text-color: #24292f;
+            --link-color: #0969da;
+            --border-color: #d0d7de;
+            --nav-bg: #f6f8fa;
+            --card-bg: #f6f8fa;
+        }
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            transition: background-color 0.3s, color 0.3s;
+        }
+        #controls { position: fixed; top: 20px; right: 20px; z-index: 1000; display: flex; gap: 10px; }
+        .control-btn { background: var(--nav-bg); border: 1px solid var(--border-color); color: var(--text-color); padding: 8px 12px; border-radius: 20px; cursor: pointer; font-size: 14px; }
+        #nav-menu { position: fixed; top: 20px; left: 20px; z-index: 1000; }
+        .menu-icon { font-size: 20px; cursor: pointer; background: var(--nav-bg); width: 36px; height: 36px; display: flex; align-items: center; justify-content: center; border-radius: 50%; border: 1px solid var(--border-color); }
+        .menu-content { display: none; position: absolute; top: 45px; left: 0; background: var(--nav-bg); border: 1px solid var(--border-color); border-radius: 6px; width: 180px; box-shadow: 0 8px 16px rgba(0,0,0,0.2); }
+        .menu-content a { display: block; color: var(--text-color); padding: 12px 16px; text-decoration: none; border-bottom: 1px solid var(--border-color); }
+        .container { max-width: 800px; margin: 0 auto; padding: 100px 20px; }
+        
+        /* Markdown Style Overrides */
+        h1 { border-bottom: 1px solid var(--border-color); padding-bottom: 10px; }
+        h2 { border-bottom: 1px solid var(--border-color); padding-bottom: 5px; margin-top: 40px; }
+        hr { border: 0; border-top: 1px solid var(--border-color); margin: 30px 0; }
+        ul { padding-left: 20px; }
+        li { margin-bottom: 12px; }
+        a { color: var(--link-color); text-decoration: underline; }
+        
+        .footer { font-size: 0.8em; color: #8b949e; margin-top: 60px; text-align: center; }
+        
+        /* Multi-language Visibility */
+        [data-lang-content] { display: none; }
+        body[data-lang="ja"] [data-lang-content="ja"] { display: block; }
+        body[data-lang="en"] [data-lang-content="en"] { display: block; }
+
+        .badge { font-size: 0.75em; padding: 2px 8px; border-radius: 10px; border: 1px solid var(--border-color); margin-left: 5px; vertical-align: middle; color: #8b949e; }
+        .evidence-link { font-size: 0.9em; margin-left: 10px; text-decoration: none; }
+        .contact-box { background: var(--card-bg); padding: 20px; border-radius: 8px; border: 1px solid var(--border-color); margin-top: 20px; }
+    </style>
+</head>
+<body data-theme="dark" data-lang="ja">
+
+    <div id="controls">
+        <button class="control-btn" onclick="toggleLang()" id="langBtn">EN</button>
+        <button class="control-btn" onclick="toggleTheme()" id="themeBtn">🌙</button>
+    </div>
+
+    <div id="nav-menu">
+        <div class="menu-icon" onclick="toggleMenu()">⋮</div>
+        <div class="menu-content" id="menuContent">
+            <a href="/index.html" class="i18n-link" data-ja="ホーム" data-en="Home">ホーム</a>
+            <a href="/blog.html" class="i18n-link" data-ja="活動記録" data-en="Blog">活動記録</a>
+            <a href="/achievements.html" class="i18n-link" data-ja="研究実績" data-en="Achievements">研究実績</a>
+            <a href="/projects.html" class="i18n-link" data-ja="プロジェクト" data-en="Projects">プロジェクト</a>
+            <a href="/#contact" class="i18n-link" data-ja="連絡先" data-en="Contact">連絡先</a>
+        </div>
+    </div>
+
+    <div class="container">
+        {{ content }}
+
+        <div class="footer">
+            <p>© 2026 Wataru Miyahara</p>
+        </div>
+    </div>
+
+    <script>
+        // Theme Toggle
+        let currentTheme = localStorage.getItem('theme') || 'dark';
+        function updateTheme() {
+            document.body.setAttribute('data-theme', currentTheme);
+            document.getElementById('themeBtn').innerText = currentTheme === 'dark' ? '☀️' : '🌙';
+            localStorage.setItem('theme', currentTheme);
+        }
+        function toggleTheme() { currentTheme = currentTheme === 'dark' ? 'light' : 'dark'; updateTheme(); }
+
+        // Language Toggle
+        let currentLang = localStorage.getItem('lang') || 'ja';
+        function updateLang() {
+            document.body.setAttribute('data-lang', currentLang);
+            document.getElementById('langBtn').innerText = currentLang === 'ja' ? 'EN' : 'JP';
+            document.querySelectorAll('.i18n-link').forEach(link => {
+                link.innerText = link.getAttribute('data-' + currentLang);
+            });
+            localStorage.setItem('lang', currentLang);
+        }
+        function toggleLang() { currentLang = currentLang === 'ja' ? 'en' : 'ja'; updateLang(); }
+
+        function toggleMenu() {
+            var content = document.getElementById("menuContent");
+            content.style.display = content.style.display === "block" ? "none" : "block";
+        }
+        window.onclick = function(event) { if (!event.target.matches('.menu-icon')) { document.getElementById("menuContent").style.display = "none"; } }
+
+        updateTheme(); updateLang();
+    </script>
+</body>
+</html>
