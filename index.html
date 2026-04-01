@@ -14,7 +14,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>宮原 渉 | Portfolio</title>
     
-    <!-- SEO & OGP (X/Twitter, LinkedIn sharing) -->
+    <!-- SEO & OGP -->
     <meta name="description" content="明治薬科大学 医療分子解析学研究室 宮原渉のポートフォリオサイト。機械学習を用いた有害事象予測や構造インフォマティクスの研究。">
     <meta property="og:title" content="宮原 渉 | Wataru Miyahara Portfolio">
     <meta property="og:description" content="医療分子解析学（植沢研）所属。EUOS25 challenge 優勝。機械学習・ケモインフォマティクス。">
@@ -23,12 +23,10 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@WataruM327906">
 
-    <!-- Favicon (Emoji as icon) -->
     <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🧪</text></svg>">
 
     <style>
         :root {
-            /* Dark Mode (Default) */
             --bg-color: #0d1117;
             --text-color: #c9d1d9;
             --link-color: #58a6ff;
@@ -37,7 +35,6 @@
             --card-bg: #161b22;
         }
         [data-theme="light"] {
-            /* Light Mode Overrides */
             --bg-color: #ffffff;
             --text-color: #24292f;
             --link-color: #0969da;
@@ -54,7 +51,6 @@
             padding: 0;
             transition: background-color 0.3s, color 0.3s;
         }
-        /* Navigation & Controls */
         #controls {
             position: fixed;
             top: 20px;
@@ -114,7 +110,6 @@
         }
         .menu-content a:hover { background-color: var(--border-color); }
 
-        /* Content Layout */
         .container {
             max-width: 800px;
             margin: 0 auto;
@@ -135,8 +130,6 @@
             margin-top: 20px;
         }
         .footer { font-size: 0.8em; color: #8b949e; margin-top: 60px; text-align: center; }
-
-        /* Multilingual display */
         [data-lang] { display: none; }
     </style>
 </head>
@@ -196,7 +189,6 @@
 
         <h2 id="contact" class="i18n" data-ja="連絡先" data-en="Contact">連絡先</h2>
         <div class="contact-box">
-            <p class="i18n" data-ja="お問い合わせは X (Twitter) のDMまでお願いいたします：" data-en="For inquiries, please reach out via DM on X (Twitter):">お問い合わせは X (Twitter) のDMまでお願いいたします：</p>
             <p><b>X (Twitter):</b> <a href="https://x.com/WataruM327906" target="_blank">@WataruM327906</a></p>
         </div>
 
@@ -206,7 +198,6 @@
     </div>
 
     <script>
-        // Language Toggle
         let currentLang = localStorage.getItem('lang') || 'ja';
         function updateLang() {
             document.querySelectorAll('.i18n').forEach(el => {
@@ -220,8 +211,6 @@
             currentLang = currentLang === 'ja' ? 'en' : 'ja';
             updateLang();
         }
-
-        // Theme Toggle
         let currentTheme = localStorage.getItem('theme') || 'dark';
         function updateTheme() {
             document.body.setAttribute('data-theme', currentTheme);
@@ -232,8 +221,6 @@
             currentTheme = currentTheme === 'dark' ? 'light' : 'dark';
             updateTheme();
         }
-
-        // Nav Menu
         function toggleMenu() {
             var content = document.getElementById("menuContent");
             content.style.display = content.style.display === "block" ? "none" : "block";
@@ -243,8 +230,6 @@
                 document.getElementById("menuContent").style.display = "none";
             }
         }
-
-        // Initialization
         updateLang();
         updateTheme();
     </script>
