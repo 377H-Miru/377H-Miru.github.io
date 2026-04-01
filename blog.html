@@ -45,8 +45,7 @@
             top: 20px;
             right: 20px;
             z-index: 1000;
-            display: flex;
-            gap: 10px;
+            display: flex; gap: 10px;
         }
         .control-btn {
             background: var(--nav-bg);
@@ -56,69 +55,37 @@
             border-radius: 20px;
             cursor: pointer;
             font-size: 14px;
-            transition: 0.2s;
         }
-        .control-btn:hover { background: var(--border-color); }
-
-        #nav-menu {
-            position: fixed;
-            top: 20px;
-            left: 20px;
-            z-index: 1000;
-        }
+        #nav-menu { position: fixed; top: 20px; left: 20px; z-index: 1000; }
         .menu-icon {
-            font-size: 20px;
-            cursor: pointer;
-            background: var(--nav-bg);
-            opacity: 0.8;
-            width: 36px;
-            height: 36px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            border-radius: 50%;
-            border: 1px solid var(--border-color);
+            font-size: 20px; cursor: pointer; background: var(--nav-bg);
+            width: 36px; height: 36px; display: flex; align-items: center; justify-content: center;
+            border-radius: 50%; border: 1px solid var(--border-color);
         }
         .menu-content {
-            display: none;
-            position: absolute;
-            top: 45px;
-            left: 0;
-            background: var(--nav-bg);
-            border: 1px solid var(--border-color);
-            border-radius: 6px;
-            width: 180px;
-            box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+            display: none; position: absolute; top: 45px; left: 0;
+            background: var(--nav-bg); border: 1px solid var(--border-color);
+            border-radius: 6px; width: 180px; box-shadow: 0 8px 16px rgba(0,0,0,0.2);
         }
-        .menu-content a {
-            display: block;
-            color: var(--text-color);
-            padding: 12px 16px;
-            text-decoration: none;
-            border-bottom: 1px solid var(--border-color);
-        }
-        .menu-content a:hover { background-color: var(--border-color); }
-
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 100px 20px;
-        }
-        a { color: var(--link-color); text-decoration: underline; }
-        a:hover { text-decoration: none; }
+        .menu-content a { display: block; color: var(--text-color); padding: 12px 16px; text-decoration: none; border-bottom: 1px solid var(--border-color); }
+        .container { max-width: 800px; margin: 0 auto; padding: 100px 20px; }
         h1 { border-bottom: 1px solid var(--border-color); padding-bottom: 10px; }
-        h2 { border-bottom: 1px solid var(--border-color); padding-bottom: 5px; margin-top: 40px; }
-        hr { border: 0; border-top: 1px solid var(--border-color); margin: 30px 0; }
+        h2 { border-bottom: 1px solid var(--border-color); padding-bottom: 5px; margin-top: 40px; color: #8b949e; }
         
+        .month-section { margin-bottom: 40px; }
         .blog-post {
-            margin-bottom: 40px;
-            padding: 20px;
+            margin-bottom: 20px;
+            padding: 15px;
             background: var(--card-bg);
             border: 1px solid var(--border-color);
             border-radius: 8px;
+            transition: transform 0.2s;
         }
-        .blog-date { font-size: 0.9em; color: #8b949e; }
-        .blog-title { font-size: 1.4em; font-weight: bold; margin: 10px 0; }
+        .blog-post:hover { transform: translateY(-2px); border-color: var(--link-color); }
+        .blog-post a { text-decoration: none; color: inherit; display: block; }
+        .blog-date { font-size: 0.85em; color: #8b949e; }
+        .blog-title { font-size: 1.2em; font-weight: bold; margin: 5px 0; color: var(--link-color); }
+        .blog-summary { font-size: 0.95em; margin-top: 5px; }
         
         .footer { font-size: 0.8em; color: #8b949e; margin-top: 60px; text-align: center; }
         [data-lang] { display: none; }
@@ -135,31 +102,51 @@
         <div class="menu-icon" onclick="toggleMenu()">⋮</div>
         <div class="menu-content" id="menuContent">
             <a href="./index.html" class="i18n" data-ja="ホーム" data-en="Home">ホーム</a>
-            <a href="./blog.html" class="i18n" data-ja="ブログ" data-en="Blog">ブログ</a>
-            <a href="./achievements.html" class="i18n" data-ja="実績詳細" data-en="Achievements">実績詳細</a>
-            <a href="./projects.html" class="i18n" data-ja="プロジェクト詳細" data-en="Projects">プロジェクト詳細</a>
+            <a href="./blog.html" class="i18n" data-ja="活動記録" data-en="Blog">活動記録</a>
+            <a href="./achievements.html" class="i18n" data-ja="研究実績" data-en="Achievements">研究実績</a>
+            <a href="./projects.html" class="i18n" data-ja="プロジェクト" data-en="Projects">プロジェクト</a>
             <a href="./index.html#contact" class="i18n" data-ja="連絡先" data-en="Contact">連絡先</a>
         </div>
     </div>
 
     <div class="container">
-        <h1 class="i18n" data-ja="ブログ" data-en="Blog">ブログ</h1>
-        <p class="i18n" data-ja="研究、技術、日々の活動に関するメモです。" data-en="Notes on research, technology, and daily activities.">研究、技術、日々の活動に関するメモです。</p>
+        <h1 class="i18n" data-ja="活動記録 / ブログ" data-en="Blog & Logs">活動記録 / ブログ</h1>
+        <p class="i18n" data-ja="研究の進捗や技術的な知見を月ごとにまとめています。" data-en="Monthly logs of research progress and technical insights.">研究の進捗や技術的な知見を月ごとにまとめています。</p>
 
         <hr>
 
-        <!-- Blog Post 1 -->
-        <div class="blog-post">
-            <div class="blog-date">2026-04-01</div>
-            <div class="blog-title i18n" data-ja="ポートフォリオサイトを開設しました" data-en="Portfolio Website Launched">ポートフォリオサイトを開設しました</div>
-            <p class="i18n" data-ja="GitHub Pagesを使って、自身の研究実績をまとめたサイトを公開しました。今後、技術メモや研究の進捗をここに記していく予定です。" data-en="Launched my research portfolio site using GitHub Pages. I plan to share technical notes and research progress here.">GitHub Pagesを使って、自身の研究実績をまとめたサイトを公開しました。今後、技術メモや研究の進捗をここに記していく予定です。</p>
+        <!-- 2026年4月 -->
+        <div class="month-section">
+            <h2 class="i18n" data-ja="2026年 4月" data-en="April 2026">2026年 4月</h2>
+            
+            <article class="blog-post">
+                <a href="./posts/2026-04-01-launch.html">
+                    <div class="blog-date">2026-04-01</div>
+                    <div class="blog-title i18n" data-ja="ポートフォリオサイトの設計思想と公開" data-en="Portfolio Site: Design Philosophy & Launch">ポートフォリオサイトの設計思想と公開</div>
+                    <div class="blog-summary i18n" 
+                         data-ja="専門家向けのProof of Workとしてのサイト構築。技術的エビデンスを重視した構成について。" 
+                         data-en="Constructing a site as a 'Proof of Work' for experts. Focusing on technical evidence.">
+                         専門家向けのProof of Workとしてのサイト構築。
+                    </div>
+                </a>
+            </article>
         </div>
 
-        <!-- Blog Post 2 (Sample) -->
-        <div class="blog-post">
-            <div class="blog-date">2026-02-25</div>
-            <div class="blog-title i18n" data-ja="EUOS25 challengeでの優勝を振り返って" data-en="Reflections on EUOS25 Challenge Win">EUOS25 challengeでの優勝を振り返って</div>
-            <p class="i18n" data-ja="蛍光予測部門での優勝までのプロセスや、KANをどのように活用したかについて、近日中に詳細を執筆予定です。" data-en="Stay tuned for a detailed post about our process in the fluorescence prediction track and how we utilized KAN.">蛍光予測部門での優勝までのプロセスや、KANをどのように活用したかについて、近日中に詳細を執筆予定です。</p>
+        <!-- 2026年2月 -->
+        <div class="month-section">
+            <h2 class="i18n" data-ja="2026年 2月" data-en="February 2026">2026年 2月</h2>
+            
+            <article class="blog-post">
+                <a href="./posts/2026-02-25-euos25-review.html">
+                    <div class="blog-date">2026-02-25</div>
+                    <div class="blog-title i18n" data-ja="EUOS25 challenge 優勝の技術的背景" data-en="Technical Review: EUOS25 Challenge Win">EUOS25 challenge 優勝の技術的背景</div>
+                    <div class="blog-summary i18n" 
+                         data-ja="量子化学計算による構造最適化とKANを組み合わせた予測アプローチの詳解。" 
+                         data-en="In-depth review of the predictive approach combining quantum chemistry and KAN.">
+                         量子化学計算による構造最適化とKANを組み合わせた予測アプローチの詳解。
+                    </div>
+                </a>
+            </article>
         </div>
 
         <div class="footer">
@@ -177,31 +164,20 @@
             document.documentElement.lang = currentLang;
             localStorage.setItem('lang', currentLang);
         }
-        function toggleLang() {
-            currentLang = currentLang === 'ja' ? 'en' : 'ja';
-            updateLang();
-        }
+        function toggleLang() { currentLang = currentLang === 'ja' ? 'en' : 'ja'; updateLang(); }
         let currentTheme = localStorage.getItem('theme') || 'dark';
         function updateTheme() {
             document.body.setAttribute('data-theme', currentTheme);
             document.getElementById('themeBtn').innerText = currentTheme === 'dark' ? '☀️' : '🌙';
             localStorage.setItem('theme', currentTheme);
         }
-        function toggleTheme() {
-            currentTheme = currentTheme === 'dark' ? 'light' : 'dark';
-            updateTheme();
-        }
+        function toggleTheme() { currentTheme = currentTheme === 'dark' ? 'light' : 'dark'; updateTheme(); }
         function toggleMenu() {
             var content = document.getElementById("menuContent");
             content.style.display = content.style.display === "block" ? "none" : "block";
         }
-        window.onclick = function(event) {
-            if (!event.target.matches('.menu-icon')) {
-                document.getElementById("menuContent").style.display = "none";
-            }
-        }
-        updateLang();
-        updateTheme();
+        window.onclick = function(event) { if (!event.target.matches('.menu-icon')) { document.getElementById("menuContent").style.display = "none"; } }
+        updateLang(); updateTheme();
     </script>
 </body>
 </html>
