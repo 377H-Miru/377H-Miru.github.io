@@ -133,6 +133,7 @@
         [data-lang] { display: none; }
         
         .evidence-link { font-size: 0.9em; margin-left: 10px; text-decoration: none; }
+        .badge { font-size: 0.75em; padding: 2px 8px; border-radius: 10px; border: 1px solid var(--border-color); margin-left: 5px; vertical-align: middle; color: #8b949e; }
     </style>
 </head>
 <body data-theme="dark">
@@ -165,13 +166,13 @@
 
         <h2 class="i18n" data-ja="研究ビジョン" data-en="Research Vision">研究ビジョン</h2>
         <ul>
-            <li class="i18n" data-ja="<b>副作用発現メカニズムの解明:</b> Kolmogorov-Arnold Networks (KAN) の解釈性を活用したToxicophore（毒性発現部位）の同定、および標的タンパク質ドッキングシミュレーションの統合による、分子レベルから受容体レベルまでの多角的な医薬品安全性評価基盤の構築。" 
-                data-en="<b>Elucidating Adverse Event Mechanisms:</b> Developing a multi-dimensional drug safety assessment framework by identifying Toxicophores using KAN interpretability and integrating receptor-level docking simulations.">
-                <b>副作用発現メカニズムの解明:</b> Kolmogorov-Arnold Networks (KAN) の解釈性を活用したToxicophore（毒性発現部位）の同定、および標的タンパク質ドッキングシミュレーションの統合による、分子レベルから受容体レベルまでの多角的な医薬品安全性評価基盤の構築。
+            <li class="i18n" data-ja="<b>副作用発現メカニズムの解明:</b> Kolmogorov-Arnold Networks (KAN) の解釈性を活用したToxicophore（毒性発現部位）の同定を軸に、将来的には標的タンパク質ドッキングシミュレーションを統合し、分子から受容体レベルまでの安全性評価基盤の構築を目指す。" 
+                data-en="<b>Elucidating Adverse Event Mechanisms:</b> Identifying Toxicophores using KAN interpretability, with a future goal of integrating receptor-level docking simulations for a multi-dimensional safety assessment framework.">
+                <b>副作用発現メカニズムの解明:</b> Kolmogorov-Arnold Networks (KAN) の解釈性を活用したToxicophore（毒性発現部位）の同定を軸に、将来的には標的タンパク質ドッキングシミュレーションを統合し、分子から受容体レベルまでの安全性評価基盤の構築を目指す。
             </li>
-            <li class="i18n" data-ja="<b>RWD解析の高度化:</b> 自発報告データベース（FAERS）と国内レセプトデータの統合解析による、実臨床における有害事象予測モデルの実証と拡張。" 
-                data-en="<b>Advanced RWD Analysis:</b> Validating and extending adverse event prediction models in clinical settings through integrated analysis of FAERS and claims data.">
-                <b>RWD解析の高度化:</b> 自発報告データベース（FAERS）と国内レセプトデータの統合解析による、実臨床における有害事象予測モデルの実証と拡張。
+            <li class="i18n" data-ja="<b>RWD解析への展開:</b> 自発報告データベース（FAERS）での知見をベースとし、国内レセプトデータ等を用いた実臨床データ解析への拡張を検証中。" 
+                data-en="<b>Expansion to RWD Analysis:</b> Validating the extension of FAERS-based findings to clinical data analysis using claims data (integration in progress).">
+                <b>RWD解析への展開:</b> 自発報告データベース（FAERS）での知見をベースとし、国内レセプトデータ等を用いた実臨床データ解析への拡張を検証中。
             </li>
         </ul>
 
@@ -197,11 +198,12 @@
                 <a href="https://github.com/377H-Miru" target="_blank" class="evidence-link">[Code: KAN-CLI]</a>
             </li>
             <li>
-                <span class="i18n" data-ja="<b>計算化学:</b> RDKitによる特徴量抽出、量子化学計算による構造最適化・物性推算。" data-en="<b>CompChem:</b> Feature extraction via RDKit, structure optimization and property estimation via Quantum Chemistry."><b>計算化学:</b> RDKitによる特徴量抽出、量子化学計算による構造最適化・物性推算。</span>
+                <span class="i18n" data-ja="<b>計算化学:</b> RDKitによる特徴量抽出、量子化学計算による構造最適化。" data-en="<b>CompChem:</b> Feature extraction via RDKit and structure optimization via Quantum Chemistry."><b>計算化学:</b> RDKitによる特徴量抽出、量子化学計算による構造最適化。</span>
                 <a href="https://github.com/377H-Miru" target="_blank" class="evidence-link">[Code: Collision-Analysis]</a>
             </li>
             <li>
-                <span class="i18n" data-ja="<b>データ解析:</b> 大規模データ（FAERS, レセプト）のSQL解析。" data-en="<b>Data Analysis:</b> Large-scale data (FAERS, Claims) analysis via SQL."><b>データ解析:</b> 大規模データ（FAERS, レセプト）のSQL解析。</span>
+                <span class="i18n" data-ja="<b>ドッキングシミュレーション / SQL:</b> 統合基盤構築に向け習得・検証中。" data-en="<b>Docking Simulation / SQL:</b> Currently acquiring and validating for integrated analysis."><b>ドッキングシミュレーション / SQL:</b> 統合基盤構築に向け習得・検証中。</span>
+                <span class="badge i18n" data-ja="習得中" data-en="In Progress">習得中</span>
             </li>
         </ul>
 
@@ -227,31 +229,20 @@
             document.documentElement.lang = currentLang;
             localStorage.setItem('lang', currentLang);
         }
-        function toggleLang() {
-            currentLang = currentLang === 'ja' ? 'en' : 'ja';
-            updateLang();
-        }
+        function toggleLang() { currentLang = currentLang === 'ja' ? 'en' : 'ja'; updateLang(); }
         let currentTheme = localStorage.getItem('theme') || 'dark';
         function updateTheme() {
             document.body.setAttribute('data-theme', currentTheme);
             document.getElementById('themeBtn').innerText = currentTheme === 'dark' ? '☀️' : '🌙';
             localStorage.setItem('theme', currentTheme);
         }
-        function toggleTheme() {
-            currentTheme = currentTheme === 'dark' ? 'light' : 'dark';
-            updateTheme();
-        }
+        function toggleTheme() { currentTheme = currentTheme === 'dark' ? 'light' : 'dark'; updateTheme(); }
         function toggleMenu() {
             var content = document.getElementById("menuContent");
             content.style.display = content.style.display === "block" ? "none" : "block";
         }
-        window.onclick = function(event) {
-            if (!event.target.matches('.menu-icon')) {
-                document.getElementById("menuContent").style.display = "none";
-            }
-        }
-        updateLang();
-        updateTheme();
+        window.onclick = function(event) { if (!event.target.matches('.menu-icon')) { document.getElementById("menuContent").style.display = "none"; } }
+        updateLang(); updateTheme();
     </script>
 </body>
 </html>
