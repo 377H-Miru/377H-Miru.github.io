@@ -3,7 +3,7 @@ layout: default
 title: Home
 ---
 
-# 渉（Wataru Miyahara）
+# 宮原 渉（Wataru Miyahara）
 
 明治薬科大学 薬学部薬学科（2028年3月卒業予定）
 医療分子解析学研究室（植沢研）所属
