@@ -1,9 +1,32 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
+    <!-- Google tag (gtag.js) - Google Analytics -->
+    <!-- 下記の G-XXXXXXXXXX を取得した測定IDに書き換えてください -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-XXXXXXXXXX');
+    </script>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>宮原 渉 | Portfolio</title>
+    
+    <!-- SEO & OGP (X/Twitter, LinkedIn sharing) -->
+    <meta name="description" content="明治薬科大学 医療分子解析学研究室 宮原渉のポートフォリオサイト。機械学習を用いた有害事象予測や構造インフォマティクスの研究。">
+    <meta property="og:title" content="宮原 渉 | Wataru Miyahara Portfolio">
+    <meta property="og:description" content="医療分子解析学（植沢研）所属。EUOS25 challenge 優勝。機械学習・ケモインフォマティクス。">
+    <meta property="og:url" content="https://377h-miru.github.io/">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@WataruM327906">
+
+    <!-- Favicon (Emoji as icon) -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🧪</text></svg>">
+
     <style>
         :root {
             /* Dark Mode (Default) */
