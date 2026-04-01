@@ -25,8 +25,8 @@ title: Home
 - **計算化学:** RDKitによる特徴量抽出、量子化学計算による構造最適化。 [[Code: Collision-Analysis]](https://github.com/377H-Miru){:target="_blank"}
 - **ドッキングシミュレーション / SQL:** 統合基盤構築に向け習得・検証中。 <span class="badge">習得中</span>
 
-<h2 id="contact">連絡先</h2>
-<div class="contact-box">
+<h2 id="sns">SNS</h2>
+<div class="contact-box" markdown="1">
 [GitHub](https://github.com/377H-Miru){:target="_blank"} ｜ [X (Twitter)](https://x.com/WataruM327906){:target="_blank"} ｜ [LinkedIn](https://www.linkedin.com/in/wataru-miyahara-6947253ab/){:target="_blank"}
 </div>
 </div>
@@ -53,8 +53,8 @@ Affiliation: [Laboratory of Medical Molecule Analysis](https://u-lab.my-pharm.ac
 - **CompChem:** Feature extraction via RDKit and structure optimization via Quantum Chemistry. [[Code: Collision-Analysis]](https://github.com/377H-Miru){:target="_blank"}
 - **Docking Simulation / SQL:** Currently acquiring and validating for integrated analysis. <span class="badge">In Progress</span>
 
-<h2 id="contact">Contact</h2>
-<div class="contact-box">
+<h2 id="sns">SNS</h2>
+<div class="contact-box" markdown="1">
 [GitHub](https://github.com/377H-Miru){:target="_blank"} ｜ [X (Twitter)](https://x.com/WataruM327906){:target="_blank"} ｜ [LinkedIn](https://www.linkedin.com/in/wataru-miyahara-6947253ab/){:target="_blank"}
 </div>
 </div>
