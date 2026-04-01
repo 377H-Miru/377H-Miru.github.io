@@ -28,17 +28,26 @@
             z-index: 1000;
         }
         .menu-icon {
-            font-size: 24px;
+            font-size: 20px;
             cursor: pointer;
-            background: var(--nav-bg);
-            padding: 10px;
-            border-radius: 5px;
+            background: rgba(22, 27, 34, 0.7);
+            padding: 6px 12px;
+            border-radius: 50%;
             border: 1px solid var(--border-color);
+            transition: background 0.3s;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 32px;
+            height: 32px;
+        }
+        .menu-icon:hover {
+            background: rgba(48, 54, 61, 0.9);
         }
         .menu-content {
             display: none;
             position: absolute;
-            top: 50px;
+            top: 45px;
             left: 0;
             background: var(--nav-bg);
             border: 1px solid var(--border-color);
@@ -85,7 +94,7 @@
 
     <!-- Sidebar/Nav Menu -->
     <div id="nav-menu">
-        <div class="menu-icon" onclick="toggleMenu()">⋮ Menu</div>
+        <div class="menu-icon" onclick="toggleMenu()">⋮</div>
         <div class="menu-content" id="menuContent">
             <a href="./index.html">Home</a>
             <a href="./achievements.html">Achievements (実績)</a>
