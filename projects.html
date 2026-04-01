@@ -1,38 +1,204 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
+    <!-- Google tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-SDV8KXD68X"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-SDV8KXD68X');
+    </script>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projects | 宮原 渉</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.2.0/github-markdown-dark.min.css">
+    
     <style>
-        body { background-color: #0d1117; color: #c9d1d9; margin: 0; }
-        .markdown-body { box-sizing: border-box; min-width: 200px; max-width: 900px; margin: 0 auto; padding: 45px; background-color: #0d1117; }
-        .markdown-body a { color: #58a6ff; }
-        .markdown-body hr { background-color: #30363d; }
-        h1, h2 { border-bottom: 1px solid #30363d !important; }
+        :root {
+            --bg-color: #0d1117;
+            --text-color: #c9d1d9;
+            --link-color: #58a6ff;
+            --border-color: #30363d;
+            --nav-bg: #161b22;
+            --card-bg: #161b22;
+        }
+        [data-theme="light"] {
+            --bg-color: #ffffff;
+            --text-color: #24292f;
+            --link-color: #0969da;
+            --border-color: #d0d7de;
+            --nav-bg: #f6f8fa;
+            --card-bg: #f6f8fa;
+        }
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            transition: background-color 0.3s, color 0.3s;
+        }
+        #controls {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            z-index: 1000;
+            display: flex;
+            gap: 10px;
+        }
+        .control-btn {
+            background: var(--nav-bg);
+            border: 1px solid var(--border-color);
+            color: var(--text-color);
+            padding: 8px 12px;
+            border-radius: 20px;
+            cursor: pointer;
+            font-size: 14px;
+            transition: 0.2s;
+        }
+        .control-btn:hover { background: var(--border-color); }
+
+        #nav-menu {
+            position: fixed;
+            top: 20px;
+            left: 20px;
+            z-index: 1000;
+        }
+        .menu-icon {
+            font-size: 20px;
+            cursor: pointer;
+            background: var(--nav-bg);
+            opacity: 0.8;
+            width: 36px;
+            height: 36px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            border: 1px solid var(--border-color);
+        }
+        .menu-content {
+            display: none;
+            position: absolute;
+            top: 45px;
+            left: 0;
+            background: var(--nav-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 6px;
+            width: 200px;
+            box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+        }
+        .menu-content a {
+            display: block;
+            color: var(--text-color);
+            padding: 12px 16px;
+            text-decoration: none;
+            border-bottom: 1px solid var(--border-color);
+        }
+        .menu-content a:hover { background-color: var(--border-color); }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 100px 20px;
+        }
+        a { color: var(--link-color); text-decoration: underline; }
+        a:hover { text-decoration: none; }
+        h1 { border-bottom: 1px solid var(--border-color); padding-bottom: 10px; }
+        h2 { border-bottom: 1px solid var(--border-color); padding-bottom: 5px; margin-top: 40px; }
+        hr { border: 0; border-top: 1px solid var(--border-color); margin: 30px 0; }
+        ul { padding-left: 20px; }
+        li { margin-bottom: 12px; }
+        .footer { font-size: 0.8em; color: #8b949e; margin-top: 60px; text-align: center; }
+        [data-lang] { display: none; }
     </style>
 </head>
-<body class="markdown-body">
-<h1>Projects</h1>
-<p><a href="./index.html">← Home</a></p>
+<body data-theme="dark">
 
-<h2>Kolmogorov-Arnold Networks (KAN) による有害事象解析</h2>
-<ul>
-    <li><b>概要:</b> 最新のニューラルネットワークアーキテクチャであるKANを用い、有害事象誘発に寄与する化学構造の解釈性を高める研究。</li>
-    <li><b>技術:</b> Python, KAN, RDKit</li>
-    <li><b>成果:</b> 日本薬学会での発表 </li>
-</ul>
+    <div id="controls">
+        <button class="control-btn" onclick="toggleLang()" id="langBtn">EN</button>
+        <button class="control-btn" onclick="toggleTheme()" id="themeBtn">🌙</button>
+    </div>
 
-<h2><a href="https://ochem.eu/static/challenge2025.do" target="_blank">EUOS25 challenge</a> 蛍光予測部門</h2>
-<ul>
-    <li><b>概要:</b> 化合物の蛍光特性予測。チーム内では量子化学計算による物性推算と、高精度な予測モデルの設計を担当。</li>
-    <li><b>結果:</b> 部門優勝（2026年2月） <a href="https://www.linkedin.com/posts/eu-openscreen_slas2026-euopenscreen-slas2026-ugcPost-7426934129201627137-Mj-h" target="_blank">[Official Result (LinkedIn)]</a></li>
-</ul>
+    <div id="nav-menu">
+        <div class="menu-icon" onclick="toggleMenu()">⋮</div>
+        <div class="menu-content" id="menuContent">
+            <a href="./index.html" class="i18n" data-ja="ホーム" data-en="Home">ホーム</a>
+            <a href="./achievements.html" class="i18n" data-ja="実績詳細" data-en="Achievements">実績詳細</a>
+            <a href="./projects.html" class="i18n" data-ja="プロジェクト詳細" data-en="Projects">プロジェクト詳細</a>
+            <a href="https://github.com/377H-Miru" target="_blank">GitHub</a>
+            <a href="https://x.com/WataruM327906" target="_blank">X (Twitter)</a>
+            <a href="https://www.linkedin.com/in/wataru-miyahara-6947253ab/" target="_blank">LinkedIn</a>
+            <a href="#contact" class="i18n" data-ja="連絡先" data-en="Contact">連絡先</a>
+        </div>
+    </div>
 
+    <div class="container">
+        <h1 class="i18n" data-ja="プロジェクト詳細" data-en="Projects">プロジェクト詳細</h1>
+        <p><a href="./index.html" class="i18n" data-ja="← ホームに戻る" data-en="← Back to Home">← ホームに戻る</a></p>
 
+        <h2 class="i18n" data-ja="Kolmogorov-Arnold Networks (KAN) による有害事象解析" data-en="Adverse Event Analysis via Kolmogorov-Arnold Networks (KAN)">Kolmogorov-Arnold Networks (KAN) による有害事象解析</h2>
+        <ul>
+            <li class="i18n" data-ja="<b>概要:</b> 最新のニューラルネットワークアーキテクチャであるKANを用い、有害事象誘発に寄与する化学構造の解釈性を高める研究。" data-en="<b>Summary:</b> Utilizing KAN to enhance the interpretability of chemical structures contributing to adverse events."><b>概要:</b> 最新のニューラルネットワークアーキテクチャであるKANを用い、有害事象誘発に寄与する化学構造の解釈性を高める研究。</li>
+            <li class="i18n" data-ja="<b>技術:</b> Python, KAN, RDKit" data-en="<b>Tech:</b> Python, KAN, RDKit"><b>技術:</b> Python, KAN, RDKit</li>
+            <li class="i18n" data-ja="<b>成果:</b> 日本薬学会での発表、および論文投稿準備中。" data-en="<b>Achievements:</b> Presented at PSJ Annual Meeting; Paper in preparation."><b>成果:</b> 日本薬学会での発表、および論文投稿準備中。</li>
+        </ul>
 
-<hr>
-<p style="font-size: 0.8em; color: #8b949e;">© 2026 Wataru Miyahara</p>
+        <h2 class="i18n" data-ja="EUOS25 challenge 蛍光予測部門" data-en="EUOS25 challenge: Fluorescence Prediction">EUOS25 challenge 蛍光予測部門</h2>
+        <ul>
+            <li class="i18n" data-ja="<b>概要:</b> 化合物の蛍光特性予測。チーム内では量子化学計算による物性推算と、高精度な予測モデルの設計を担当。" data-en="<b>Summary:</b> Fluorescence property prediction. Lead quantum chemistry-based property estimation and high-precision model design."><b>概要:</b> 化合物の蛍光特性予測。チーム内では量子化学計算による物性推算と、高精度な予測モデルの設計を担当。</li>
+            <li class="i18n" data-ja="<b>結果:</b> 部門優勝（2026年2月）" data-en="<b>Result:</b> Winner (February 2026)"><b>結果:</b> 部門優勝（2026年2月）</li>
+            <li><a href="https://www.linkedin.com/posts/eu-openscreen_slas2026-euopenscreen-slas2026-ugcPost-7426934129201627137-Mj-h" target="_blank">[LinkedIn Result]</a> ｜ <a href="https://ochem.eu/static/challenge2025.do" target="_blank">[Challenge Info]</a></li>
+        </ul>
+
+        <h2 class="i18n" data-ja="RWD解析基盤の拡張と統合プロトタイプ構築" data-en="RWD Analysis Infrastructure & Integrated Prototype">RWD解析基盤の拡張と統合プロトタイプ構築</h2>
+        <ul>
+            <li class="i18n" data-ja="<b>概要:</b> FAERSとレセプトデータを統合し、副作用発現を分子レベルから受容体レベルまで多角的に解釈するプラットフォームの構築（進行中）。" data-en="<b>Summary:</b> Integrating FAERS and claims data to interpret adverse events from molecular to receptor levels."><b>概要:</b> FAERSとレセプトデータを統合し、副作用発現を分子レベルから受容体レベルまで多角的に解釈するプラットフォームの構築（進行中）。</li>
+            <li class="i18n" data-ja="<b>技術:</b> SQL, 標的タンパク質ドッキングシミュレーション" data-en="<b>Tech:</b> SQL, Molecular Docking Simulation."><b>技術:</b> SQL, 標的タンパク質ドッキングシミュレーション</li>
+        </ul>
+
+        <div class="footer">
+            <p>© 2026 Wataru Miyahara</p>
+        </div>
+    </div>
+
+    <script>
+        let currentLang = localStorage.getItem('lang') || 'ja';
+        function updateLang() {
+            document.querySelectorAll('.i18n').forEach(el => {
+                el.innerHTML = el.getAttribute('data-' + currentLang);
+            });
+            document.getElementById('langBtn').innerText = currentLang === 'ja' ? 'EN' : 'JP';
+            document.documentElement.lang = currentLang;
+            localStorage.setItem('lang', currentLang);
+        }
+        function toggleLang() {
+            currentLang = currentLang === 'ja' ? 'en' : 'ja';
+            updateLang();
+        }
+        let currentTheme = localStorage.getItem('theme') || 'dark';
+        function updateTheme() {
+            document.body.setAttribute('data-theme', currentTheme);
+            document.getElementById('themeBtn').innerText = currentTheme === 'dark' ? '☀️' : '🌙';
+            localStorage.setItem('theme', currentTheme);
+        }
+        function toggleTheme() {
+            currentTheme = currentTheme === 'dark' ? 'light' : 'dark';
+            updateTheme();
+        }
+        function toggleMenu() {
+            var content = document.getElementById("menuContent");
+            content.style.display = content.style.display === "block" ? "none" : "block";
+        }
+        window.onclick = function(event) {
+            if (!event.target.matches('.menu-icon')) {
+                document.getElementById("menuContent").style.display = "none";
+            }
+        }
+        updateLang();
+        updateTheme();
+    </script>
 </body>
 </html>
