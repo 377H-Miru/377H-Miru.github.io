@@ -1,0 +1,13 @@
+# Site settings
+title: "377H-Miru Portfolio"
+description: "研究実績まとめ"
+theme: jekyll-theme-minimal
+
+# Navigation (if supported by theme)
+nav:
+  - text: Home
+    url: /
+  - text: Achievements
+    url: /achievements/
+  - text: Projects
+    url: /projects/
