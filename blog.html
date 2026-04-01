@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <!-- Google tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-SDV8KXD68X"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-SDV8KXD68X');
+    </script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog | 宮原 渉</title>
+    
+    <style>
+        :root {
+            --bg-color: #0d1117;
+            --text-color: #c9d1d9;
+            --link-color: #58a6ff;
+            --border-color: #30363d;
+            --nav-bg: #161b22;
+            --card-bg: #161b22;
+        }
+        [data-theme="light"] {
+            --bg-color: #ffffff;
+            --text-color: #24292f;
+            --link-color: #0969da;
+            --border-color: #d0d7de;
+            --nav-bg: #f6f8fa;
+            --card-bg: #f6f8fa;
+        }
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            transition: background-color 0.3s, color 0.3s;
+        }
+        #controls {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            z-index: 1000;
+            display: flex;
+            gap: 10px;
+        }
+        .control-btn {
+            background: var(--nav-bg);
+            border: 1px solid var(--border-color);
+            color: var(--text-color);
+            padding: 8px 12px;
+            border-radius: 20px;
+            cursor: pointer;
+            font-size: 14px;
+            transition: 0.2s;
+        }
+        .control-btn:hover { background: var(--border-color); }
+
+        #nav-menu {
+            position: fixed;
+            top: 20px;
+            left: 20px;
+            z-index: 1000;
+        }
+        .menu-icon {
+            font-size: 20px;
+            cursor: pointer;
+            background: var(--nav-bg);
+            opacity: 0.8;
+            width: 36px;
+            height: 36px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            border: 1px solid var(--border-color);
+        }
+        .menu-content {
+            display: none;
+            position: absolute;
+            top: 45px;
+            left: 0;
+            background: var(--nav-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 6px;
+            width: 180px;
+            box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+        }
+        .menu-content a {
+            display: block;
+            color: var(--text-color);
+            padding: 12px 16px;
+            text-decoration: none;
+            border-bottom: 1px solid var(--border-color);
+        }
+        .menu-content a:hover { background-color: var(--border-color); }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 100px 20px;
+        }
+        a { color: var(--link-color); text-decoration: underline; }
+        a:hover { text-decoration: none; }
+        h1 { border-bottom: 1px solid var(--border-color); padding-bottom: 10px; }
+        h2 { border-bottom: 1px solid var(--border-color); padding-bottom: 5px; margin-top: 40px; }
+        hr { border: 0; border-top: 1px solid var(--border-color); margin: 30px 0; }
+        
+        .blog-post {
+            margin-bottom: 40px;
+            padding: 20px;
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+        }
+        .blog-date { font-size: 0.9em; color: #8b949e; }
+        .blog-title { font-size: 1.4em; font-weight: bold; margin: 10px 0; }
+        
+        .footer { font-size: 0.8em; color: #8b949e; margin-top: 60px; text-align: center; }
+        [data-lang] { display: none; }
+    </style>
+</head>
+<body data-theme="dark">
+
+    <div id="controls">
+        <button class="control-btn" onclick="toggleLang()" id="langBtn">EN</button>
+        <button class="control-btn" onclick="toggleTheme()" id="themeBtn">🌙</button>
+    </div>
+
+    <div id="nav-menu">
+        <div class="menu-icon" onclick="toggleMenu()">⋮</div>
+        <div class="menu-content" id="menuContent">
+            <a href="./index.html" class="i18n" data-ja="ホーム" data-en="Home">ホーム</a>
+            <a href="./blog.html" class="i18n" data-ja="ブログ" data-en="Blog">ブログ</a>
+            <a href="./achievements.html" class="i18n" data-ja="実績詳細" data-en="Achievements">実績詳細</a>
+            <a href="./projects.html" class="i18n" data-ja="プロジェクト詳細" data-en="Projects">プロジェクト詳細</a>
+            <a href="./index.html#contact" class="i18n" data-ja="連絡先" data-en="Contact">連絡先</a>
+        </div>
+    </div>
+
+    <div class="container">
+        <h1 class="i18n" data-ja="ブログ" data-en="Blog">ブログ</h1>
+        <p class="i18n" data-ja="研究、技術、日々の活動に関するメモです。" data-en="Notes on research, technology, and daily activities.">研究、技術、日々の活動に関するメモです。</p>
+
+        <hr>
+
+        <!-- Blog Post 1 -->
+        <div class="blog-post">
+            <div class="blog-date">2026-04-01</div>
+            <div class="blog-title i18n" data-ja="ポートフォリオサイトを開設しました" data-en="Portfolio Website Launched">ポートフォリオサイトを開設しました</div>
+            <p class="i18n" data-ja="GitHub Pagesを使って、自身の研究実績をまとめたサイトを公開しました。今後、技術メモや研究の進捗をここに記していく予定です。" data-en="Launched my research portfolio site using GitHub Pages. I plan to share technical notes and research progress here.">GitHub Pagesを使って、自身の研究実績をまとめたサイトを公開しました。今後、技術メモや研究の進捗をここに記していく予定です。</p>
+        </div>
+
+        <!-- Blog Post 2 (Sample) -->
+        <div class="blog-post">
+            <div class="blog-date">2026-02-25</div>
+            <div class="blog-title i18n" data-ja="EUOS25 challengeでの優勝を振り返って" data-en="Reflections on EUOS25 Challenge Win">EUOS25 challengeでの優勝を振り返って</div>
+            <p class="i18n" data-ja="蛍光予測部門での優勝までのプロセスや、KANをどのように活用したかについて、近日中に詳細を執筆予定です。" data-en="Stay tuned for a detailed post about our process in the fluorescence prediction track and how we utilized KAN.">蛍光予測部門での優勝までのプロセスや、KANをどのように活用したかについて、近日中に詳細を執筆予定です。</p>
+        </div>
+
+        <div class="footer">
+            <p>© 2026 Wataru Miyahara</p>
+        </div>
+    </div>
+
+    <script>
+        let currentLang = localStorage.getItem('lang') || 'ja';
+        function updateLang() {
+            document.querySelectorAll('.i18n').forEach(el => {
+                el.innerHTML = el.getAttribute('data-' + currentLang);
+            });
+            document.getElementById('langBtn').innerText = currentLang === 'ja' ? 'EN' : 'JP';
+            document.documentElement.lang = currentLang;
+            localStorage.setItem('lang', currentLang);
+        }
+        function toggleLang() {
+            currentLang = currentLang === 'ja' ? 'en' : 'ja';
+            updateLang();
+        }
+        let currentTheme = localStorage.getItem('theme') || 'dark';
+        function updateTheme() {
+            document.body.setAttribute('data-theme', currentTheme);
+            document.getElementById('themeBtn').innerText = currentTheme === 'dark' ? '☀️' : '🌙';
+            localStorage.setItem('theme', currentTheme);
+        }
+        function toggleTheme() {
+            currentTheme = currentTheme === 'dark' ? 'light' : 'dark';
+            updateTheme();
+        }
+        function toggleMenu() {
+            var content = document.getElementById("menuContent");
+            content.style.display = content.style.display === "block" ? "none" : "block";
+        }
+        window.onclick = function(event) {
+            if (!event.target.matches('.menu-icon')) {
+                document.getElementById("menuContent").style.display = "none";
+            }
+        }
+        updateLang();
+        updateTheme();
+    </script>
+</body>
+</html>
