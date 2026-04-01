@@ -4,75 +4,72 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>宮原 渉 | Portfolio</title>
-    <!-- GitHub Markdown CSS (Dark) -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.2.0/github-markdown-dark.min.css">
     <style>
         body {
-            background-color: #0d1117; /* GitHub Dark Background */
-            color: #c9d1d9;
-            margin: 0;
-        }
-        .markdown-body {
-            box-sizing: border-box;
-            min-width: 200px;
-            max-width: 900px;
-            margin: 0 auto;
-            padding: 45px;
             background-color: #0d1117;
+            color: #c9d1d9;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 40px 20px;
         }
-        @media (max-width: 767px) {
-            .markdown-body {
-                padding: 15px;
-            }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
         }
-        /* リンクの色を強調 */
-        .markdown-body a {
-            color: #79c0ff !important;
+        a {
+            color: #58a6ff;
             text-decoration: underline;
         }
-        .markdown-body hr {
-            background-color: #30363d;
+        a:hover {
+            text-decoration: none;
         }
-        h1, h2 {
-            border-bottom: 1px solid #30363d !important;
-        }
+        h1 { border-bottom: 1px solid #30363d; padding-bottom: 10px; }
+        h2 { border-bottom: 1px solid #30363d; padding-bottom: 5px; margin-top: 30px; }
+        hr { border: 0; border-top: 1px solid #30363d; margin: 30px 0; }
+        ul { padding-left: 20px; }
+        li { margin-bottom: 10px; }
+        .footer { font-size: 0.8em; color: #8b949e; margin-top: 50px; }
     </style>
 </head>
-<body class="markdown-body">
+<body>
+    <div class="container">
+        <h1>宮原 渉 (Wataru Miyahara)</h1>
+        <p>明治薬科大学 薬学部薬学科（2028年3月卒業予定）<br>
+        <a href="https://u-lab.my-pharm.ac.jp/~mminfo/" target="_blank">医療分子解析学研究室</a> 所属</p>
 
-<h1>宮原 渉 (Wataru Miyahara)</h1>
-<p>明治薬科大学 薬学部薬学科（2028年3月卒業予定）<br>
-<a href="https://u-lab.my-pharm.ac.jp/~mminfo/" target="_blank">医療分子解析学研究室</a> 所属</p>
+        <hr>
 
-<hr>
+        <h2>研究テーマ (Research Interests)</h2>
+        <ul>
+            <li><b>機械学習を用いた有害事象予測:</b> 自発報告データベース（FAERS等）を用いた予測モデルの構築</li>
+            <li><b>構造インフォマティクス:</b> Kolmogorov-Arnold Networks (KAN) を用いた有害事象誘発に寄与する化学構造・特性の同定</li>
+        </ul>
 
-<h2>研究テーマ (Research Interests)</h2>
-<ul>
-    <li><b>機械学習を用いた有害事象予測:</b> 自発報告データベース（FAERS等）を用いた予測モデルの構築</li>
-    <li><b>構造インフォマティクス:</b> Kolmogorov-Arnold Networks (KAN) を用いた有害事象誘発に寄与する化学構造・特性の同定</li>
-</ul>
+        <h2>テクニカルスキル (Technical Skills)</h2>
+        <ul>
+            <li><b>プログラミング / 機械学習:</b> Python (KAN, 決定木, CNN), アーキテクチャ設計・高速プロトタイピング</li>
+            <li><b>ケモインフォマティクス / 計算化学:</b> RDKit, 特徴量抽出, 量子化学計算による構造最適化・物性推算</li>
+            <li><b>データ解析:</b> 大規模データ（FAERS, レセプト）の抽出・前処理・SQL解析</li>
+            <li><b>インフラ:</b> Linuxサーバー構築・運用, GPUサーバー保守</li>
+        </ul>
 
-<h2>テクニカルスキル (Technical Skills)</h2>
-<ul>
-    <li><b>Programming / ML:</b> Python (KAN, Decision Trees, CNN), アーキテクチャ設計・高速プロトタイピング</li>
-    <li><b>Cheminformatics:</b> RDKitを用いた特徴量抽出, 量子化学計算による構造最適化・物性推算</li>
-    <li><b>Data Analysis:</b> 大規模データ（FAERS, レセプト）の抽出・前処理・SQL解析</li>
-    <li><b>Infrastructure:</b> Linuxサーバー構築・運用, GPUサーバー保守, 生成AIを活用した開発</li>
-</ul>
+        <h2>主な実績 (Selected Achievements)</h2>
+        <ul>
+            <li><b><a href="https://ochem.eu/static/challenge2025.do" target="_blank">EUOS25 challenge</a> 蛍光予測部門 優勝</b>（2026年2月） 
+                <a href="https://www.linkedin.com/posts/eu-openscreen_slas2026-euopenscreen-slas2026-ugcPost-7426934129201627137-Mj-h" target="_blank">[Result (LinkedIn)]</a>
+            </li>
+            <li><b>第146年会 日本薬学会 ポスター発表</b>（2026年3月）</li>
+        </ul>
 
-<h2>主な実績 (Selected Achievements)</h2>
-<ul>
-    <li><b><a href="https://ochem.eu/static/challenge2025.do" target="_blank">EUOS25 challenge</a> 蛍光予測部門 優勝</b>（2026年2月） <a href="https://www.linkedin.com/posts/eu-openscreen_slas2026-euopenscreen-slas2026-ugcPost-7426934129201627137-Mj-h" target="_blank">[Result]</a></li>
-    <li><b>第146年会 日本薬学会 ポスター発表</b>（2026年3月）</li>
-</ul>
+        <p style="margin-top: 40px;">
+            <a href="./achievements.html">実績詳細一覧</a> ｜ 
+            <a href="./projects.html">プロジェクト詳細</a>
+        </p>
 
-<p style="margin-top: 30px;">
-    <a href="./achievements.html">詳細な実績一覧はこちら</a> &nbsp;&nbsp;|&nbsp;&nbsp; 
-    <a href="./projects.html">プロジェクト詳細はこちら</a>
-</p>
-
-<hr>
-<p style="font-size: 0.8em; color: #8b949e;">© 2026 Wataru Miyahara</p>
-
+        <div class="footer">
+            <p>© 2026 Wataru Miyahara</p>
+        </div>
+    </div>
 </body>
 </html>
