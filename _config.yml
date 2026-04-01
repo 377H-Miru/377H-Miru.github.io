@@ -1,13 +1,16 @@
 # Site settings
-title: "377H-Miru Portfolio"
+title: "渉（Wataru Miyahara）"
 description: "研究実績まとめ"
-theme: jekyll-theme-minimal
+url: "https://377H-Miru.github.io" # あなたのURL
+baseurl: "" # 必須：空欄にする
 
-# Navigation (if supported by theme)
+remote_theme: pages-themes/minimal@v0.2.0 # GitHub公式のテーマを確実に適用
+
+# Navigation
 nav:
   - text: Home
     url: /
   - text: Achievements
-    url: /achievements/
+    url: /achievements
   - text: Projects
-    url: /projects/
+    url: /projects
