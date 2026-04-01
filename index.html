@@ -15,9 +15,9 @@
     <title>宮原 渉 | Portfolio</title>
     
     <!-- SEO & OGP -->
-    <meta name="description" content="明治薬科大学 医療分子解析学研究室 宮原渉のポートフォリオサイト。機械学習を用いた有害事象予測や構造インフォマティクスの研究。">
+    <meta name="description" content="明治薬科大学 宮原渉。機械学習と構造インフォマティクスの統合による副作用発現メカニズムの解明。">
     <meta property="og:title" content="宮原 渉 | Wataru Miyahara Portfolio">
-    <meta property="og:description" content="医療分子解析学（植沢研）所属。EUOS25 challenge 優勝。機械学習・ケモインフォマティクス。">
+    <meta property="og:description" content="KANによるToxicophore同定と受容体ドッキングの統合による医薬品安全性の解明。EUOS25 優勝。">
     <meta property="og:url" content="https://377h-miru.github.io/">
     <meta property="og:type" content="website">
     <meta name="twitter:card" content="summary_large_image">
@@ -131,6 +131,8 @@
         }
         .footer { font-size: 0.8em; color: #8b949e; margin-top: 60px; text-align: center; }
         [data-lang] { display: none; }
+        
+        .evidence-link { font-size: 0.9em; margin-left: 10px; text-decoration: none; }
     </style>
 </head>
 <body data-theme="dark">
@@ -144,9 +146,9 @@
         <div class="menu-icon" onclick="toggleMenu()">⋮</div>
         <div class="menu-content" id="menuContent">
             <a href="./index.html" class="i18n" data-ja="ホーム" data-en="Home">ホーム</a>
-            <a href="./blog.html" class="i18n" data-ja="ブログ" data-en="Blog">ブログ</a>
-            <a href="./achievements.html" class="i18n" data-ja="実績詳細" data-en="Achievements">実績詳細</a>
-            <a href="./projects.html" class="i18n" data-ja="プロジェクト詳細" data-en="Projects">プロジェクト詳細</a>
+            <a href="./blog.html" class="i18n" data-ja="活動記録" data-en="Blog">活動記録</a>
+            <a href="./achievements.html" class="i18n" data-ja="研究実績" data-en="Achievements">研究実績</a>
+            <a href="./projects.html" class="i18n" data-ja="プロジェクト" data-en="Projects">プロジェクト</a>
             <a href="#contact" class="i18n" data-ja="連絡先" data-en="Contact">連絡先</a>
         </div>
     </div>
@@ -161,35 +163,46 @@
 
         <hr>
 
-        <h2 class="i18n" data-ja="研究テーマ" data-en="Research Interests">研究テーマ</h2>
+        <h2 class="i18n" data-ja="研究ビジョン" data-en="Research Vision">研究ビジョン</h2>
         <ul>
-            <li class="i18n" data-ja="<b>機械学習を用いた有害事象予測:</b> 自発報告データベース（FAERS等）を用いた予測モデルの構築" data-en="<b>Pharmacovigilance Prediction via Machine Learning:</b> Developing models using FAERS and other spontaneous reporting databases."><b>機械学習を用いた有害事象予測:</b> 自発報告データベース（FAERS等）を用いた予測モデルの構築</li>
-            <li class="i18n" data-ja="<b>構造インフォマティクス:</b> Kolmogorov-Arnold Networks (KAN) を用いた有害事象誘発に寄与する化学構造・特性の同定" data-en="<b>Structural Informatics:</b> Identification of chemical features contributing to adverse events using Kolmogorov-Arnold Networks (KAN)."><b>構造インフォマティクス:</b> Kolmogorov-Arnold Networks (KAN) を用いた有害事象誘発に寄与する化学構造・特性の同定</li>
+            <li class="i18n" data-ja="<b>副作用発現メカニズムの解明:</b> Kolmogorov-Arnold Networks (KAN) の解釈性を活用したToxicophore（毒性発現部位）の同定、および標的タンパク質ドッキングシミュレーションの統合による、分子レベルから受容体レベルまでの多角的な医薬品安全性評価基盤の構築。" 
+                data-en="<b>Elucidating Adverse Event Mechanisms:</b> Developing a multi-dimensional drug safety assessment framework by identifying Toxicophores using KAN interpretability and integrating receptor-level docking simulations.">
+                <b>副作用発現メカニズムの解明:</b> Kolmogorov-Arnold Networks (KAN) の解釈性を活用したToxicophore（毒性発現部位）の同定、および標的タンパク質ドッキングシミュレーションの統合による、分子レベルから受容体レベルまでの多角的な医薬品安全性評価基盤の構築。
+            </li>
+            <li class="i18n" data-ja="<b>RWD解析の高度化:</b> 自発報告データベース（FAERS）と国内レセプトデータの統合解析による、実臨床における有害事象予測モデルの実証と拡張。" 
+                data-en="<b>Advanced RWD Analysis:</b> Validating and extending adverse event prediction models in clinical settings through integrated analysis of FAERS and claims data.">
+                <b>RWD解析の高度化:</b> 自発報告データベース（FAERS）と国内レセプトデータの統合解析による、実臨床における有害事象予測モデルの実証と拡張。
+            </li>
         </ul>
 
-        <h2 id="achievements" class="i18n" data-ja="主な実績" data-en="Selected Achievements">主な実績</h2>
+        <h2 id="achievements" class="i18n" data-ja="主要実績" data-en="Selected Achievements">主要実績</h2>
         <ul>
             <li>
                 <b><a href="https://ochem.eu/static/challenge2025.do" target="_blank" class="i18n" data-ja="EUOS25 challenge 蛍光予測部門 優勝" data-en="EUOS25 challenge, Fluorescence Prediction Track: Winner">EUOS25 challenge 蛍光予測部門 優勝</a></b>（2026年2月） 
-                <a href="https://www.linkedin.com/posts/eu-openscreen_slas2026-euopenscreen-slas2026-ugcPost-7426934129201627137-Mj-h" target="_blank">[Result (LinkedIn)]</a>
+                <div style="font-size: 0.9em; margin-top: 5px;">
+                    <span class="i18n" data-ja="[担当] 量子化学計算による化合物構造最適化、およびKANを用いた予測アーキテクチャの設計・実装を主導。[論文投稿準備中]" 
+                          data-en="[Role] Lead structure optimization via quantum chemistry and design/implementation of KAN-based predictive architectures. [In preparation]">
+                        [担当] 量子化学計算による化合物構造最適化、およびKANを用いた予測アーキテクチャの設計・実装を主導。[論文投稿準備中]
+                    </span>
+                    <a href="https://www.linkedin.com/posts/eu-openscreen_slas2026-euopenscreen-slas2026-ugcPost-7426934129201627137-Mj-h" target="_blank" class="evidence-link">[Result]</a>
+                </div>
             </li>
-            <li class="i18n" data-ja="<b>第146年会 日本薬学会 ポスター発表</b>（2026年3月）" data-en="<b>The 146th Annual Meeting of the Pharmaceutical Society of Japan:</b> Poster Presentation (March 2026)"><b>第146年会 日本薬学会 ポスター発表</b>（2026年3月）</li>
+            <li class="i18n" data-ja="<b>第146年会 日本薬学会 ポスター発表</b>（2026年3月）: FAERSとKANを用いた横紋筋融解症の構造的特徴解明。" data-en="<b>The 146th Annual Meeting of the Pharmaceutical Society of Japan:</b> Structural elucidation of rhabdomyolysis using FAERS and KAN (Poster)."><b>第146年会 日本薬学会 ポスター発表</b>（2026年3月）: FAERSとKANを用いた横紋筋融解症の構造的特徴解明。</li>
         </ul>
-        <p><a href="./achievements.html" class="i18n" data-ja="→ 実績詳細一覧はこちら" data-en="→ View Detailed Achievements">→ 実績詳細一覧はこちら</a></p>
 
-        <h2 id="skills" class="i18n" data-ja="テクニカルスキル" data-en="Technical Skills">テクニカルスキル</h2>
+        <h2 id="skills" class="i18n" data-ja="専門能力・エビデンス" data-en="Skills & Proof of Work">専門能力・エビデンス</h2>
         <ul>
-            <li class="i18n" data-ja="<b>プログラミング / 機械学習:</b> Python (KAN, 決定木, CNN), アーキテクチャ設計・高速プロトタイピング" data-en="<b>Programming / ML:</b> Python (KAN, Decision Trees, CNN), Architecture Design & Prototyping."><b>プログラミング / 機械学習:</b> Python (KAN, 決定木, CNN), アーキテクチャ設計・高速プロトタイピング</li>
-            <li class="i18n" data-ja="<b>ケモインフォマティクス / 計算化学:</b> RDKit, 特徴量抽出, 量子化学計算による構造最適化・物性推算" data-en="<b>Cheminformatics / CompChem:</b> RDKit, Feature Extraction, Quantum Chemistry Calculation."><b>ケモインフォマティクス / 計算化学:</b> RDKit, 特徴量抽出, 量子化学計算による構造最適化・物性推算</li>
-            <li class="i18n" data-ja="<b>データ解析:</b> 大規模データ（FAERS, レセプト）の抽出・前処理・SQL解析" data-en="<b>Data Analysis:</b> Extraction and preprocessing of large-scale data (FAERS, Claims data) via SQL."><b>データ解析:</b> 大規模データ（FAERS, レセプト）の抽出・前処理・SQL解析</li>
-            <li class="i18n" data-ja="<b>インフラ:</b> Linuxサーバー構築・運用, GPUサーバー保守" data-en="<b>Infrastructure:</b> Linux Server Ops, GPU Server Maintenance."><b>インフラ:</b> Linuxサーバー構築・運用, GPUサーバー保守</li>
-        </ul>
-        <p><a href="./projects.html" class="i18n" data-ja="→ 各プロジェクトの詳細はこちら" data-en="→ View Project Details">→ 各プロジェクトの詳細はこちら</a></p>
-
-        <h2 id="others" class="i18n" data-ja="その他" data-en="Others">その他</h2>
-        <ul>
-            <li class="i18n" data-ja="<b>インフラ環境:</b> 128GB RAM / RTX 3090 ×2 を搭載した自作GPUサーバーを運用し、大規模言語モデルやKANの高速な学習環境を自前で構築。" data-en="<b>Infrastructure:</b> Operating a self-built GPU server (128GB RAM, 2x RTX 3090) for efficient training of LLMs and KAN models."><b>インフラ環境:</b> 128GB RAM / RTX 3090 ×2 を搭載した自作GPUサーバーを運用し、大規模言語モデルやKANの高速な学習環境を自前で構築。</li>
-            <li class="i18n" data-ja="<b>開発スタイル:</b> 生成AI（Cline/Cursor等）を高度に活用した高速コーディングと、実験プロトタイピングの自動化を推進。" data-en="<b>Development Style:</b> Promoting rapid coding and automated prototyping using advanced AI tools like Cline/Cursor."><b>開発スタイル:</b> 生成AI（Cline/Cursor等）を高度に活用した高速コーディングと、実験プロトタイピングの自動化を推進。</li>
+            <li>
+                <span class="i18n" data-ja="<b>プログラミング / 機械学習:</b> Pythonを用いたKAN, 決定木, CNNのアーキテクチャ設計。" data-en="<b>Programming / ML:</b> Architecture design of KAN, Decision Trees, and CNN via Python."><b>プログラミング / 機械学習:</b> Pythonを用いたKAN, 決定木, CNNのアーキテクチャ設計。</span>
+                <a href="https://github.com/377H-Miru" target="_blank" class="evidence-link">[Code: KAN-CLI]</a>
+            </li>
+            <li>
+                <span class="i18n" data-ja="<b>計算化学:</b> RDKitによる特徴量抽出、量子化学計算による構造最適化・物性推算。" data-en="<b>CompChem:</b> Feature extraction via RDKit, structure optimization and property estimation via Quantum Chemistry."><b>計算化学:</b> RDKitによる特徴量抽出、量子化学計算による構造最適化・物性推算。</span>
+                <a href="https://github.com/377H-Miru" target="_blank" class="evidence-link">[Code: Collision-Analysis]</a>
+            </li>
+            <li>
+                <span class="i18n" data-ja="<b>データ解析:</b> 大規模データ（FAERS, レセプト）のSQL解析。" data-en="<b>Data Analysis:</b> Large-scale data (FAERS, Claims) analysis via SQL."><b>データ解析:</b> 大規模データ（FAERS, レセプト）のSQL解析。</span>
+            </li>
         </ul>
 
         <h2 id="contact" class="i18n" data-ja="連絡先" data-en="Contact">連絡先</h2>
