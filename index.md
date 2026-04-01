@@ -1,3 +1,8 @@
+---
+layout: default
+title: Home
+---
+
 # 渉（Wataru Miyahara）
 
 明治薬科大学 薬学部薬学科（2028年3月卒業予定）
@@ -19,7 +24,7 @@
 - **EUOS25 challenge 蛍光予測部門 優勝**（2026年2月）
 - **第146年会 日本薬学会 ポスター発表**（2026年3月）
 
-[詳細な実績一覧はこちら](/achievements/) / [プロジェクト詳細はこちら](/projects/)
+[詳細な実績一覧はこちら](./achievements) / [プロジェクト詳細はこちら](./projects)
 
 ---
 © 2026 Wataru Miyahara

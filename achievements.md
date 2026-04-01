@@ -1,4 +1,12 @@
+---
+layout: default
+title: Achievements
+permalink: /achievements
+---
+
 # Achievements
+
+[← Home](/)
 
 ## 受賞 (Awards)
 - **EUOS25 challenge 蛍光予測部門 優勝**（2026年2月）
