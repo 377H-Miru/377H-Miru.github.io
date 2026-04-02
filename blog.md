@@ -52,7 +52,7 @@ title: Blog
         <span class="tag tag-research">研究・技術</span>
         <span class="blog-date">2026-02-25</span>
         <div class="blog-title">EUOS25 challengeを振り返って</div>
-        <p>優勝をいただいたコンテストの技術的な背景（Multimodal Strategy と Sequential Stacking）について解説します。</p>
+        <p>優勝をいただいた光学特性予測コンテストの技術的な背景について解説します。</p>
     </a>
 </div>
 </div>
@@ -92,7 +92,7 @@ Monthly logs of research progress and daily thoughts.
         <span class="tag tag-research">Research</span>
         <span class="blog-date">2026-02-25</span>
         <div class="blog-title">Reflections on EUOS25 Challenge</div>
-        <p>A technical dive into the winning architecture (Multimodal Strategy & Sequential Stacking).</p>
+        <p>A technical dive into the architecture for optical property prediction.</p>
     </a>
 </div>
 </div>
