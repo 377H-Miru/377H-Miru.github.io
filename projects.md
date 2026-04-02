@@ -11,7 +11,8 @@ title: Projects
 
 ## Kolmogorov-Arnold Networks (KAN) による有害事象解析
 - **概要:** 最新のニューラルネットワークアーキテクチャであるKANを用い、有害事象誘発に寄与する化学構造の解釈性を高める研究に取り組んでいます。
-- **技術:** Python, KAN, RDKit
+- **技術的課題へのアプローチ:** 
+  KANは高い関数近似能力を持つ一方で、多次元入力（ECFP等）に対する計算コストの急激な増大や、過学習への脆弱性が公知の課題として存在します。本プロジェクトでは、特定の正則化手法やアーキテクチャの工夫を導入し、**「解釈性とスケーラビリティのトレードオフ」**をどのように克服できるかという観点から検証を進めています。
 - **取り組み:** 第146年会 日本薬学会にて発表、および論文投稿に向けた準備を進めています。[Status: In preparation]
 
 ## EUOS25 challenge 光学特性予測部門
@@ -33,7 +34,8 @@ title: Projects
 
 ## Adverse Event Analysis via Kolmogorov-Arnold Networks (KAN)
 - **Summary:** Utilizing KAN to enhance the interpretability of chemical structures contributing to adverse events.
-- **Tech:** Python, KAN, RDKit
+- **Addressing Technical Trade-offs:** 
+  While KAN provides superior function approximation, it faces well-documented challenges such as computational overhead and susceptibility to overfitting when applied to high-dimensional datasets (e.g., ECFP). This project investigates **overcoming the scalability-interpretability trade-off** through specialized regularization techniques and architectural optimizations.
 - **Status:** Presented at the PSJ Annual Meeting; [Manuscript in preparation].
 
 ## EUOS25 challenge: Optical Property Prediction
