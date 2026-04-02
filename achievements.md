@@ -4,9 +4,10 @@ title: Achievements
 ---
 
 <div data-lang-content="ja" markdown="1">
+
 # 研究実績
 
-[← ホームに戻る](/index.html)
+[← ホームに戻る](/index)
 
 ## 受賞歴
 - **[EUOS25 challenge](https://ochem.eu/static/challenge2025.do){:target="_blank"} 蛍光予測部門 優勝**（2026年2月）
@@ -15,26 +16,29 @@ title: Achievements
     - （論文投稿準備中 / In preparation）
 
 ## 学会発表
-- **宮原 渉** ,朝田瑞穂, 植沢 芳広. "FAERSデータベースとKolmogorov-Arnold Networks（KAN）を用いた横紋筋融解症誘発医薬品の構造的特徴の解明と予測モデルの構築". **第146年会 日本薬学会**, ポスター発表, 2026年3月27日.
+- **宮原 渉**, 植沢 芳広. "FAERSデータベースとKolmogorov-Arnold Networksを用いた横紋筋融解症誘発に関与する医薬品の構造的特徴の解明と予測モデルの構築". **第146年会 日本薬学会**, ポスター発表, 2026年3月27日.
 
 ## 学歴・略歴
 - 2022年4月 - 現在: 明治薬科大学 薬学部薬学科 在学
+
 </div>
 
 <div data-lang-content="en" markdown="1">
+
 # Achievements
 
-[← Back to Home](/index.html)
+[← Back to Home](/index)
 
 ## Awards
-- **[EUOS25 challenge](https://ochem.eu/static/challenge2025.do){:target="_blank"}, Fluorescence Prediction Track: Winner** (Feb 2026)
+- **[EUOS25 challenge](https://ochem.eu/static/challenge2025.do){:target="_blank"}, Fluorescence Prediction Track: Winner** (February 2026)
     - [[Official Result (LinkedIn)]](https://www.linkedin.com/posts/eu-openscreen_slas2026-euopenscreen-slas2026-ugcPost-7426934129201627137-Mj-h){:target="_blank"}
-    - Lead feature extraction via quantum chemistry and architecture design for predictive models (e.g., KAN).
+    - Led feature extraction via quantum chemistry and designed predictive architectures (e.g., KAN).
     - (Paper in preparation)
 
 ## Presentations
-- **Wataru Miyahara** ,Mizuho Asada, Yoshihiro Uesawa. "Elucidation of Structural Features and Development of a PredictionModel for Rhabdomyolysis-Inducing Drugs Using the FAERS Databaseand Kolmogorov-Arnold Networks (KAN)." **The 146th Annual Meeting of the Pharmaceutical Society of Japan**, Poster, March 2026.
+- **Wataru Miyahara**, Yoshihiro Uesawa. "Elucidation of structural features and development of predictive models for rhabdomyolysis using FAERS and Kolmogorov-Arnold Networks." **The 146th Annual Meeting of the Pharmaceutical Society of Japan**, Poster, March 2026.
 
 ## Education
 - April 2022 - Present: Meiji Pharmaceutical University, Faculty of Pharmacy.
+
 </div>

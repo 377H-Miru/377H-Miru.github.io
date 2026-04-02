@@ -45,17 +45,17 @@ Affiliation: [Laboratory of Medical Molecule Analysis](https://u-lab.my-pharm.ac
 ---
 
 ## Research Vision
-- **Elucidating Adverse Event Mechanisms:** Identifying Toxicophores using KAN interpretability, with a future goal of integrating receptor-level docking simulations for a multi-dimensional safety assessment framework.
-- **Expansion to RWD Analysis:** Validating the extension of FAERS-based findings to clinical data analysis using claims data (integration in progress).
+- **Elucidating Adverse Event Mechanisms:** Developing a multi-dimensional drug safety assessment framework by identifying Toxicophores using KAN interpretability and integrating receptor-level docking simulations.
+- **Expansion to RWD Analysis:** Validating the extension of FAERS-based findings to clinical data analysis using Japanese claims data (integration in progress).
 
 ## Selected Achievements
 - **[EUOS25 challenge, Fluorescence Prediction Track: Winner](https://ochem.eu/static/challenge2025.do){:target="_blank"}** (Feb 2026)
-    - [Role] Lead structure optimization via quantum chemistry and design/implementation of KAN-based predictive architectures. [In preparation] [[Official Results]](https://www.linkedin.com/posts/eu-openscreen_slas2026-euopenscreen-slas2026-ugcPost-7426934129201627137-Mj-h){:target="_blank"}
-- **The 146th Annual Meeting of the Pharmaceutical Society of Japan:** Structural elucidation of rhabdomyolysis using FAERS and KAN (Poster, Mar 2026).
+    - [Role] Led structure optimization via quantum chemistry and designed/implemented KAN-based predictive architectures. [In preparation] [[Official Results]](https://www.linkedin.com/posts/eu-openscreen_slas2026-euopenscreen-slas2026-ugcPost-7426934129201627137-Mj-h){:target="_blank"}
+- **The 146th Annual Meeting of the Pharmaceutical Society of Japan:** Structural elucidation of rhabdomyolysis using FAERS and KAN (Poster, March 2026).
 
 ## Skills & Proof of Work
 - **Programming / ML:** Architecture design of KAN, Decision Trees, and CNN via Python. [[Code: KAN-CLI]](https://github.com/377H-Miru){:target="_blank"}
-- **CompChem:** Feature extraction via RDKit and structure optimization via Quantum Chemistry. [[Code: Collision-Analysis]](https://github.com/377H-Miru){:target="_blank"}
+- **CompChem:** Feature extraction via RDKit and structure optimization via quantum chemistry. [[Code: Collision-Analysis]](https://github.com/377H-Miru){:target="_blank"}
 - **Docking Simulation / SQL:** Currently acquiring and validating for integrated analysis. <span class="badge">In Progress</span>
 
 <h2 id="sns">SNS</h2>
