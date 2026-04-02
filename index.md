@@ -4,6 +4,7 @@ title: Home
 ---
 
 <div data-lang-content="ja" markdown="1">
+
 # 宮原 渉 (Wataru Miyahara)
 
 明治薬科大学 薬学部薬学科（2028年3月卒業予定）  
@@ -27,11 +28,15 @@ title: Home
 
 <h2 id="sns">SNS</h2>
 <div class="contact-box" markdown="1">
+
 [GitHub](https://github.com/377H-Miru){:target="_blank"} ｜ [X (Twitter)](https://x.com/WataruM327906){:target="_blank"} ｜ [LinkedIn](https://www.linkedin.com/in/wataru-miyahara-6947253ab/){:target="_blank"}
+
 </div>
+
 </div>
 
 <div data-lang-content="en" markdown="1">
+
 # Wataru Miyahara
 
 Meiji Pharmaceutical University, Faculty of Pharmacy (Class of 2028)  
@@ -55,6 +60,9 @@ Affiliation: [Laboratory of Medical Molecule Analysis](https://u-lab.my-pharm.ac
 
 <h2 id="sns">SNS</h2>
 <div class="contact-box" markdown="1">
+
 [GitHub](https://github.com/377H-Miru){:target="_blank"} ｜ [X (Twitter)](https://x.com/WataruM327906){:target="_blank"} ｜ [LinkedIn](https://www.linkedin.com/in/wataru-miyahara-6947253ab/){:target="_blank"}
+
 </div>
+
 </div>

@@ -1,13 +1,14 @@
-# Site settings
-title: "渉（Wataru Miyahara）"
-description: "研究実績まとめ"
-theme: jekyll-theme-minimal
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+  syntax_highlighter: rouge
 
-# Navigation (if supported)
-nav:
-  - text: Home
-    url: /
-  - text: Achievements
-    url: /achievements
-  - text: Projects
-    url: /projects
+# Site settings
+title: "宮原 渉 | Portfolio"
+description: "研究実績まとめ"
+url: "https://377H-Miru.github.io"
+baseurl: ""
+
+# Jekyll Themes (Not used as we have custom layout, but good to keep)
+theme: jekyll-theme-minimal
