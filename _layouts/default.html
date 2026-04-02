@@ -22,6 +22,8 @@
             --border-color: #30363d;
             --nav-bg: #161b22;
             --card-bg: #161b22;
+            --tag-research: #238636;
+            --tag-personal: #8957e5;
         }
         [data-theme="light"] {
             --bg-color: #ffffff;
@@ -30,6 +32,8 @@
             --border-color: #d0d7de;
             --nav-bg: #f6f8fa;
             --card-bg: #f6f8fa;
+            --tag-research: #2da44e;
+            --tag-personal: #8250df;
         }
         body {
             background-color: var(--bg-color);
@@ -62,6 +66,10 @@
         body[data-lang="en"] [data-lang-content="en"] { display: block; }
 
         .badge { font-size: 0.75em; padding: 2px 8px; border-radius: 10px; border: 1px solid var(--border-color); margin-left: 5px; vertical-align: middle; color: #8b949e; }
+        .tag { font-size: 0.7em; padding: 2px 8px; border-radius: 5px; color: #fff; font-weight: bold; margin-right: 5px; display: inline-block; vertical-align: middle; }
+        .tag-research { background-color: var(--tag-research); }
+        .tag-personal { background-color: var(--tag-personal); }
+
         .contact-box { background: var(--card-bg); padding: 20px; border-radius: 8px; border: 1px solid var(--border-color); margin-top: 20px; text-align: center; }
     </style>
 </head>
@@ -77,8 +85,8 @@
         <div class="menu-content" id="menuContent">
             <a href="/" class="i18n-link" data-ja="ホーム" data-en="Home">ホーム</a>
             <a href="/blog" class="i18n-link" data-ja="活動記録" data-en="Blog">活動記録</a>
-            <a href="/achievements" class="i18n" data-ja="研究実績" data-en="Achievements">研究実績</a>
-            <a href="/projects" class="i18n" data-ja="プロジェクト" data-en="Projects">プロジェクト</a>
+            <a href="/achievements" class="i18n-link" data-ja="研究実績" data-en="Achievements">研究実績</a>
+            <a href="/projects" class="i18n-link" data-ja="プロジェクト" data-en="Projects">プロジェクト</a>
             <a href="/#sns" class="i18n-link" data-ja="SNS" data-en="SNS">SNS</a>
         </div>
     </div>
