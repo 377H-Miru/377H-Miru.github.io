@@ -18,7 +18,7 @@ title: Blog
 </style>
 
 <div data-lang-content="ja" markdown="1">
-# 活動記録 / ブログ
+# ブログ
 
 研究の進捗や日々のちょっとした気づきをカテゴリ別にまとめています。
 
@@ -58,14 +58,14 @@ title: Blog
 </div>
 
 <div data-lang-content="en" markdown="1">
-# Blog & Logs
+# Blog
 
 Monthly logs of research progress and daily thoughts.
 
 <div class="filter-controls">
     <button class="filter-btn active" data-filter="all" onclick="filterBlog('all')">All</button>
-    <button class="filter-btn" onclick="filterBlog('research')">Research</button>
-    <button class="filter-btn" onclick="filterBlog('personal')">Daily Life</button>
+    <button class="filter-btn" data-filter="research" onclick="filterBlog('research')">Research</button>
+    <button class="filter-btn" data-filter="personal" onclick="filterBlog('personal')">Daily Life</button>
 </div>
 
 <hr>
@@ -88,12 +88,12 @@ Monthly logs of research progress and daily thoughts.
 
 ## February 2026
 <div class="blog-list">
-    <div class="blog-item" data-category="research">
+    <a href="/posts/2026-02-25-euos25-review" class="blog-item" data-category="research">
         <span class="tag tag-research">Research</span>
         <span class="blog-date">2026-02-25</span>
         <div class="blog-title">Reflections on EUOS25 Challenge</div>
-        <p>Planning to write about the technical background of the challenge. (Coming soon)</p>
-    </div>
+        <p>A technical dive into the winning architecture (Multimodal Strategy & Sequential Stacking).</p>
+    </a>
 </div>
 </div>
 
