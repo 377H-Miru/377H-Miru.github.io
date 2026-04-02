@@ -16,7 +16,8 @@ title: Achievements
 ## 受賞歴
 {% for award in data.awards %}
 - **[{{ award.title_ja }}]({{ award.url }}){:target="_blank"}** ({{ award.date }})
-    - [[公式結果 (LinkedIn)]]({{ award.result_url }}){:target="_blank"} 
+    - 共同研究者: {{ award.authors }}
+    - [[公式結果 (Official News)]]({{ award.result_url }}){:target="_blank"} 
     {% if award.blog_url %}｜ [[技術解説ブログはこちら]]({{ award.blog_url }}){% endif %}
     - {{ award.description_ja }}
 {% endfor %}
@@ -51,14 +52,15 @@ A summary of my research activities and contributions.
 ## Awards
 {% for award in data.awards %}
 - **[{{ award.title_en }}]({{ award.url }}){:target="_blank"}** ({{ award.date }})
-    - [[Official Results (LinkedIn)]]({{ award.result_url }}){:target="_blank"}
+    - Collaborators: {{ award.authors }}
+    - [[Official Results (News)]]({{ award.result_url }}){:target="_blank"}
     {% if award.blog_url %}｜ [[Technical Review Blog]]({{ award.blog_url }}){% endif %}
     - {{ award.description_en }}
 {% endfor %}
 
 ## Presentations
 {% for pres in data.presentations %}
-- {{ pres.authors }}. "{{ pres.title_en }}". **{{ pres.event_en }}**, {{ pres.role_en }}, {{ pres.date }}.
+- {{ pres.authors_en | default: pres.authors }}. "{{ pres.title_en }}". **{{ pres.event_en }}**, {{ pres.role_en }}, {{ pres.date }}.
 {% endfor %}
 
 {% if data.publications.size > 0 %}
