@@ -20,7 +20,7 @@ title: Contact
         </div>
         <div class="form-group">
             <label>メールアドレス</label>
-            <input type="email" name="_replyto" placeholder="your@email.com" required>
+            <input type="email" name="email" placeholder="your@email.com" required>
         </div>
         <div class="form-group">
             <label>件名</label>
@@ -30,6 +30,8 @@ title: Contact
             <label>メッセージ内容</label>
             <textarea name="message" rows="5" placeholder="こちらに詳細をご記入ください" required></textarea>
         </div>
+        <!-- 成功時のリダイレクト先（オプション） -->
+        <input type="hidden" name="_next" value="https://377h-miru.github.io/contact">
         <button type="submit" class="submit-btn">送信する</button>
     </form>
 </div>
@@ -52,7 +54,7 @@ For research collaborations, speaking invitations, or other inquiries, please us
         </div>
         <div class="form-group">
             <label>Email Address</label>
-            <input type="email" name="_replyto" placeholder="your@email.com" required>
+            <input type="email" name="email" placeholder="your@email.com" required>
         </div>
         <div class="form-group">
             <label>Subject</label>
@@ -62,6 +64,7 @@ For research collaborations, speaking invitations, or other inquiries, please us
             <label>Message</label>
             <textarea name="message" rows="5" placeholder="Enter your message here" required></textarea>
         </div>
+        <input type="hidden" name="_next" value="https://377h-miru.github.io/contact">
         <button type="submit" class="submit-btn">Send Message</button>
     </form>
 </div>
