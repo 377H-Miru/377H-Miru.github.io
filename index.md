@@ -12,19 +12,19 @@ title: Home
 
 ---
 
-## 研究ビジョン
-- **副作用発現メカニズムの解明:** Kolmogorov-Arnold Networks (KAN) の解釈性を活用したToxicophore（毒性発現部位）の同定を軸に、将来的には標的タンパク質ドッキングシミュレーションを統合し、分子から受容体レベルまでの安全性評価基盤の構築を目指す。
-- **RWD解析への展開:** 自発報告データベース（FAERS）での知見をベースとし、国内レセプトデータ等を用いた実臨床データ解析への拡張を検証中。
+## 研究への取り組み
+- **副作用発現メカニズムの探求:** Kolmogorov-Arnold Networks (KAN) の解釈性を活かしてToxicophore（毒性発現部位）の同定に取り組んでいます。将来的には標的タンパク質ドッキングシミュレーションとの統合を通じて、分子から受容体レベルまで多角的に医薬品の安全性を考える基盤作りを目指しています。
+- **RWD解析への展開:** 自発報告データベース（FAERS）での知見をベースとして、国内レセプトデータ等を用いた実臨床データ解析への拡張について検証を進めています。
 
-## 主要実績
+## これまでの歩み
 - **[EUOS25 challenge 蛍光予測部門 優勝](https://ochem.eu/static/challenge2025.do){:target="_blank"}**（2026年2月）
-    - [担当] 量子化学計算による化合物構造最適化、およびKANを用いた予測アーキテクチャの設計・実装を主導。[論文投稿準備中] [[Official Results]](https://www.linkedin.com/posts/eu-openscreen_slas2026-euopenscreen-slas2026-ugcPost-7426934129201627137-Mj-h){:target="_blank"}
-- **第146年会 日本薬学会 ポスター発表**（2026年3月）: FAERSとKANを用いた横紋筋融解症の構造的特徴解明。
+    - 量子化学計算による化合物構造最適化、およびKANを用いた予測アーキテクチャの設計・実装を担当しました。[論文投稿準備中] [[結果はこちら]](https://www.linkedin.com/posts/eu-openscreen_slas2026-euopenscreen-slas2026-ugcPost-7426934129201627137-Mj-h){:target="_blank"}
+- **第146年会 日本薬学会 ポスター発表**（2026年3月）: FAERSとKANを用いた横紋筋融解症の構造的特徴解明について発表しました。
 
-## 専門能力・開発実績
-- **プログラミング / 機械学習:** Pythonを用いたKAN, 決定木, CNNのアーキテクチャ設計。
+## スキルと活動実績
+- **プログラミング / 機械学習:** Pythonを用いたKAN, 決定木, CNNの活用。
 - **計算化学:** RDKitによる特徴量抽出、量子化学計算による構造最適化・物性推算。
-- **ドッキングシミュレーション / SQL:** 統合解析に向けた習得・検証中。 <span class="badge">習得中</span>
+- **ドッキングシミュレーション / SQL:** より深い解析に向けて、現在習得・検証に励んでいます。 <span class="badge">習得中</span>
 
 <h2 id="sns">SNS</h2>
 <div class="contact-box" markdown="1">
@@ -44,19 +44,19 @@ Affiliation: [Laboratory of Medical Molecule Analysis](https://u-lab.my-pharm.ac
 
 ---
 
-## Research Vision
-- **Elucidating Adverse Event Mechanisms:** Developing a multi-dimensional drug safety assessment framework by identifying Toxicophores using KAN interpretability and integrating receptor-level docking simulations.
-- **Expansion to RWD Analysis:** Validating the extension of FAERS-based findings to clinical data analysis using Japanese claims data (integration in progress).
+## Research Interests
+- **Exploring Adverse Event Mechanisms:** I am investigating Toxicophores using KAN's interpretability. My goal is to contribute to drug safety assessment by integrating molecular and receptor-level docking simulations.
+- **Expansion to RWD Analysis:** I am currently validating the application of FAERS-based findings to clinical data analysis using Japanese claims data.
 
-## Selected Achievements
+## My Journey
 - **[EUOS25 challenge, Fluorescence Prediction Track: Winner](https://ochem.eu/static/challenge2025.do){:target="_blank"}** (February 2026)
-    - [Role] Led structure optimization via quantum chemistry and designed/implemented KAN-based predictive architectures. [In preparation] [[Official Results]](https://www.linkedin.com/posts/eu-openscreen_slas2026-euopenscreen-slas2026-ugcPost-7426934129201627137-Mj-h){:target="_blank"}
-- **The 146th Annual Meeting of the Pharmaceutical Society of Japan:** Structural elucidation of rhabdomyolysis using FAERS and KAN (Poster, March 2026).
+    - I led the structure optimization via quantum chemistry and the design of KAN-based predictive architectures. [In preparation] [[Official Results]](https://www.linkedin.com/posts/eu-openscreen_slas2026-euopenscreen-slas2026-ugcPost-7426934129201627137-Mj-h){:target="_blank"}
+- **The 14th Annual Meeting of the Pharmaceutical Society of Japan:** Presented a poster on structural elucidation of rhabdomyolysis using FAERS and KAN (March 2026).
 
-## Skills & Experience
-- **Programming / ML:** Architecture design of KAN, Decision Trees, and CNN via Python.
+## Skills & Projects
+- **Programming / ML:** Applying KAN, Decision Trees, and CNN via Python.
 - **CompChem:** Feature extraction via RDKit and structure optimization via quantum chemistry.
-- **Docking Simulation / SQL:** Currently acquiring and validating for integrated analysis. <span class="badge">In Progress</span>
+- **Docking Simulation / SQL:** Currently acquiring and validating these skills for deeper integrated analysis. <span class="badge">In Progress</span>
 
 <h2 id="sns">SNS</h2>
 <div class="contact-box" markdown="1">

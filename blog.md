@@ -20,12 +20,12 @@ title: Blog
 <div data-lang-content="ja" markdown="1">
 # 活動記録 / ブログ
 
-研究の進捗や技術的な知見、日々の雑記をカテゴリ別にまとめています。
+研究の進捗や日々のちょっとした気づきをカテゴリ別にまとめています。
 
 <div class="filter-controls">
     <button class="filter-btn active" data-filter="all" onclick="filterBlog('all')">すべて</button>
-    <button class="filter-btn" data-filter="research" onclick="filterBlog('research')">研究関連</button>
-    <button class="filter-btn" data-filter="personal" onclick="filterBlog('personal')">個人・雑記</button>
+    <button class="filter-btn" data-filter="research" onclick="filterBlog('research')">研究・技術</button>
+    <button class="filter-btn" data-filter="personal" onclick="filterBlog('personal')">日々の雑記</button>
 </div>
 
 <hr>
@@ -33,26 +33,26 @@ title: Blog
 ## 2026年 4月
 <div class="blog-list">
     <a href="/posts/2026-04-01-site-tech-stack" class="blog-item" data-category="research">
-        <span class="tag tag-research">研究関連</span>
+        <span class="tag tag-research">研究・技術</span>
         <span class="blog-date">2026-04-01</span>
-        <div class="blog-title">ポートフォリオサイトの技術仕様と再現性について</div>
-        <p>サイトの設計思想、多言語対応・ダークモードの実装についての技術メモ。</p>
+        <div class="blog-title">ポートフォリオサイトの技術仕様について</div>
+        <p>このサイトをどのように構築し、運用しているかについての技術メモです。</p>
     </a>
     <a href="/posts/2026-04-01-launch" class="blog-item" data-category="research">
-        <span class="tag tag-research">研究関連</span>
+        <span class="tag tag-research">研究・技術</span>
         <span class="blog-date">2026-04-01</span>
-        <div class="blog-title">ポートフォリオサイトの設計思想と公開</div>
-        <p>専門家向けのProof of Workとしてのサイト構築について。</p>
+        <div class="blog-title">サイトを公開しました</div>
+        <p>研究実績や活動をゆるやかに発信していく場所を作りました。</p>
     </a>
 </div>
 
 ## 2026年 2月
 <div class="blog-list">
     <div class="blog-item" data-category="research">
-        <span class="tag tag-research">研究関連</span>
+        <span class="tag tag-research">研究・技術</span>
         <span class="blog-date">2026-02-25</span>
-        <div class="blog-title">EUOS25 challenge 優勝の技術的背景</div>
-        <p>量子化学計算とKANを組み合わせた予測アプローチの詳解。（執筆予定）</p>
+        <div class="blog-title">EUOS25 challengeを振り返って</div>
+        <p>優勝をいただいたコンテストの技術的な背景について、少し詳しく書く予定です。</p>
     </div>
 </div>
 </div>
@@ -60,12 +60,12 @@ title: Blog
 <div data-lang-content="en" markdown="1">
 # Blog & Logs
 
-Monthly logs of research, technology, and personal thoughts.
+Monthly logs of research progress and daily thoughts.
 
 <div class="filter-controls">
     <button class="filter-btn active" data-filter="all" onclick="filterBlog('all')">All</button>
-    <button class="filter-btn" data-filter="research" onclick="filterBlog('research')">Research</button>
-    <button class="filter-btn" data-filter="personal" onclick="filterBlog('personal')">Personal</button>
+    <button class="filter-btn" onclick="filterBlog('research')">Research</button>
+    <button class="filter-btn" onclick="filterBlog('personal')">Daily Life</button>
 </div>
 
 <hr>
@@ -75,14 +75,14 @@ Monthly logs of research, technology, and personal thoughts.
     <a href="/posts/2026-04-01-site-tech-stack" class="blog-item" data-category="research">
         <span class="tag tag-research">Research</span>
         <span class="blog-date">2026-04-01</span>
-        <div class="blog-title">Technical Specifications & Reproducibility</div>
-        <p>Technical notes on design philosophy, multilingual/dark mode implementation.</p>
+        <div class="blog-title">Technical Specifications of This Site</div>
+        <p>A technical note on how I built and maintain this portfolio.</p>
     </a>
     <a href="/posts/2026-04-01-launch" class="blog-item" data-category="research">
         <span class="tag tag-research">Research</span>
         <span class="blog-date">2026-04-01</span>
-        <div class="blog-title">Portfolio Site: Design Philosophy & Launch</div>
-        <p>Constructing a site as a 'Proof of Work' for experts.</p>
+        <div class="blog-title">Site Launch</div>
+        <p>Created a space to share my research progress and activities.</p>
     </a>
 </div>
 
@@ -91,23 +91,20 @@ Monthly logs of research, technology, and personal thoughts.
     <div class="blog-item" data-category="research">
         <span class="tag tag-research">Research</span>
         <span class="blog-date">2026-02-25</span>
-        <div class="blog-title">Technical Review: EUOS25 Challenge Win</div>
-        <p>In-depth review of the predictive approach combining quantum chemistry and KAN. (Coming soon)</p>
+        <div class="blog-title">Reflections on EUOS25 Challenge</div>
+        <p>Planning to write about the technical background of the challenge. (Coming soon)</p>
     </div>
 </div>
 </div>
 
 <script>
     function filterBlog(category) {
-        // Update button states by data-filter attribute
         document.querySelectorAll('.filter-btn').forEach(btn => {
             btn.classList.remove('active');
             if(btn.getAttribute('data-filter') === category) {
                 btn.classList.add('active');
             }
         });
-        
-        // Filter items
         document.querySelectorAll('.blog-item').forEach(item => {
             if (category === 'all' || item.getAttribute('data-category') === category) {
                 item.style.display = 'block';

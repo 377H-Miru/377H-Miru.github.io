@@ -10,10 +10,12 @@ title: Achievements
 
 [← ホームに戻る](/index)
 
+これまでに関わってきた主な実績をご紹介します。
+
 ## 受賞歴
 {% for award in data.awards %}
 - **[{{ award.title_ja }}]({{ award.url }}){:target="_blank"}** ({{ award.date }})
-    - [[Official Result (LinkedIn)]]({{ award.result_url }}){:target="_blank"}
+    - [[公式結果 (LinkedIn)]]({{ award.result_url }}){:target="_blank"}
     - {{ award.description_ja }}
 {% endfor %}
 
@@ -40,10 +42,12 @@ title: Achievements
 
 [← Back to Home](/index)
 
+A summary of my research activities and contributions.
+
 ## Awards
 {% for award in data.awards %}
 - **[{{ award.title_en }}]({{ award.url }}){:target="_blank"}** ({{ award.date }})
-    - [[Official Result (LinkedIn)]]({{ award.result_url }}){:target="_blank"}
+    - [[Official Results (LinkedIn)]]({{ award.result_url }}){:target="_blank"}
     - {{ award.description_en }}
 {% endfor %}
 
