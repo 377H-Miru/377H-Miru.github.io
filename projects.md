@@ -14,12 +14,12 @@ title: Projects
 - **技術:** Python, KAN, RDKit
 - **取り組み:** 第146年会 日本薬学会にて発表、および論文投稿に向けた準備を進めています。[Status: In preparation]
 
-## EUOS25 challenge 蛍光予測部門
-- **概要:** 10万化合物のライブラリを用いた蛍光特性予測コンテスト。
+## EUOS25 challenge 光学特性予測部門
+- **概要:** 約10万化合物のライブラリを用いた光学特性予測コンテスト。部門は透過率（Transmittance）予測と蛍光（Fluorescence）予測の2つのトラックで構成され、私たちは蛍光予測部門で優勝しました。
 - **技術的アプローチ:** 
     - **Multimodal Strategy:** 6種類のMOPAC HamiltonianとMACE-xTBを用いた精密な量子化学計算、および1,800次元超の記述子を統合。特に$\pi$共役系の品質を評価する Conjugation Features を独自に導入し、蛍光予測に特化した特徴量空間を構築しました。
-    - **Sequential Stacking:** 透過率（Transmittance）から蛍光（Fluorescence）への物性的依存関係をモデル化する、連鎖的なスタッキングアーキテクチャを構築。
-- **結果:** 部門優勝（2026年2月）
+    - **Sequential Stacking:** 透過率から蛍光への物性的依存関係をモデル化する、連鎖的なスタッキングアーキテクチャを構築。
+- **結果:** 蛍光予測部門 優勝（2026年2月）
 - **今後:** 学術誌「SLAS Technology」へ投稿準備中です。[Status: In preparation]
 - [[公式ニュース]](https://www.eu-openscreen.eu/resources/eu-openscreen-news/ansicht/eu-openscreen-and-slas-announce-winners-of-the-second-joint-machine-learning-challenge-at-slas-2026.html){:target="_blank"} ｜ [[コンテスト概要]](https://ochem.eu/static/challenge2025.do){:target="_blank"} ｜ [[技術解説ブログ]](/posts/2026-02-25-euos25-review)
 
@@ -36,12 +36,12 @@ title: Projects
 - **Tech:** Python, KAN, RDKit
 - **Status:** Presented at the PSJ Annual Meeting; [Manuscript in preparation].
 
-## EUOS25 challenge: Fluorescence Prediction
-- **Summary:** A machine learning competition for predicting optical properties of ~100k compounds.
+## EUOS25 challenge: Optical Property Prediction
+- **Summary:** A machine learning competition for predicting optical properties of ~100k compounds. The challenge consisted of two tracks: Transmittance and Fluorescence prediction. Our team won the Fluorescence track.
 - **Technical Approach:**
     - **Multimodal Strategy:** Integrating high-precision quantum chemistry (MOPAC/MACE-xTB) and 1,800+ descriptors. Specifically, integrated specialized Conjugation Features to evaluate the quality of $\pi$-conjugation systems, constructing a feature space specialized for fluorescence prediction.
     - **Sequential Stacking:** Developed a chaining architecture that models the biophysical dependency from transmittance to fluorescence.
-- **Result:** Winner (February 2026)
+- **Result:** Winner of the Fluorescence track (February 2026)
 - **Outlook:** Technical details and code to be submitted to "SLAS Technology". [Status: In preparation]
 - [[Official News]](https://www.eu-openscreen.eu/resources/eu-openscreen-news/ansicht/eu-openscreen-and-slas-announce-winners-of-the-second-joint-machine-learning-challenge-at-slas-2026.html){:target="_blank"} ｜ [[Challenge Info]](https://ochem.eu/static/challenge2025.do){:target="_blank"} ｜ [[Technical Review]](/posts/2026-02-25-euos25-review)
 
