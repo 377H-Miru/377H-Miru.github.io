@@ -13,7 +13,7 @@ title: Contact
 ※送信内容は暗号化されて安全に管理されます。
 
 <div class="contact-box">
-    <form action="https://formspree.io/f/xvgoplow" method="POST">
+    <form action="https://formspree.io/f/mvzvbodq" method="POST">
         <div class="form-group">
             <label>お名前</label>
             <input type="text" name="name" placeholder="山田 太郎" required>
@@ -30,7 +30,7 @@ title: Contact
             <label>メッセージ内容</label>
             <textarea name="message" rows="5" placeholder="こちらに詳細をご記入ください" required></textarea>
         </div>
-        <!-- 成功時のリダイレクト先（オプション） -->
+        <!-- 成功時のリダイレクト先 -->
         <input type="hidden" name="_next" value="https://377h-miru.github.io/contact">
         <button type="submit" class="submit-btn">送信する</button>
     </form>
@@ -47,7 +47,7 @@ title: Contact
 For research collaborations, speaking invitations, or other inquiries, please use the form below.
 
 <div class="contact-box">
-    <form action="https://formspree.io/f/xvgoplow" method="POST">
+    <form action="https://formspree.io/f/mvzvbodq" method="POST">
         <div class="form-group">
             <label>Name</label>
             <input type="text" name="name" placeholder="John Doe" required>
