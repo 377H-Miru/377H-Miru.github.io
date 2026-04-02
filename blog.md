@@ -8,9 +8,9 @@ title: Blog
     .filter-btn { 
         background: var(--nav-bg); border: 1px solid var(--border-color); 
         color: var(--text-color); padding: 5px 15px; border-radius: 15px; 
-        cursor: pointer; font-size: 0.9em; 
+        cursor: pointer; font-size: 0.9em; transition: 0.2s;
     }
-    .filter-btn.active { background: var(--link-color); color: #fff; border-color: var(--link-color); }
+    .filter-btn.active { background: var(--link-color) !important; color: #fff !important; border-color: var(--link-color) !important; }
     .blog-item { display: block; text-decoration: none; color: inherit; margin-bottom: 20px; padding: 15px; background: var(--card-bg); border: 1px solid var(--border-color); border-radius: 8px; transition: transform 0.2s; }
     .blog-item:hover { transform: translateY(-2px); border-color: var(--link-color); }
     .blog-item .blog-date { font-size: 0.85em; color: #8b949e; }
@@ -23,9 +23,9 @@ title: Blog
 研究の進捗や技術的な知見、日々の雑記をカテゴリ別にまとめています。
 
 <div class="filter-controls">
-    <button class="filter-btn active" onclick="filterBlog('all')">すべて</button>
-    <button class="filter-btn" onclick="filterBlog('research')">研究関連</button>
-    <button class="filter-btn" onclick="filterBlog('personal')">個人・雑記</button>
+    <button class="filter-btn active" data-filter="all" onclick="filterBlog('all')">すべて</button>
+    <button class="filter-btn" data-filter="research" onclick="filterBlog('research')">研究関連</button>
+    <button class="filter-btn" data-filter="personal" onclick="filterBlog('personal')">個人・雑記</button>
 </div>
 
 <hr>
@@ -63,9 +63,9 @@ title: Blog
 Monthly logs of research, technology, and personal thoughts.
 
 <div class="filter-controls">
-    <button class="filter-btn active" onclick="filterBlog('all')">All</button>
-    <button class="filter-btn" onclick="filterBlog('research')">Research</button>
-    <button class="filter-btn" onclick="filterBlog('personal')">Personal</button>
+    <button class="filter-btn active" data-filter="all" onclick="filterBlog('all')">All</button>
+    <button class="filter-btn" data-filter="research" onclick="filterBlog('research')">Research</button>
+    <button class="filter-btn" data-filter="personal" onclick="filterBlog('personal')">Personal</button>
 </div>
 
 <hr>
@@ -99,10 +99,10 @@ Monthly logs of research, technology, and personal thoughts.
 
 <script>
     function filterBlog(category) {
-        // Update button states
+        // Update button states by data-filter attribute
         document.querySelectorAll('.filter-btn').forEach(btn => {
             btn.classList.remove('active');
-            if(btn.innerText.toLowerCase().includes(category) || (category === 'all' && (btn.innerText === 'すべて' || btn.innerText === 'All'))) {
+            if(btn.getAttribute('data-filter') === category) {
                 btn.classList.add('active');
             }
         });
