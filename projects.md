@@ -20,7 +20,7 @@ title: Projects
     - **Multimodal Strategy:** 6種類のMOPAC HamiltonianとMACE-xTBを用いた精密な量子化学計算、1,800次元超の記述子、およびGINE-Netによるエムベディングを統合。
     - **Sequential Stacking:** 透過率（Transmittance）から蛍光（Fluorescence）への物性的依存関係をモデル化する、連鎖的なスタッキングアーキテクチャを構築。
 - **結果:** 部門優勝（2026年2月）
-- **今後:** [Status: In preparation] 学術誌「SLAS Technology」へ投稿準備中です。
+- **今後:** 学術誌「SLAS Technology」へ投稿準備中です。[Status: In preparation]
 - [[公式ニュース]](https://www.eu-openscreen.eu/resources/eu-openscreen-news/ansicht/eu-openscreen-and-slas-announce-winners-of-the-second-joint-machine-learning-challenge-at-slas-2026.html){:target="_blank"} ｜ [[コンテスト概要]](https://ochem.eu/static/challenge2025.do){:target="_blank"} ｜ [[技術解説ブログ]](/posts/2026-02-25-euos25-review)
 
 </div>
@@ -42,7 +42,7 @@ title: Projects
     - **Multimodal Strategy:** Integrating high-precision quantum chemistry (MOPAC/MACE-xTB), 1,800+ descriptors, and GINE-Net embeddings.
     - **Sequential Stacking:** Developed a chaining architecture that models the biophysical dependency from transmittance to fluorescence.
 - **Result:** Winner (February 2026)
-- **Outlook:** [Status: In preparation] Technical details and code to be submitted to "SLAS Technology".
+- **Outlook:** Technical details and code to be submitted to "SLAS Technology". [Status: In preparation]
 - [[Official News]](https://www.eu-openscreen.eu/resources/eu-openscreen-news/ansicht/eu-openscreen-and-slas-announce-winners-of-the-second-joint-machine-learning-challenge-at-slas-2026.html){:target="_blank"} ｜ [[Challenge Info]](https://ochem.eu/static/challenge2025.do){:target="_blank"} ｜ [[Technical Review]](/posts/2026-02-25-euos25-review)
 
 </div>
