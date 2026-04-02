@@ -56,7 +56,7 @@ Affiliation: [Laboratory of Medical Molecule Analysis](https://u-lab.my-pharm.ac
 ## Skills & Implementation
 - **Machine Learning (KAN / Deep Learning):** Construction of KAN-based predictive models and design of chaining architectures.
 - **CompChem:** Feature extraction via RDKit and biophysical property estimation using MOPAC/xTB workflows.
-- **Software Development:** High-performance ECFP generation tool for large-scale datasets using multiprocessing. [[Code: ecfp_cli]](https://github.com/377H-Miru/ecfp_cli){:target="_blank"}
+- **Software Development:** ECFP generation tool utilized for feature extraction in the poster presentation at the 146th Annual Meeting of the Pharmaceutical Society of Japan. [[Code: ecfp_cli]](https://github.com/377H-Miru/ecfp_cli){:target="_blank"}
 
 <h2 id="sns">SNS</h2>
 <div class="contact-box" markdown="1">
