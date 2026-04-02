@@ -5,7 +5,7 @@ title: Home
 
 <div data-lang-content="ja" markdown="1">
 
-# 377H-Miru
+# 宮原 渉 (Wataru Miyahara)
 **Computational toxicology researcher focused on interpretable ML and cheminformatics.**
 
 明治薬科大学 薬学部薬学科（2028年3月卒業予定）  
@@ -43,7 +43,7 @@ title: Home
 
 <div data-lang-content="en" markdown="1">
 
-# 377H-Miru
+# Wataru Miyahara
 **Computational toxicology researcher focused on interpretable ML and cheminformatics.**
 
 Meiji Pharmaceutical University, Faculty of Pharmacy (Class of 2028)  
