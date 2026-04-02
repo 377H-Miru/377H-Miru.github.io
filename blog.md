@@ -11,9 +11,9 @@ title: Blog
 ---
 
 ## 2026年 4月
-- **[ポートフォリオサイトの技術仕様と再現性について](/posts/2026-04-01-site-tech-stack.html)** (2026-04-01)  
+- **[ポートフォリオサイトの技術仕様と再現性について](/posts/2026-04-01-site-tech-stack)** (2026-04-01)  
   サイトの設計思想、多言語対応・ダークモードの実装、および日々の運用手順についての技術メモ。
-- **[ポートフォリオサイトの設計思想と公開](/posts/2026-04-01-launch.html)** (2026-04-01)  
+- **[ポートフォリオサイトの設計思想と公開](/posts/2026-04-01-launch)** (2026-04-01)  
   専門家向けのProof of Workとしてのサイト構築。技術的エビデンスを重視した構成について。
 
 ## 2026年 2月
@@ -29,9 +29,9 @@ Monthly logs of research progress and technical insights.
 ---
 
 ## April 2026
-- **[Technical Specifications & Reproducibility](/posts/2026-04-01-site-tech-stack.html)** (2026-04-01)  
+- **[Technical Specifications & Reproducibility](/posts/2026-04-01-site-tech-stack)** (2026-04-01)  
   Technical notes on design philosophy, multilingual/dark mode implementation, and maintenance workflow.
-- **[Portfolio Site: Design Philosophy & Launch](/posts/2026-04-01-launch.html)** (2026-04-01)  
+- **[Portfolio Site: Design Philosophy & Launch](/posts/2026-04-01-launch)** (2026-04-01)  
   Constructing a site as a 'Proof of Work' for experts. Focusing on technical evidence.
 
 ## February 2026

@@ -24,7 +24,7 @@ title: Home
 ## 専門能力・エビデンス
 - **プログラミング / 機械学習:** Pythonを用いたKAN, 決定木, CNNのアーキテクチャ設計。 [[Code: KAN-CLI]](https://github.com/377H-Miru){:target="_blank"}
 - **計算化学:** RDKitによる特徴量抽出、量子化学計算による構造最適化。 [[Code: Collision-Analysis]](https://github.com/377H-Miru){:target="_blank"}
-- **ドッキングシミュレーション / SQL:** 統合基盤構築に向け習得・検証中。 <span class="badge">習得中</span>
+- **ドッキングシミュレーション / SQL:** 統合解析に向けた習得・検証中。 <span class="badge">習得中</span>
 
 <h2 id="sns">SNS</h2>
 <div class="contact-box" markdown="1">
@@ -50,7 +50,7 @@ Affiliation: [Laboratory of Medical Molecule Analysis](https://u-lab.my-pharm.ac
 
 ## Selected Achievements
 - **[EUOS25 challenge, Fluorescence Prediction Track: Winner](https://ochem.eu/static/challenge2025.do){:target="_blank"}** (Feb 2026)
-    - [Role] Lead structure optimization via quantum chemistry and design/implementation of KAN-based predictive architectures. [In preparation] [[Result]](https://www.linkedin.com/posts/eu-openscreen_slas2026-euopenscreen-slas2026-ugcPost-7426934129201627137-Mj-h){:target="_blank"}
+    - [Role] Lead structure optimization via quantum chemistry and design/implementation of KAN-based predictive architectures. [In preparation] [[Official Results]](https://www.linkedin.com/posts/eu-openscreen_slas2026-euopenscreen-slas2026-ugcPost-7426934129201627137-Mj-h){:target="_blank"}
 - **The 146th Annual Meeting of the Pharmaceutical Society of Japan:** Structural elucidation of rhabdomyolysis using FAERS and KAN (Poster, Mar 2026).
 
 ## Skills & Proof of Work
