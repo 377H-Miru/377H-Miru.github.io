@@ -49,7 +49,7 @@ Affiliation: [Laboratory of Medical Molecule Analysis](https://u-lab.my-pharm.ac
 - **Expansion to RWD Analysis:** Validating the extension of FAERS-based findings to clinical data analysis using Japanese claims data (integration in progress).
 
 ## Selected Achievements
-- **[EUOS25 challenge, Fluorescence Prediction Track: Winner](https://ochem.eu/static/challenge2025.do){:target="_blank"}** (Feb 2026)
+- **[EUOS25 challenge, Fluorescence Prediction Track: Winner](https://ochem.eu/static/challenge2025.do){:target="_blank"}** (February 2026)
     - [Role] Led structure optimization via quantum chemistry and designed/implemented KAN-based predictive architectures. [In preparation] [[Official Results]](https://www.linkedin.com/posts/eu-openscreen_slas2026-euopenscreen-slas2026-ugcPost-7426934129201627137-Mj-h){:target="_blank"}
 - **The 146th Annual Meeting of the Pharmaceutical Society of Japan:** Structural elucidation of rhabdomyolysis using FAERS and KAN (Poster, March 2026).
 
