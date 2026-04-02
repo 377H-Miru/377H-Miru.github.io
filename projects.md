@@ -21,7 +21,7 @@ title: Projects
     - **Sequential Stacking:** 透過率（Transmittance）から蛍光（Fluorescence）への物性的依存関係をモデル化する、連鎖的なスタッキングアーキテクチャを構築。
 - **結果:** 部門優勝（2026年2月）
 - **今後:** 2026年4月に「SLAS Technology」誌へ論文投稿を予定しています。
-- [[公式ニュース]](https://www.eu-openscreen.eu/resources/eu-openscreen-news/ansicht/eu-openscreen-and-slas-announce-winners-of-the-second-joint-machine-learning-challenge-at-slas-2026.html){:target="_blank"} ｜ [[コンテスト概要]](https://ochem.eu/static/challenge2025.do){:target="_blank"}
+- [[公式ニュース]](https://www.eu-openscreen.eu/resources/eu-openscreen-news/ansicht/eu-openscreen-and-slas-announce-winners-of-the-second-joint-machine-learning-challenge-at-slas-2026.html){:target="_blank"} ｜ [[コンテスト概要]](https://ochem.eu/static/challenge2025.do){:target="_blank"} ｜ [[技術解説ブログ]](/posts/2026-02-25-euos25-review)
 
 </div>
 
@@ -43,6 +43,6 @@ title: Projects
     - **Sequential Stacking:** Developed a chaining architecture that models the biophysical dependency from transmittance to fluorescence.
 - **Result:** Winner (February 2026)
 - **Outlook:** Technical details and code to be submitted to "SLAS Technology" in April 2026.
-- [[Official News]](https://www.eu-openscreen.eu/resources/eu-openscreen-news/ansicht/eu-openscreen-and-slas-announce-winners-of-the-second-joint-machine-learning-challenge-at-slas-2026.html){:target="_blank"} ｜ [[Challenge Info]](https://ochem.eu/static/challenge2025.do){:target="_blank"}
+- [[Official News]](https://www.eu-openscreen.eu/resources/eu-openscreen-news/ansicht/eu-openscreen-and-slas-announce-winners-of-the-second-joint-machine-learning-challenge-at-slas-2026.html){:target="_blank"} ｜ [[Challenge Info]](https://ochem.eu/static/challenge2025.do){:target="_blank"} ｜ [[Technical Review]](/posts/2026-02-25-euos25-review)
 
 </div>
