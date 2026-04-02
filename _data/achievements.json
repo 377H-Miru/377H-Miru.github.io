@@ -7,8 +7,8 @@
       "url": "https://ochem.eu/static/challenge2025.do",
       "result_url": "https://www.eu-openscreen.eu/resources/eu-openscreen-news/ansicht/eu-openscreen-and-slas-announce-winners-of-the-second-joint-machine-learning-challenge-at-slas-2026.html",
       "blog_url": "/posts/2026-02-25-euos25-review",
-      "description_ja": "量子化学計算(MOPAC/MACE-xTB)による物性推算、および透過率から蛍光への依存性を考慮したSequential Stackingアーキテクチャの設計・実装を担当。SLAS Technology誌に論文投稿準備中。",
-      "description_en": "Lead quantum chemistry-based property estimation (MOPAC/MACE-xTB) and design of a Sequential Stacking architecture modeling the dependency from transmittance to fluorescence. Manuscript in preparation for SLAS Technology."
+      "description_ja": "量子化学計算(MOPAC/MACE-xTB)による物性推算、およびSequential Stackingアーキテクチャの設計・実装を担当。(Manuscript in preparation)",
+      "description_en": "Lead quantum chemistry-based property estimation (MOPAC/MACE-xTB) and design of a Sequential Stacking architecture. (Manuscript in preparation)"
     }
   ],
   "presentations": [
