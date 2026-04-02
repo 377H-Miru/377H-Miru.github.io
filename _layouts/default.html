@@ -65,12 +65,16 @@
         body[data-lang="ja"] [data-lang-content="ja"] { display: block; }
         body[data-lang="en"] [data-lang-content="en"] { display: block; }
 
-        .tag { font-size: 0.7em; padding: 2px 8px; border-radius: 5px; color: #fff; font-weight: bold; margin-right: 5px; display: inline-block; vertical-align: middle; }
-        .tag-research { background-color: var(--tag-research); }
-        .tag-personal { background-color: var(--tag-personal); }
-
         .contact-box { background: var(--card-bg); padding: 20px; border-radius: 8px; border: 1px solid var(--border-color); margin-top: 20px; text-align: center; }
-        .evidence-link { font-size: 0.85em; margin-left: 8px; text-decoration: none; font-weight: bold; }
+        
+        /* Form Style */
+        .form-group { margin-bottom: 20px; text-align: left; }
+        .form-group label { display: block; margin-bottom: 5px; font-weight: bold; }
+        .form-group input, .form-group textarea { width: 100%; padding: 10px; border-radius: 6px; border: 1px solid var(--border-color); background: var(--nav-bg); color: var(--text-color); box-sizing: border-box; }
+        .submit-btn { background: var(--link-color); color: #fff; border: none; padding: 10px 20px; border-radius: 20px; cursor: pointer; font-weight: bold; }
+        
+        /* Comments Area */
+        #comments { margin-top: 80px; border-top: 1px solid var(--border-color); padding-top: 40px; }
     </style>
 </head>
 <body data-theme="dark" data-lang="ja">
@@ -87,12 +91,34 @@
             <a href="/blog" class="i18n-link" data-ja="ブログ" data-en="Blog">ブログ</a>
             <a href="/achievements" class="i18n-link" data-ja="研究実績" data-en="Achievements">研究実績</a>
             <a href="/projects" class="i18n-link" data-ja="プロジェクト" data-en="Projects">プロジェクト</a>
-            <a href="/#sns" class="i18n-link" data-ja="SNS" data-en="SNS">SNS</a>
+            <a href="/contact" class="i18n-link" data-ja="お問い合わせ" data-en="Contact">お問い合わせ</a>
         </div>
     </div>
 
     <div class="container">
         {{ content }}
+
+        <!-- Blog Comments (only for posts) -->
+        {% if page.path contains 'posts/' %}
+        <div id="comments">
+            <h3 class="i18n-link" data-ja="コメント" data-en="Comments">コメント</h3>
+            <script src="https://giscus.app/client.js"
+                    data-repo="377H-Miru/377H-Miru.github.io"
+                    data-repo-id="R_kgDON_Z6NQ"
+                    data-category="Announcements"
+                    data-category-id="DIC_kwDON_Z6Nc4Cn_un"
+                    data-mapping="pathname"
+                    data-strict="0"
+                    data-reactions-enabled="1"
+                    data-emit-metadata="0"
+                    data-input-position="bottom"
+                    data-theme="dark"
+                    data-lang="ja"
+                    crossorigin="anonymous"
+                    async>
+            </script>
+        </div>
+        {% endif %}
 
         <div class="footer">
             <p>© 2026 Wataru Miyahara</p>
@@ -105,6 +131,13 @@
             document.body.setAttribute('data-theme', currentTheme);
             document.getElementById('themeBtn').innerText = currentTheme === 'dark' ? '☀️' : '🌙';
             localStorage.setItem('theme', currentTheme);
+            
+            // Update Giscus theme if present
+            const giscusIframe = document.querySelector('iframe.giscus-frame');
+            if (giscusIframe) {
+                const gTheme = currentTheme === 'dark' ? 'dark' : 'light';
+                giscusIframe.contentWindow.postMessage({ giscus: { setConfig: { theme: gTheme } } }, 'https://giscus.app');
+            }
         }
         function toggleTheme() { currentTheme = currentTheme === 'dark' ? 'light' : 'dark'; updateTheme(); }
 

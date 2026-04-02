@@ -32,7 +32,7 @@ title: Home
 <h2 id="sns">Contact & Profiles</h2>
 <div class="contact-box" markdown="1">
 
-連絡先は名刺記載のメールアドレスをご利用ください。共同研究・発表等のご依頼はLinkedInのDMでも承っております。
+連絡先は名刺記載のメールアドレス、またはこちらの [**お問い合わせフォーム**](/contact) をご利用ください。共同研究・発表等のご依頼はLinkedInのDMでも承っております。
 
 [LinkedIn](https://www.linkedin.com/in/wataru-miyahara-6947253ab/){:target="_blank"} ｜ [GitHub](https://github.com/377H-Miru){:target="_blank"} ｜ [X (Twitter)](https://x.com/WataruM327906){:target="_blank"} 
 
