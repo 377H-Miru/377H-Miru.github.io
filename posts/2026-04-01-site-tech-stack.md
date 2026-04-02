@@ -4,6 +4,7 @@ title: サイト構築の技術仕様
 ---
 
 <div data-lang-content="ja" markdown="1">
+
 # ポートフォリオサイトの技術仕様と再現性について
 
 本サイトは、研究者が最小限のコストで「能力の証明（Proof of Work）」を世界に発信することを目的に構築されています。ここでは、本サイトの設計思想と、同様のサイトを構築・運用するための技術的仕様を記録します。
@@ -46,9 +47,11 @@ CSS変数（Custom Properties）を使用し、`body` タグの属性を切り�
 
 ---
 本サイトのソースコードは、私の [GitHubリポジトリ](https://github.com/377H-Miru/377H-Miru.github.io) で公開されています。
+
 </div>
 
 <div data-lang-content="en" markdown="1">
+
 # Technical Specifications & Reproducibility of This Site
 
 This site is designed for researchers to showcase their "Proof of Work" globally with minimal overhead. This post documents the design philosophy and technical specifications required to build and operate a similar site.
@@ -91,4 +94,5 @@ To reuse this setup, maintain the following structure:
 
 ---
 The source code is available at my [GitHub Repository](https://github.com/377H-Miru/377H-Miru.github.io).
+
 </div>
