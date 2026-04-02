@@ -23,10 +23,6 @@ title: Projects
 - **今後:** 2026年4月に「SLAS Technology」誌へ論文投稿を予定しています。
 - [[公式ニュース]](https://www.eu-openscreen.eu/resources/eu-openscreen-news/ansicht/eu-openscreen-and-slas-announce-winners-of-the-second-joint-machine-learning-challenge-at-slas-2026.html){:target="_blank"} ｜ [[コンテスト概要]](https://ochem.eu/static/challenge2025.do){:target="_blank"}
 
-## RWD解析への展開
-- **概要:** FAERSと国内レセプトデータを統合し、副作用発現を分子から受容体レベルまで多角的に解釈するプラットフォームの構築を検証中です。
-- **技術:** SQL, 標的タンパク質ドッキングシミュレーション <span class="badge">習得中</span>
-
 </div>
 
 <div data-lang-content="en" markdown="1">
@@ -48,9 +44,5 @@ title: Projects
 - **Result:** Winner (February 2026)
 - **Outlook:** Technical details and code to be submitted to "SLAS Technology" in April 2026.
 - [[Official News]](https://www.eu-openscreen.eu/resources/eu-openscreen-news/ansicht/eu-openscreen-and-slas-announce-winners-of-the-second-joint-machine-learning-challenge-at-slas-2026.html){:target="_blank"} ｜ [[Challenge Info]](https://ochem.eu/static/challenge2025.do){:target="_blank"}
-
-## Expansion to RWD Analysis
-- **Summary:** Validating integrated analysis of FAERS and claims data to interpret adverse events from molecular to receptor levels.
-- **Tech:** SQL, Molecular Docking Simulation <span class="badge">In Progress</span>
 
 </div>

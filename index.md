@@ -13,17 +13,17 @@ title: Home
 ---
 
 ## 研究領域
-- **副作用発現メカニズムの探求:** Kolmogorov-Arnold Networks (KAN) の解釈性を活かしたToxicophore（毒性発現部位）の同定に取り組んでいます。標的タンパク質ドッキングシミュレーションの統合を通じ、分子から受容体レベルまで多角的に医薬品の安全性を評価する基盤を構築しています。
-- **RWD解析への展開:** 自発報告データベース（FAERS）での知見をベースとした、実臨床データ解析への拡張を検証しています。
+- **副作用発現メカニズムの探求:** Kolmogorov-Arnold Networks (KAN) の解釈性を活用したToxicophore（毒性発現部位）の同定。標的タンパク質ドッキングシミュレーションとの統合による、分子・受容体レベルでの安全性評価基盤の構築。
+- **RWD解析への展開:** 自発報告データベース（FAERS）での知見をベースとした実臨床データ解析への拡張。
 
 ## これまでの歩み
 - **[EUOS25 challenge 蛍光予測部門 優勝](https://ochem.eu/static/challenge2025.do){:target="_blank"}**（2026年2月）
     - 量子化学計算による構造最適化、およびSequential Stackingアーキテクチャの設計・実装を主導。[論文投稿準備中] [[Technical Review]](/posts/2026-02-25-euos25-review) [[Official Result]](https://www.eu-openscreen.eu/resources/eu-openscreen-news/ansicht/eu-openscreen-and-slas-announce-winners-of-the-second-joint-machine-learning-challenge-at-slas-2026.html){:target="_blank"}
 - **第146年会 日本薬学会 ポスター発表**（2026年3月）: FAERSとKANを用いた横紋筋融解症の構造的特徴解明について発表。
 
-## 専門能力・プロジェクト
-- **機械学習 (Deep Learning / KAN):** Pythonを用いたKAN, 決定木, CNNのアーキテクチャ設計。 [[Code]](https://github.com/377H-Miru)
-- **計算化学 (Cheminformatics):** RDKitによる特徴量抽出、量子化学計算による構造最適化・物性推算。 [[Code]](https://github.com/377H-Miru)
+## 専門能力・実装実績
+- **機械学習 (KAN / Deep Learning):** Pythonを用いた独自アーキテクチャの実装。 [[Code: kan-cli-v2]](https://github.com/377H-Miru/kan_cli_v2)
+- **計算化学 (Cheminformatics):** RDKitによる特徴量抽出、および物性推算ワークフローの構築。 [[Code: collision-analysis]](https://github.com/377H-Miru/exhaustive_collision_analysis)
 
 <h2 id="sns">SNS</h2>
 <div class="contact-box" markdown="1">
@@ -44,17 +44,17 @@ Affiliation: [Laboratory of Medical Molecule Analysis](https://u-lab.my-pharm.ac
 ---
 
 ## Research Focus
-- **Investigating Adverse Event Mechanisms:** Identifying Toxicophores using KAN interpretability. Building a safety assessment framework by integrating molecular and receptor-level docking simulations.
-- **Expansion to RWD Analysis:** Validating the application of FAERS-based findings to clinical data analysis using Japanese claims data.
+- **Investigating Adverse Event Mechanisms:** Identifying Toxicophores using KAN interpretability. Integrating receptor-level docking simulations for a multi-dimensional safety assessment framework.
+- **Expansion to RWD Analysis:** Application of FAERS-based findings to clinical data analysis using Japanese claims data.
 
 ## My Journey
 - **[EUOS25 challenge, Fluorescence Prediction Track: Winner](https://ochem.eu/static/challenge2025.do){:target="_blank"}** (February 2026)
     - Led structure optimization via quantum chemistry and the design of Sequential Stacking architectures. [In preparation] [[Technical Review]](/posts/2026-02-25-euos25-review) [[Official Result]](https://www.eu-openscreen.eu/resources/eu-openscreen-news/ansicht/eu-openscreen-and-slas-announce-winners-of-the-second-joint-machine-learning-challenge-at-slas-2026.html){:target="_blank"}
 - **The 146th Annual Meeting of the Pharmaceutical Society of Japan:** Presented a poster on structural elucidation of rhabdomyolysis using FAERS and KAN (March 2026).
 
-## Skills & Projects
-- **Machine Learning (Deep Learning / KAN):** Architecture design of KAN, Decision Trees, and CNN via Python. [[Code]](https://github.com/377H-Miru)
-- **CompChem:** Feature extraction via RDKit and structure optimization via quantum chemistry. [[Code]](https://github.com/377H-Miru)
+## Skills & Implementation
+- **Machine Learning (KAN / Deep Learning):** Implementation of custom architectures via Python. [[Code: kan-cli-v2]](https://github.com/377H-Miru/kan_cli_v2)
+- **CompChem:** Feature extraction via RDKit and biophysical property estimation workflows. [[Code: collision-analysis]](https://github.com/377H-Miru/exhaustive_collision_analysis)
 
 <h2 id="sns">SNS</h2>
 <div class="contact-box" markdown="1">
