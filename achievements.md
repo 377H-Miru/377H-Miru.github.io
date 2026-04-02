@@ -6,6 +6,7 @@ title: Achievements
 {% assign data = site.data.achievements %}
 
 <div data-lang-content="ja" markdown="1">
+
 # 研究実績
 
 [← ホームに戻る](/index)
@@ -15,7 +16,8 @@ title: Achievements
 ## 受賞歴
 {% for award in data.awards %}
 - **[{{ award.title_ja }}]({{ award.url }}){:target="_blank"}** ({{ award.date }})
-    - [[公式結果 (LinkedIn)]]({{ award.result_url }}){:target="_blank"}
+    - [[公式結果 (LinkedIn)]]({{ award.result_url }}){:target="_blank"} 
+    {% if award.blog_url %}｜ [[技術解説ブログはこちら]]({{ award.blog_url }}){% endif %}
     - {{ award.description_ja }}
 {% endfor %}
 
@@ -35,9 +37,11 @@ title: Achievements
 {% for edu in data.education %}
 - {{ edu.period_ja }}: {{ edu.institution_ja }}
 {% endfor %}
+
 </div>
 
 <div data-lang-content="en" markdown="1">
+
 # Achievements
 
 [← Back to Home](/index)
@@ -48,6 +52,7 @@ A summary of my research activities and contributions.
 {% for award in data.awards %}
 - **[{{ award.title_en }}]({{ award.url }}){:target="_blank"}** ({{ award.date }})
     - [[Official Results (LinkedIn)]]({{ award.result_url }}){:target="_blank"}
+    {% if award.blog_url %}｜ [[Technical Review Blog]]({{ award.blog_url }}){% endif %}
     - {{ award.description_en }}
 {% endfor %}
 
@@ -67,4 +72,5 @@ A summary of my research activities and contributions.
 {% for edu in data.education %}
 - {{ edu.period_en }}: {{ edu.institution_en }}
 {% endfor %}
+
 </div>
