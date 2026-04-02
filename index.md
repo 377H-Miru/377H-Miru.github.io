@@ -24,7 +24,8 @@ title: Home
 ## 専門能力・実装実績
 - **機械学習 (KAN / Deep Learning):** KANを用いた予測モデルの構築、および連鎖的なスタッキングアーキテクチャの設計。
 - **計算化学 (Cheminformatics):** RDKitを用いた特徴量抽出、および物性推算ワークフローの構築。
-- **ツール開発:** 大規模データ向け ECFP 生成ツールの開発（並列処理による高速化を実装）。 [[Code: ecfp_cli]](https://github.com/377H-Miru/ecfp_cli){:target="_blank"}
+- **ツール開発:** 第146年会 日本薬学会ポスター発表において化合物特徴量抽出に活用した ECFP 生成ツール。 [[Code: ecfp_cli]](https://github.com/377H-Miru/ecfp_cli){:target="_blank"}
+- **ツール開発:** EUOS25 challenge 等の解析ワークフローで活用した Mordred 記述子算出ツール。 [[Code: mordred_descriptor_calculator]](https://github.com/377H-Miru/mordred_descriptor_calculator){:target="_blank"}
 
 <h2 id="sns">SNS</h2>
 <div class="contact-box" markdown="1">
