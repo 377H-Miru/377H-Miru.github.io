@@ -23,7 +23,8 @@ title: Home
 
 ## 専門能力・実装実績
 - **機械学習 (KAN / Deep Learning):** KANを用いた予測モデルの構築、および連鎖的なスタッキングアーキテクチャの設計。
-- **計算化学 (Cheminformatics):** RDKitによる特徴量抽出、MOPAC/xTBを用いた量子化学計算ワークフローの構築。
+- **計算化学 (Cheminformatics):** RDKitを用いた特徴量抽出、および物性推算ワークフローの構築。
+- **ツール開発:** 大規模データ向け ECFP 生成ツールの開発（並列処理による高速化を実装）。 [[Code: ecfp_cli]](https://github.com/377H-Miru/ecfp_cli){:target="_blank"}
 
 <h2 id="sns">SNS</h2>
 <div class="contact-box" markdown="1">
@@ -55,6 +56,7 @@ Affiliation: [Laboratory of Medical Molecule Analysis](https://u-lab.my-pharm.ac
 ## Skills & Implementation
 - **Machine Learning (KAN / Deep Learning):** Construction of KAN-based predictive models and design of chaining architectures.
 - **CompChem:** Feature extraction via RDKit and biophysical property estimation using MOPAC/xTB workflows.
+- **Software Development:** High-performance ECFP generation tool for large-scale datasets using multiprocessing. [[Code: ecfp_cli]](https://github.com/377H-Miru/ecfp_cli){:target="_blank"}
 
 <h2 id="sns">SNS</h2>
 <div class="contact-box" markdown="1">
