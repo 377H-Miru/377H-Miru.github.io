@@ -65,6 +65,11 @@
         body[data-lang="ja"] [data-lang-content="ja"] { display: block; }
         body[data-lang="en"] [data-lang-content="en"] { display: block; }
 
+        .badge { font-size: 0.75em; padding: 2px 8px; border-radius: 10px; border: 1px solid var(--border-color); margin-left: 5px; vertical-align: middle; color: #8b949e; }
+        .tag { font-size: 0.7em; padding: 2px 8px; border-radius: 5px; color: #fff; font-weight: bold; margin-right: 5px; display: inline-block; vertical-align: middle; }
+        .tag-research { background-color: var(--tag-research); }
+        .tag-personal { background-color: var(--tag-personal); }
+
         .contact-box { background: var(--card-bg); padding: 20px; border-radius: 8px; border: 1px solid var(--border-color); margin-top: 20px; text-align: center; }
         
         /* Form Style */
@@ -92,21 +97,22 @@
             <a href="/achievements" class="i18n-link" data-ja="研究実績" data-en="Achievements">研究実績</a>
             <a href="/projects" class="i18n-link" data-ja="プロジェクト" data-en="Projects">プロジェクト</a>
             <a href="/contact" class="i18n-link" data-ja="お問い合わせ" data-en="Contact">お問い合わせ</a>
+            <a href="/#sns" class="i18n-link" data-ja="SNS" data-en="SNS">SNS</a>
         </div>
     </div>
 
     <div class="container">
         {{ content }}
 
-        <!-- Blog Comments (only for posts) -->
+        <!-- Blog Comments -->
         {% if page.path contains 'posts/' %}
         <div id="comments">
             <h3 class="i18n-link" data-ja="コメント" data-en="Comments">コメント</h3>
             <script src="https://giscus.app/client.js"
                     data-repo="377H-Miru/377H-Miru.github.io"
-                    data-repo-id="R_kgDON_Z6NQ"
+                    data-repo-id="R_kgDOR2lX0g"
                     data-category="General"
-                    data-category-id="DIC_kwDON_Z6Nc4Cn_up"
+                    data-category-id="DIC_kwDOR2lX0s4C520V"
                     data-mapping="pathname"
                     data-strict="0"
                     data-reactions-enabled="1"
@@ -132,7 +138,6 @@
             document.getElementById('themeBtn').innerText = currentTheme === 'dark' ? '☀️' : '🌙';
             localStorage.setItem('theme', currentTheme);
             
-            // Update Giscus theme if present
             const giscusIframe = document.querySelector('iframe.giscus-frame');
             if (giscusIframe) {
                 const gTheme = currentTheme === 'dark' ? 'dark' : 'light';
