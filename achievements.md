@@ -9,14 +9,14 @@ title: Achievements
 
 # 研究実績
 
-[← ホームに戻る](/index)
+[← ホームに戻る](/)
 
 これまでに関わってきた主な実績をご紹介します。
 
 ## 受賞歴
 {% for award in data.awards %}
 - **[{{ award.title_ja }}]({{ award.url }}){:target="_blank"}** ({{ award.date }})
-    - 共同研究者: {{ award.authors }}
+    - 共同研究者: {{ award.authors_ja }}
     - [[公式結果 (Official News)]]({{ award.result_url }}){:target="_blank"} 
     {% if award.blog_url %}｜ [[技術解説ブログはこちら]]({{ award.blog_url }}){% endif %}
     - {{ award.description_ja }}
@@ -24,13 +24,13 @@ title: Achievements
 
 ## 学会発表
 {% for pres in data.presentations %}
-- {{ pres.authors }}. "{{ pres.title_ja }}". **{{ pres.event_ja }}**, {{ pres.role_ja }}, {{ pres.date }}.
+- {{ pres.authors_ja }}. "{{ pres.title_ja }}". **{{ pres.event_ja }}**, {{ pres.role_ja }}, {{ pres.date }}.
 {% endfor %}
 
 {% if data.publications.size > 0 %}
 ## 論文
 {% for pub in data.publications %}
-- {{ pub.authors }}. "{{ pub.title_ja }}". *{{ pub.journal_ja }}*, {{ pub.year }}. [{{ pub.doi }}]({{ pub.url }})
+- {{ pub.authors_ja }}. "{{ pub.title_ja }}". *{{ pub.journal_ja }}*, {{ pub.year }}. [{{ pub.doi }}]({{ pub.url }})
 {% endfor %}
 {% endif %}
 
@@ -45,14 +45,14 @@ title: Achievements
 
 # Achievements
 
-[← Back to Home](/index)
+[← Back to Home](/)
 
 A summary of my research activities and contributions.
 
 ## Awards
 {% for award in data.awards %}
 - **[{{ award.title_en }}]({{ award.url }}){:target="_blank"}** ({{ award.date }})
-    - Collaborators: {{ award.authors }}
+    - Collaborators: {{ award.authors_en }}
     - [[Official Results (News)]]({{ award.result_url }}){:target="_blank"}
     {% if award.blog_url %}｜ [[Technical Review Blog]]({{ award.blog_url }}){% endif %}
     - {{ award.description_en }}
@@ -60,13 +60,13 @@ A summary of my research activities and contributions.
 
 ## Presentations
 {% for pres in data.presentations %}
-- {{ pres.authors_en | default: pres.authors }}. "{{ pres.title_en }}". **{{ pres.event_en }}**, {{ pres.role_en }}, {{ pres.date }}.
+- {{ pres.authors_en }}. "{{ pres.title_en }}". **{{ pres.event_en }}**, {{ pres.role_en }}, {{ pres.date }}.
 {% endfor %}
 
 {% if data.publications.size > 0 %}
 ## Publications
 {% for pub in data.publications %}
-- {{ pub.authors }}. "{{ pub.title_en }}". *{{ pub.journal_en }}*, {{ pub.year }}. [{{ pub.doi }}]({{ pub.url }})
+- {{ pub.authors_en }}. "{{ pub.title_en }}". *{{ pub.journal_en }}*, {{ pub.year }}. [{{ pub.doi }}]({{ pub.url }})
 {% endfor %}
 {% endif %}
 
