@@ -18,7 +18,7 @@ title: Home
 
 ## これまでの歩み
 - **[EUOS25 challenge 蛍光予測部門 優勝](https://ochem.eu/static/challenge2025.do){:target="_blank"}**（2026年2月）
-    - 量子化学計算による化合物構造最適化、およびKANを用いた予測アーキテクチャの設計・実装を担当しました。[論文投稿準備中] [[結果はこちら]](https://www.linkedin.com/posts/eu-openscreen_slas2026-euopenscreen-slas2026-ugcPost-7426934129201627137-Mj-h){:target="_blank"}
+    - 量子化学計算による化合物構造最適化、およびKANを用いた予測アーキテクチャの設計・実装を担当しました。[論文投稿準備中] [[結果はこちら]](https://www.eu-openscreen.eu/resources/eu-openscreen-news/ansicht/eu-openscreen-and-slas-announce-winners-of-the-second-joint-machine-learning-challenge-at-slas-2026.html){:target="_blank"}
 - **第146年会 日本薬学会 ポスター発表**（2026年3月）: FAERSとKANを用いた横紋筋融解症の構造的特徴解明について発表しました。
 
 ## スキルと活動実績
