@@ -13,8 +13,8 @@ title: Home
 ---
 
 ## 研究領域
-- **副作用発現メカニズムの探求:** Kolmogorov-Arnold Networks (KAN) の解釈性を活用したToxicophore（毒性発現部位）の同定。標的タンパク質ドッキングシミュレーションとの統合による、分子・受容体レベルでの安全性評価基盤の構築。
-- **RWD解析への展開:** 自発報告データベース（FAERS）での知見をベースとした実臨床データ解析への拡張。
+- **副作用発現メカニズムの探求:** Kolmogorov-Arnold Networks (KAN) の解釈性を活用したToxicophore（毒性発現部位）の同定。標的タンパク質ドッキングシミュレーションの統合による、分子・受容体レベルでの安全性評価基盤の構築。
+- **RWD解析への展開:** 自発報告データベース（FAERS）での知見をベースとした、実臨床データ解析への拡張。
 
 ## これまでの歩み
 - **[EUOS25 challenge 蛍光予測部門 優勝](https://ochem.eu/static/challenge2025.do){:target="_blank"}**（2026年2月）
@@ -22,8 +22,8 @@ title: Home
 - **第146年会 日本薬学会 ポスター発表**（2026年3月）: FAERSとKANを用いた横紋筋融解症の構造的特徴解明について発表。
 
 ## 専門能力・実装実績
-- **機械学習 (KAN / Deep Learning):** Pythonを用いた独自アーキテクチャの実装。 [[Code: kan-cli-v2]](https://github.com/377H-Miru/kan_cli_v2)
-- **計算化学 (Cheminformatics):** RDKitによる特徴量抽出、および物性推算ワークフローの構築。 [[Code: collision-analysis]](https://github.com/377H-Miru/exhaustive_collision_analysis)
+- **機械学習 (KAN / Deep Learning):** KANを用いた予測モデルの構築、およびスタッキングアーキテクチャの設計。
+- **計算化学 (Cheminformatics):** RDKitによる特徴量抽出、MOPAC/xTBを用いた量子化学計算ワークフローの構築。
 
 <h2 id="sns">SNS</h2>
 <div class="contact-box" markdown="1">
@@ -53,8 +53,8 @@ Affiliation: [Laboratory of Medical Molecule Analysis](https://u-lab.my-pharm.ac
 - **The 146th Annual Meeting of the Pharmaceutical Society of Japan:** Presented a poster on structural elucidation of rhabdomyolysis using FAERS and KAN (March 2026).
 
 ## Skills & Implementation
-- **Machine Learning (KAN / Deep Learning):** Implementation of custom architectures via Python. [[Code: kan-cli-v2]](https://github.com/377H-Miru/kan_cli_v2)
-- **CompChem:** Feature extraction via RDKit and biophysical property estimation workflows. [[Code: collision-analysis]](https://github.com/377H-Miru/exhaustive_collision_analysis)
+- **Machine Learning (KAN / Deep Learning):** Construction of KAN-based predictive models and design of stacking architectures.
+- **CompChem:** Feature extraction via RDKit and biophysical property estimation using MOPAC/xTB.
 
 <h2 id="sns">SNS</h2>
 <div class="contact-box" markdown="1">
