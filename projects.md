@@ -17,7 +17,7 @@ title: Projects
 ## EUOS25 challenge 蛍光予測部門
 - **概要:** 10万化合物のライブラリを用いた蛍光特性予測コンテスト。
 - **技術的アプローチ:** 
-    - **Multimodal Strategy:** 6種類のMOPAC HamiltonianとMACE-xTBを用いた精密な量子化学計算、1,800次元超の記述子、およびGINE-Netによるエムベディングを統合。
+    - **Multimodal Strategy:** 6種類のMOPAC HamiltonianとMACE-xTBを用いた精密な量子化学計算、および1,800次元超の記述子を統合。特に$\pi$共役系の品質を評価する Conjugation Features を独自に導入し、蛍光予測に特化した特徴量空間を構築しました。
     - **Sequential Stacking:** 透過率（Transmittance）から蛍光（Fluorescence）への物性的依存関係をモデル化する、連鎖的なスタッキングアーキテクチャを構築。
 - **結果:** 部門優勝（2026年2月）
 - **今後:** 学術誌「SLAS Technology」へ投稿準備中です。[Status: In preparation]
@@ -39,7 +39,7 @@ title: Projects
 ## EUOS25 challenge: Fluorescence Prediction
 - **Summary:** A machine learning competition for predicting optical properties of ~100k compounds.
 - **Technical Approach:**
-    - **Multimodal Strategy:** Integrating high-precision quantum chemistry (MOPAC/MACE-xTB), 1,800+ descriptors, and GINE-Net embeddings.
+    - **Multimodal Strategy:** Integrating high-precision quantum chemistry (MOPAC/MACE-xTB) and 1,800+ descriptors. Specifically, integrated specialized Conjugation Features to evaluate the quality of $\pi$-conjugation systems, constructing a feature space specialized for fluorescence prediction.
     - **Sequential Stacking:** Developed a chaining architecture that models the biophysical dependency from transmittance to fluorescence.
 - **Result:** Winner (February 2026)
 - **Outlook:** Technical details and code to be submitted to "SLAS Technology". [Status: In preparation]
