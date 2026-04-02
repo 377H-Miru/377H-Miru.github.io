@@ -7,10 +7,9 @@ title: Contact
 
 # お問い合わせ (Contact)
 
-[← ホームに戻る](/index)
+[← ホームに戻る](/)
 
-共同研究、発表のご依頼、その他お問い合わせは以下のフォームよりお気軽にご連絡ください。  
-※送信内容は暗号化されて安全に管理されます。
+共同研究、発表のご依頼、その他お問い合わせは以下のフォームよりご連絡ください。
 
 <div class="contact-box">
     <!-- Success/Error Messages -->
@@ -46,13 +45,16 @@ title: Contact
     </form>
 </div>
 
+#### 個人情報の取り扱いについて
+ご入力いただいた個人情報（お名前、メールアドレス）は、お問い合わせに対する回答および必要な情報の提供にのみ利用し、適切に管理いたします。
+
 </div>
 
 <div data-lang-content="en" markdown="1">
 
 # Contact
 
-[← Back to Home](/index)
+[← Back to Home](/)
 
 For research collaborations, speaking invitations, or other inquiries, please use the form below.
 
@@ -89,6 +91,9 @@ For research collaborations, speaking invitations, or other inquiries, please us
         <button type="submit" class="submit-btn" data-fs-submit-btn>Send Message</button>
     </form>
 </div>
+
+#### Privacy Note
+The personal information provided (name, email) will be used solely for responding to your inquiry and will be managed securely.
 
 </div>
 
