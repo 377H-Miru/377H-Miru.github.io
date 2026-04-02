@@ -48,12 +48,12 @@ title: Blog
 
 ## 2026年 2月
 <div class="blog-list">
-    <div class="blog-item" data-category="research">
+    <a href="/posts/2026-02-25-euos25-review" class="blog-item" data-category="research">
         <span class="tag tag-research">研究・技術</span>
         <span class="blog-date">2026-02-25</span>
         <div class="blog-title">EUOS25 challengeを振り返って</div>
-        <p>優勝をいただいたコンテストの技術的な背景について、少し詳しく書く予定です。</p>
-    </div>
+        <p>優勝をいただいたコンテストの技術的な背景（Multimodal Strategy と Sequential Stacking）について解説します。</p>
+    </a>
 </div>
 </div>
 
