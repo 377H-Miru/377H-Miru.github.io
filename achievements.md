@@ -15,7 +15,7 @@ title: Achievements
     - （論文投稿準備中 / In preparation）
 
 ## 学会発表
-- **宮原 渉** ,朝田瑞穂, 植沢 芳広. "FAERSデータベースとKolmogorov-Arnold Networksを用いた横紋筋融解症誘発に関与する医薬品の構造的特徴の解明と予測モデルの構築". **第146年会 日本薬学会**, ポスター発表, 2026年3月27日.
+- **宮原 渉** ,朝田瑞穂, 植沢 芳広. "FAERSデータベースとKolmogorov-Arnold Networks（KAN）を用いた横紋筋融解症誘発医薬品の構造的特徴の解明と予測モデルの構築". **第146年会 日本薬学会**, ポスター発表, 2026年3月27日.
 
 ## 学歴・略歴
 - 2022年4月 - 現在: 明治薬科大学 薬学部薬学科 在学
@@ -33,7 +33,7 @@ title: Achievements
     - (Paper in preparation)
 
 ## Presentations
-- **Wataru Miyahara** ,Mizuho Asada, Yoshihiro Uesawa. "Elucidation of structural features and development of predictive models for rhabdomyolysis using FAERS and Kolmogorov-Arnold Networks." **The 146th Annual Meeting of the Pharmaceutical Society of Japan**, Poster, March 2026.
+- **Wataru Miyahara** ,Mizuho Asada, Yoshihiro Uesawa. "Elucidation of Structural Features and Development of a PredictionModel for Rhabdomyolysis-Inducing Drugs Using the FAERS Databaseand Kolmogorov-Arnold Networks (KAN)." **The 146th Annual Meeting of the Pharmaceutical Society of Japan**, Poster, March 2026.
 
 ## Education
 - April 2022 - Present: Meiji Pharmaceutical University, Faculty of Pharmacy.
