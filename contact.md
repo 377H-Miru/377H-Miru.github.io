@@ -13,36 +13,26 @@ title: Contact
 ※送信内容は暗号化されて安全に管理されます。
 
 <div class="contact-box">
-    <!-- Success/Error Messages -->
-    <div data-fs-success style="display:none; color: #2da44e; margin-bottom: 20px; font-weight: bold;">
-        メッセージをお送りいただきありがとうございます。内容を確認次第、ご連絡いたします。
-    </div>
-    <div data-fs-error style="display:none; color: #cf222e; margin-bottom: 20px; font-weight: bold;">
-        送信中にエラーが発生しました。入力内容を確認して再度お試しください。
-    </div>
-
-    <form id="contact-form">
+    <form action="https://formspree.io/f/mvzvbodq" method="POST">
         <div class="form-group">
             <label>お名前</label>
-            <input type="text" name="name" placeholder="山田 太郎" data-fs-field required>
-            <span data-fs-error="name" style="color: #cf222e; font-size: 0.85em;"></span>
+            <input type="text" name="name" placeholder="山田 太郎" required>
         </div>
         <div class="form-group">
             <label>メールアドレス</label>
-            <input type="email" name="email" placeholder="your@email.com" data-fs-field required>
-            <span data-fs-error="email" style="color: #cf222e; font-size: 0.85em;"></span>
+            <input type="email" name="email" placeholder="your@email.com" required>
         </div>
         <div class="form-group">
             <label>件名</label>
-            <input type="text" name="subject" placeholder="共同研究について" data-fs-field required>
-            <span data-fs-error="subject" style="color: #cf222e; font-size: 0.85em;"></span>
+            <input type="text" name="subject" placeholder="共同研究について" required>
         </div>
         <div class="form-group">
             <label>メッセージ内容</label>
-            <textarea name="message" rows="5" placeholder="こちらに詳細をご記入ください" data-fs-field required></textarea>
-            <span data-fs-error="message" style="color: #cf222e; font-size: 0.85em;"></span>
+            <textarea name="message" rows="5" placeholder="こちらに詳細をご記入ください" required></textarea>
         </div>
-        <button type="submit" class="submit-btn" data-fs-submit-btn>送信する</button>
+        <!-- 成功時のリダイレクト先 -->
+        <input type="hidden" name="_next" value="https://377h-miru.github.io/contact">
+        <button type="submit" class="submit-btn">送信する</button>
     </form>
 </div>
 
@@ -57,45 +47,26 @@ title: Contact
 For research collaborations, speaking invitations, or other inquiries, please use the form below.
 
 <div class="contact-box">
-    <!-- Success/Error Messages -->
-    <div data-fs-success style="display:none; color: #2da44e; margin-bottom: 20px; font-weight: bold;">
-        Thank you for your message. I will get back to you as soon as possible.
-    </div>
-    <div data-fs-error style="display:none; color: #cf222e; margin-bottom: 20px; font-weight: bold;">
-        An error occurred while sending. Please check your input and try again.
-    </div>
-
-    <form id="contact-form-en">
+    <form action="https://formspree.io/f/mvzvbodq" method="POST">
         <div class="form-group">
             <label>Name</label>
-            <input type="text" name="name" placeholder="John Doe" data-fs-field required>
-            <span data-fs-error="name" style="color: #cf222e; font-size: 0.85em;"></span>
+            <input type="text" name="name" placeholder="John Doe" required>
         </div>
         <div class="form-group">
             <label>Email Address</label>
-            <input type="email" name="email" placeholder="your@email.com" data-fs-field required>
-            <span data-fs-error="email" style="color: #cf222e; font-size: 0.85em;"></span>
+            <input type="email" name="email" placeholder="your@email.com" required>
         </div>
         <div class="form-group">
             <label>Subject</label>
-            <input type="text" name="subject" placeholder="Collaboration Inquiry" data-fs-field required>
-            <span data-fs-error="subject" style="color: #cf222e; font-size: 0.85em;"></span>
+            <input type="text" name="subject" placeholder="Collaboration Inquiry" required>
         </div>
         <div class="form-group">
             <label>Message</label>
-            <textarea name="message" rows="5" placeholder="Enter your message here" data-fs-field required></textarea>
-            <span data-fs-error="message" style="color: #cf222e; font-size: 0.85em;"></span>
+            <textarea name="message" rows="5" placeholder="Enter your message here" required></textarea>
         </div>
-        <button type="submit" class="submit-btn" data-fs-submit-btn>Send Message</button>
+        <input type="hidden" name="_next" value="https://377h-miru.github.io/contact">
+        <button type="submit" class="submit-btn">Send Message</button>
     </form>
 </div>
 
 </div>
-
-<!-- Formspree Ajax Integration -->
-<script>
-  window.formspree = window.formspree || function () { (formspree.q = formspree.q || []).push(arguments); };
-  formspree('initForm', { formElement: '#contact-form', formId: 'mvzvbodq' });
-  formspree('initForm', { formElement: '#contact-form-en', formId: 'mvzvbodq' });
-</script>
-<script src="https://unpkg.com/@formspree/ajax@1" defer></script>
