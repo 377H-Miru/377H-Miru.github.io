@@ -34,7 +34,7 @@ permalink: /
         </ul>
     </li>
     <li>
-        <b>第146年会 日本薬学会 ポスター発表</b>（2026年3月）
+        <b>第146年会 日本薬学会 ポスター発表</b> （2026年3月）
         <ul>
             <li>FAERSとKANを用いた横紋筋融解症の構造的特徴解明について発表しました。</li>
         </ul>
@@ -48,7 +48,7 @@ permalink: /
 <ul>
     <li><b>機械学習 (KAN / GBDT / GNN):</b> 予測アーキテクチャの設計・実装。</li>
     <li><b>計算化学 (Cheminformatics):</b> RDKitを用いた特徴量抽出、量子化学計算(MOPAC/xTB)ワークフローの構築。</li>
-    <li><b>ツール開発:</b> 学会発表やコンテスト解析に活用した <a href="/tools">ecfp_cli</a> や <a href="/tools">mordred_descriptor_calculator</a> の開発。</li>
+    <li><b>ツール開発:</b> 学会発表やコンテスト解析に活用した <a href="/tools">ECFP生成ツール</a> や <a href="/tools">記述子算出ツール</a> の開発。</li>
 </ul>
 <p><a href="/projects/">→ 各プロジェクトの詳細はこちら</a></p>
 
