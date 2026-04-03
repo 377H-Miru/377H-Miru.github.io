@@ -117,6 +117,15 @@
     </div>
 
     <div class="container">
+        {% if page.path contains 'posts/' %}
+            <p style="margin-bottom: 30px;">
+                {% if page.lang == 'en' %}
+                <a href="/en/blog/">← Back to Blog List</a>
+                {% else %}
+                <a href="/blog/">← ブログ一覧に戻る</a>
+                {% endif %}
+            </p>
+        {% endif %}
         {{ content }}
 
         <!-- Blog Comments -->
