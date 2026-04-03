@@ -12,7 +12,7 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ page.title }} | 宮原 渉 (Wataru Miyahara)</title>
+    <title>{{ page.title }} | {% if page.lang == 'en' %}Wataru Miyahara{% else %}宮原 渉 (Wataru Miyahara){% endif %}</title>
     
     <!-- SEO & OGP -->
     <meta name="description" content="{{ page.description | default: '明治薬科大学 医療分子解析学研究室 宮原渉のポートフォリオサイト。機械学習を用いた有害事象予測や構造インフォマティクスの研究。' }}">
@@ -98,9 +98,9 @@
 
     <div id="controls">
         {% if page.lang == 'en' %}
-        <a href="{{ page.url | replace: '/en/', '/' }}" class="control-btn" style="text-decoration: none;">JP</a>
+        <a href="{{ page.url | replace: '/en/', '/' | replace: '//', '/' }}" class="control-btn" style="text-decoration: none;">JP</a>
         {% else %}
-        <a href="/en{{ page.url }}" class="control-btn" style="text-decoration: none;">EN</a>
+        <a href="/en{{ page.url | replace: '//', '/' }}" class="control-btn" style="text-decoration: none;">EN</a>
         {% endif %}
         <button class="control-btn" onclick="toggleTheme()" id="themeBtn">🌙</button>
     </div>
@@ -110,19 +110,19 @@
         <div class="menu-content" id="menuContent">
             {% if page.lang == 'en' %}
             <a href="/en/">Home</a>
-            <a href="/en/blog">Blog</a>
-            <a href="/en/achievements">Achievements</a>
-            <a href="/en/projects">Projects</a>
-            <a href="/en/tools">Tools</a>
-            <a href="/en/contact">Contact</a>
+            <a href="/en/blog/">Blog</a>
+            <a href="/en/achievements/">Achievements</a>
+            <a href="/en/projects/">Projects</a>
+            <a href="/en/tools/">Tools</a>
+            <a href="/en/contact/">Contact</a>
             <a href="/en/#sns">Contact & Profiles</a>
             {% else %}
             <a href="/">ホーム</a>
-            <a href="/blog">ブログ</a>
-            <a href="/achievements">研究実績</a>
-            <a href="/projects">プロジェクト</a>
-            <a href="/tools">ツール</a>
-            <a href="/contact">お問い合わせ</a>
+            <a href="/blog/">ブログ</a>
+            <a href="/achievements/">研究実績</a>
+            <a href="/projects/">プロジェクト</a>
+            <a href="/tools/">ツール</a>
+            <a href="/contact/">お問い合わせ</a>
             <a href="/#sns">Contact & Profiles</a>
             {% endif %}
         </div>

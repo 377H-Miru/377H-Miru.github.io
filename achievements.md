@@ -17,8 +17,8 @@ permalink: /achievements/
 {% for award in data.awards %}
 - **[{{ award.title_ja }}]({{ award.url }}){:target="_blank"}** ({{ award.date }})
     - 共同研究者: {{ award.authors_ja }}
-    - [[公式結果 (Official News)]]({{ award.result_url }}){:target="_blank"} 
-    {% if award.blog_url %}｜ [[技術解説ブログはこちら]]({{ award.blog_url }}){% endif %}
+    - [公式結果 (Official News)]({{ award.result_url }}){:target="_blank"} 
+    {% if award.blog_url %}｜ [技術解説ブログはこちら]({{ award.blog_url }}){% endif %}
     - {{ award.description_ja }}
     - 使用ツール: **[mordred_descriptor_calculator](/tools)**
 {% endfor %}

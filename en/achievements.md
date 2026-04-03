@@ -17,8 +17,8 @@ A summary of my research activities and contributions.
 {% for award in data.awards %}
 - **[{{ award.title_en }}]({{ award.url }}){:target="_blank"}** ({{ award.date }})
     - Collaborators: {{ award.authors_en }}
-    - [[Official Results (News)]]({{ award.result_url }}){:target="_blank"}
-    {% if award.blog_url %}｜ [[Technical Review Blog]]({{ award.blog_url }}){% endif %}
+    - [Official Results (News)]({{ award.result_url }}){:target="_blank"}
+    {% if award.blog_url %}｜ [Technical Review Blog]({{ award.blog_url }}){% endif %}
     - {{ award.description_en }}
     - Tools used: **[mordred_descriptor_calculator](/en/tools)**
 {% endfor %}
