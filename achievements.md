@@ -1,11 +1,11 @@
 ---
 layout: default
 title: Achievements
+lang: ja
+permalink: /achievements/
 ---
 
 {% assign data = site.data.achievements %}
-
-<div data-lang-content="ja" markdown="1">
 
 # 研究実績
 
@@ -25,6 +25,7 @@ title: Achievements
 ## 学会発表
 {% for pres in data.presentations %}
 - {{ pres.authors_ja }}. "{{ pres.title_ja }}". **{{ pres.event_ja }}**, {{ pres.role_ja }}, {{ pres.date }}.
+    - [[要旨PDF(準備中)](#)] ｜ [[ポスターPDF(準備中)](#)]
 {% endfor %}
 
 {% if data.publications.size > 0 %}
@@ -34,45 +35,14 @@ title: Achievements
 {% endfor %}
 {% endif %}
 
+## ソフトウェア公開
+- **[ecfp_cli](https://github.com/377H-Miru/ecfp_cli){:target="_blank"}** (v0.1.0)
+    - ECFPフィンガープリント高速生成ツール
+- **[mordred_descriptor_calculator](https://github.com/377H-Miru/mordred_descriptor_calculator){:target="_blank"}** (v0.1.0)
+    - $\pi$共役系記述子対応・記述子算出ツール
+
 ## 学歴・略歴
 {% for edu in data.education %}
 - {{ edu.period_ja }}: {{ edu.institution_ja }}
 {% endfor %}
-
-</div>
-
-<div data-lang-content="en" markdown="1">
-
-# Achievements
-
-[← Back to Home](/)
-
-A summary of my research activities and contributions.
-
-## Awards
-{% for award in data.awards %}
-- **[{{ award.title_en }}]({{ award.url }}){:target="_blank"}** ({{ award.date }})
-    - Collaborators: {{ award.authors_en }}
-    - [[Official Results (News)]]({{ award.result_url }}){:target="_blank"}
-    {% if award.blog_url %}｜ [[Technical Review Blog]]({{ award.blog_url }}){% endif %}
-    - {{ award.description_en }}
-{% endfor %}
-
-## Presentations
-{% for pres in data.presentations %}
-- {{ pres.authors_en }}. "{{ pres.title_en }}". **{{ pres.event_en }}**, {{ pres.role_en }}, {{ pres.date }}.
-{% endfor %}
-
-{% if data.publications.size > 0 %}
-## Publications
-{% for pub in data.publications %}
-- {{ pub.authors_en }}. "{{ pub.title_en }}". *{{ pub.journal_en }}*, {{ pub.year }}. [{{ pub.doi }}]({{ pub.url }})
-{% endfor %}
-{% endif %}
-
-## Education
-{% for edu in data.education %}
-- {{ edu.period_en }}: {{ edu.institution_en }}
-{% endfor %}
-
-</div>
+- [[履歴書/CV PDF(準備中)](#)]
