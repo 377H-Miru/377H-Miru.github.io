@@ -47,7 +47,7 @@ permalink: /contact/
 
 #### ご案内
 - **返信の目安:** 通常、3営業日以内にご返信いたします。
-- **お急ぎの場合:** 万が一返信がない場合や、お急ぎのご用件は [LinkedIn の DM](https://www.linkedin.com/in/wataru-miyahara-6947253ab/){:target="_blank"} まで直接ご連絡ください。
+- **お急ぎの場合:** 万が一返信がない場合や、お急ぎのご用件は [LinkedIn の DM](https://www.linkedin.com/in/wataru-miyahara-6947253ab/) {:target="_blank"} まで直接ご連絡ください。
 - **個人情報の取り扱いについて:** ご入力いただいた個人情報は、お問い合わせに対する回答および必要な情報の提供にのみ利用し、適切に管理いたします。
 
 <!-- Formspree Ajax Integration -->

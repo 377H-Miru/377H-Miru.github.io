@@ -47,7 +47,7 @@ For research collaborations, speaking invitations, or other inquiries, please us
 
 #### Important Notes
 - **Response Time:** I typically respond within 3 business days.
-- **Urgent Inquiries:** If you do not hear back, or for urgent matters, please feel free to reach out directly via [LinkedIn DM](https://www.linkedin.com/in/wataru-miyahara-6947253ab/){:target="_blank"}.
+- **Urgent Inquiries:** If you do not hear back, or for urgent matters, please feel free to reach out directly via [LinkedIn DM](https://www.linkedin.com/in/wataru-miyahara-6947253ab/) {:target="_blank"}.
 - **Privacy Policy:** The personal information provided will be used solely for responding to your inquiry and will be managed securely.
 
 <!-- Formspree Ajax Integration -->

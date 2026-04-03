@@ -13,7 +13,7 @@ permalink: /tools/
 
 ---
 
-## [ecfp_cli](https://github.com/377H-Miru/ecfp_cli){:target="_blank"}
+## [ecfp_cli](https://github.com/377H-Miru/ecfp_cli) {:target="_blank"}
 **SMILESからECFPフィンガープリントを高速・堅牢に生成**
 
 - **主な機能**: 
@@ -21,9 +21,9 @@ permalink: /tools/
     - 不正なSMILESの自動検知と詳細なエラーログ出力。
     - 脱塩処理（Salt removal）の標準搭載。
 - **活用実績**: 日本薬学会第146年会でのポスター発表におけるデータ前処理に使用。
-- **リンク**: [[GitHub Repository]](https://github.com/377H-Miru/ecfp_cli){:target="_blank"} ｜ [[Latest Release (v0.1.1)]](https://github.com/377H-Miru/ecfp_cli/releases/latest){:target="_blank"}
+- **リンク**: [[GitHub Repository]](https://github.com/377H-Miru/ecfp_cli) {:target="_blank"} ｜ [[Latest Release (v0.1.1)]](https://github.com/377H-Miru/ecfp_cli/releases/latest) {:target="_blank"}
 
-## [mordred_descriptor_calculator](https://github.com/377H-Miru/mordred_descriptor_calculator){:target="_blank"}
+## [mordred_descriptor_calculator](https://github.com/377H-Miru/mordred_descriptor_calculator) {:target="_blank"}
 **$\pi$共役系対応・再現性を重視した記述子算出ツール**
 
 - **主な機能**: 
@@ -31,7 +31,7 @@ permalink: /tools/
     - $\pi$共役系の品質（Conjugation Features）を独自アルゴリズムで算出。
     - Mordred記述子（1,800次元超）の一括計算に対応。
 - **活用実績**: EUOS25 challenge 蛍光予測部門（優勝）での特徴量抽出に使用。
-- **リンク**: [[GitHub Repository]](https://github.com/377H-Miru/mordred_descriptor_calculator){:target="_blank"} ｜ [[Latest Release (v0.1.1)]](https://github.com/377H-Miru/mordred_descriptor_calculator/releases/latest){:target="_blank"}
+- **リンク**: [[GitHub Repository]](https://github.com/377H-Miru/mordred_descriptor_calculator) {:target="_blank"} ｜ [[Latest Release (v0.1.1)]](https://github.com/377H-Miru/mordred_descriptor_calculator/releases/latest) {:target="_blank"}
 
 ---
 

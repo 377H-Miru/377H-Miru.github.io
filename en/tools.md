@@ -13,7 +13,7 @@ Open-source software and tools developed for cheminformatics and data analysis d
 
 ---
 
-## [ecfp_cli](https://github.com/377H-Miru/ecfp_cli){:target="_blank"}
+## [ecfp_cli](https://github.com/377H-Miru/ecfp_cli) {:target="_blank"}
 **High-performance & Robust ECFP Fingerprint Generator**
 
 - **Key Features**: 
@@ -21,9 +21,9 @@ Open-source software and tools developed for cheminformatics and data analysis d
     - Automatic detection of invalid SMILES with detailed error logging.
     - Built-in molecular desalting (standardization) options.
 - **Track Record**: Used for data preprocessing in the 146th Annual Meeting of the Pharmaceutical Society of Japan.
-- **Links**: [[GitHub Repository]](https://github.com/377H-Miru/ecfp_cli){:target="_blank"} ｜ [[Latest Release (v0.1.1)]](https://github.com/377H-Miru/ecfp_cli/releases/latest){:target="_blank"}
+- **Links**: [[GitHub Repository]](https://github.com/377H-Miru/ecfp_cli) {:target="_blank"} ｜ [[Latest Release (v0.1.1)]](https://github.com/377H-Miru/ecfp_cli/releases/latest) {:target="_blank"}
 
-## [mordred_descriptor_calculator](https://github.com/377H-Miru/mordred_descriptor_calculator){:target="_blank"}
+## [mordred_descriptor_calculator](https://github.com/377H-Miru/mordred_descriptor_calculator) {:target="_blank"}
 **Reproducible Descriptor Calculator with $\pi$-Conjugation Support**
 
 - **Key Features**: 
@@ -31,7 +31,7 @@ Open-source software and tools developed for cheminformatics and data analysis d
     - Custom algorithms for calculating $\pi$-conjugation features.
     - Supports batch calculation of over 1,800 Mordred descriptors.
 - **Track Record**: Used for feature extraction in the EUOS25 challenge (Winner, Fluorescence track).
-- **Links**: [[GitHub Repository]](https://github.com/377H-Miru/mordred_descriptor_calculator){:target="_blank"} ｜ [[Latest Release (v0.1.1)]](https://github.com/377H-Miru/mordred_descriptor_calculator/releases/latest){:target="_blank"}
+- **Links**: [[GitHub Repository]](https://github.com/377H-Miru/mordred_descriptor_calculator) {:target="_blank"} ｜ [[Latest Release (v0.1.1)]](https://github.com/377H-Miru/mordred_descriptor_calculator/releases/latest) {:target="_blank"}
 
 ---
 
