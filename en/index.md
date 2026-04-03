@@ -5,37 +5,61 @@ lang: en
 permalink: /en/
 ---
 
-# Wataru Miyahara
-**Computational toxicology researcher focused on interpretable ML and cheminformatics.**
+<h1>Wataru Miyahara</h1>
+<p><b>Computational toxicology researcher focused on interpretable ML and cheminformatics.</b></p>
 
-Meiji Pharmaceutical University, Faculty of Pharmacy (Class of 2028)  
-Research Affiliation: [Laboratory of Medical Molecule Analysis (Members)](https://u-lab.my-pharm.ac.jp/~mminfo/member/) {:target="_blank"}
+<p>Meiji Pharmaceutical University, Faculty of Pharmacy (Class of 2028)<br>
+Research Affiliation: <a href="https://u-lab.my-pharm.ac.jp/~mminfo/member/" target="_blank">Laboratory of Medical Molecule Analysis (Members)</a></p>
 
----
+<hr>
 
-## Research Focus
-- **Investigating Adverse Event Mechanisms:** 
-  Identifying Toxicophores using KAN interpretability. My work focuses on addressing the **inherent trade-offs of KAN**, such as computational bottlenecks and susceptibility to overfitting in high-dimensional settings, through architectural optimization to build a robust safety assessment framework.
-- **Expansion to RWD Analysis:** 
-  Validating the application of FAERS-based findings to clinical data analysis using Japanese claims data.
+<h2>Research Focus</h2>
+<ul>
+    <li><b>Investigating Adverse Event Mechanisms:</b> 
+        Identifying Toxicophores using KAN interpretability. My work focuses on addressing the <b>inherent trade-offs of KAN</b>, such as computational bottlenecks and susceptibility to overfitting in high-dimensional settings, through architectural optimization to build a robust safety assessment framework.
+    </li>
+    <li><b>Expansion to RWD Analysis:</b> 
+        Validating the application of FAERS-based findings to clinical data analysis using Japanese claims data.
+    </li>
+</ul>
 
-## My Journey
-- **[EUOS25 challenge, Optical Property Prediction: Winner](https://ochem.eu/static/challenge2025.do)** {:target="_blank"} (February 2026)
-    - Contribution: Led the integration of multimodal features and design of Sequential Stacking architectures. [Status: In preparation] [[Technical Review]](/posts/2026-02-25-euos25-review) [[Official Results]](https://www.eu-openscreen.eu/resources/eu-openscreen-news/ansicht/eu-openscreen-and-slas-announce-winners-of-the-second-joint-machine-learning-challenge-at-slas-2026.html) {:target="_blank"}
-- **The 146th Annual Meeting of the Pharmaceutical Society of Japan (March 2026):**
-    - Poster presentation on structural elucidation of rhabdomyolysis using FAERS and KAN.
+<hr>
 
-## Skills & Experience
-- **Machine Learning (KAN / GBDT / GNN):** Design and implementation of predictive architectures, with a focus on controlling KAN's scalability limitations.
-- **CompChem:** Feature extraction via RDKit and biophysical property estimation using MOPAC/xTB workflows.
-- **Software Development:** Developer of [ecfp_cli](https://github.com/377H-Miru/ecfp_cli) {:target="_blank"} and [mordred_descriptor_calculator](https://github.com/377H-Miru/mordred_descriptor_calculator) {:target="_blank"}, utilized in academic presentations and challenges.
+<h2>My Journey</h2>
+<ul>
+    <li>
+        <b><a href="https://ochem.eu/static/challenge2025.do" target="_blank">EUOS25 challenge, Optical Property Prediction: Winner</a></b> (February 2026)
+        <ul>
+            <li>Contribution: Led the integration of multimodal features and design of Sequential Stacking architectures. [Status: In preparation] ｜ <a href="/posts/2026-02-25-euos25-review">[Technical Review]</a> ｜ <a href="https://www.eu-openscreen.eu/resources/eu-openscreen-news/ansicht/eu-openscreen-and-slas-announce-winners-of-the-second-joint-machine-learning-challenge-at-slas-2026.html" target="_blank">[Official Results]</a></li>
+        </ul>
+    </li>
+    <li>
+        <b>The 146th Annual Meeting of the Pharmaceutical Society of Japan (March 2026):</b>
+        <ul>
+            <li>Poster presentation on structural elucidation of rhabdomyolysis using FAERS and KAN.</li>
+        </ul>
+    </li>
+</ul>
+<p><a href="/en/achievements/">→ View all achievements</a></p>
+
+<hr>
+
+<h2>Skills & Experience</h2>
+<ul>
+    <li><b>Machine Learning (KAN / GBDT / GNN):</b> Design and implementation of predictive architectures, with a focus on controlling KAN's scalability limitations.</li>
+    <li><b>CompChem:</b> Feature extraction via RDKit and biophysical property estimation using MOPAC/xTB workflows.</li>
+    <li><b>Software Development:</b> Developer of <a href="/en/tools">ecfp_cli</a> and <a href="/en/tools">mordred_descriptor_calculator</a>, utilized in academic presentations and challenges.</li>
+</ul>
+<p><a href="/en/projects/">→ View project details</a></p>
+
+<hr>
 
 <h2 id="sns">Contact & Profiles</h2>
-
-<div class="contact-box" markdown="1">
-
-For professional inquiries, please refer to the email address on my business card or use the [**Contact Form**](/en/contact). You can also reach me via LinkedIn DM.
-
-[LinkedIn](https://www.linkedin.com/in/wataru-miyahara-6947253ab/) {:target="_blank"} ｜ [GitHub](https://github.com/377H-Miru) {:target="_blank"} ｜ [X (Twitter)](https://x.com/WataruM327906) {:target="_blank"}
-
+<div class="contact-box">
+    <p>For professional inquiries, please refer to the email address on my business card or use the <a href="/en/contact"><b>Contact Form</b></a>. You can also reach me via LinkedIn DM.</p>
+    <p>
+        <a href="https://www.linkedin.com/in/wataru-miyahara-6947253ab/" target="_blank">LinkedIn</a> ｜ 
+        <a href="https://github.com/377H-Miru" target="_blank">GitHub</a> ｜ 
+        <a href="https://x.com/WataruM327906" target="_blank">X (Twitter)</a>
+    </p>
 </div>

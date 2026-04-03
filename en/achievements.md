@@ -9,35 +9,72 @@ permalink: /en/achievements/
 
 # Achievements
 
-[← Back to Home](/en/)
+<p><a href="/en/">[← Back to Home]</a></p>
 
-A summary of my research activities and contributions.
+<p>A summary of my research activities and contributions.</p>
 
-## Awards
+<hr>
+
+<h2>Awards</h2>
+<ul>
 {% for award in data.awards %}
-- **[{{ award.title_en }}]({{ award.url }}) {:target="_blank"}** ({{ award.date }})
-    - Collaborators: {{ award.authors_en }}
-    - [Official Results (News)]({{ award.result_url }}) {:target="_blank"}
-    {% if award.blog_url %}｜ [Technical Review Blog]({{ award.blog_url }}){% endif %}
-    - {{ award.description_en }}
-    - Tools used: **[mordred_descriptor_calculator](/en/tools)**
+    <li>
+        <b><a href="{{ award.url }}" target="_blank">{{ award.title_en }}</a></b> ({{ award.date }})
+        <ul>
+            <li>Collaborators: {{ award.authors_en }}</li>
+            <li><a href="{{ award.result_url }}" target="_blank">[Official Results (News)]</a>
+            {% if award.blog_url %}｜ <a href="{{ award.blog_url }}">[Technical Review Blog]</a>{% endif %}</li>
+            <li>{{ award.description_en }}</li>
+            <li>Tools used: <a href="/en/tools">mordred_descriptor_calculator</a></li>
+        </ul>
+    </li>
 {% endfor %}
+</ul>
 
-## Presentations
+<hr>
+
+<h2>Presentations</h2>
+<ul>
 {% for pres in data.presentations %}
-- {{ pres.authors_en }}. "{{ pres.title_en }}". **{{ pres.event_en }}**, {{ pres.role_en }}, {{ pres.date }}.
-    - Tools used: **[ecfp_cli](/en/tools)**
+    <li>
+        {{ pres.authors_en }}. "{{ pres.title_en }}". <b>{{ pres.event_en }}</b>, {{ pres.role_en }}, {{ pres.date }}.
+        <ul>
+            <li>Tools used: <a href="/en/tools">ecfp_cli</a></li>
+        </ul>
+    </li>
 {% endfor %}
+</ul>
 
-## Software & Tools
-[For detailed specifications, see the **Software & Tools page**.](/en/tools)
+<hr>
 
-- **[ecfp_cli](https://github.com/377H-Miru/ecfp_cli) {:target="_blank"}** (v0.1.1)
-    - High-speed ECFP fingerprint generator. Used for data preprocessing in PSJ 146th annual meeting.
-- **[mordred_descriptor_calculator](https://github.com/377H-Miru/mordred_descriptor_calculator) {:target="_blank"}** (v0.1.1)
-    - Descriptor calculator with $\pi$-conjugated system support. Used for feature extraction in EUOS25 challenge.
+{% if data.publications.size > 0 %}
+<h2>Publications</h2>
+<ul>
+{% for pub in data.publications %}
+    <li>{{ pub.authors_en }}. "{{ pub.title_en }}". <i>{{ pub.journal_en }}</i>, {{ pub.year }}. <a href="{{ pub.url }}" target="_blank">[{{ pub.doi }}]</a></li>
+{% endfor %}
+</ul>
+<hr>
+{% endif %}
 
-## Education
+<h2>Software & Tools</h2>
+<p><a href="/en/tools">For detailed specifications, see the <b>Software & Tools page</b>.</a></p>
+<ul>
+    <li>
+        <b><a href="https://github.com/377H-Miru/ecfp_cli" target="_blank">ecfp_cli</a></b> (v0.1.1)
+        <br>High-speed ECFP fingerprint generator. Used for data preprocessing in PSJ 146th annual meeting.
+    </li>
+    <li>
+        <b><a href="https://github.com/377H-Miru/mordred_descriptor_calculator" target="_blank">mordred_descriptor_calculator</a></b> (v0.1.1)
+        <br>Descriptor calculator with π-conjugated system support. Used for feature extraction in EUOS25 challenge.
+    </li>
+</ul>
+
+<hr>
+
+<h2>Education</h2>
+<ul>
 {% for edu in data.education %}
-- {{ edu.period_en }}: {{ edu.institution_en }}
+    <li>{{ edu.period_en }}: {{ edu.institution_en }}</li>
 {% endfor %}
+</ul>
