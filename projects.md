@@ -9,18 +9,31 @@ permalink: /projects/
 
 [← ホームに戻る](/)
 
-## Kolmogorov-Arnold Networks (KAN) による有害事象解析
-- **概要:** 最新のニューラルネットワークアーキテクチャであるKANを用い、有害事象誘発に寄与する化学構造の解釈性を高める研究に取り組んでいます。
-- **技術的課題へのアプローチ:** 
-  KANは高い関数近似能力を持つ一方で、多次元入力（ECFP等）に対する計算コストの急激な増大や、過学習への脆弱性が公知の課題として存在します。本プロジェクトでは、特定の正則化手法やアーキテクチャの工夫を導入し、**「解釈性とスケーラビリティのトレードオフ」**をどのように克服できるかという観点から検証を進めています。
-- **取り組み:** 第146年会 日本薬学会にて発表、および論文投稿に向けた準備を進めています。[Status: In preparation]
-- **使用ツール:** [ecfp_cli](https://github.com/377H-Miru/ecfp_cli) {:target="_blank"} ｜ [技術解説ブログ](/posts/2026-04-02-kan-research-overview)
+<h2 id="kan">Kolmogorov-Arnold Networks (KAN) による有害事象解析</h2>
+<ul>
+    <li><b>概要:</b> 最新のニューラルネットワークアーキテクチャであるKANを用い、有害事象誘発に寄与する化学構造の解釈性を高める研究に取り組んでいます。</li>
+    <li><b>技術的課題へのアプローチ:</b> 
+        KANは高い関数近似能力を持つ一方で、多次元入力（ECFP等）に対する計算コストの急激な増大や、過学習への脆弱性が公知の課題として存在します。本プロジェクトでは、特定の正則化手法やアーキテクチャの工夫を導入し、<b>「解釈性とスケーラビリティのトレードオフ」</b>をどのように克服できるかという観点から検証を進めています。
+    </li>
+    <li><b>取り組み:</b> 第146年会 日本薬学会にて発表、および論文投稿に向けた準備を進めています。[Status: In preparation]</li>
+    <li><b>リソース:</b> <a href="https://github.com/377H-Miru/ecfp_cli" target="_blank">ecfp_cli</a> ｜ <a href="/posts/2026-04-02-kan-research-overview">技術解説ブログ</a></li>
+</ul>
 
-## EUOS25 challenge 光学特性予測部門
-- **概要:** 約10万化合物のライブラリを用いた光学特性予測コンテスト。私たちは蛍光予測部門で優勝しました。
-- **技術的アプローチ:** 
-    - **Multimodal Strategy:** 外部計算済みの量子化学計算結果（MACE-xTB等）および1,800次元超の記述子を統合。特に$\pi$共役系の品質を評価する Conjugation Features を独自に導入し、蛍光予測に特化した特徴量空間を構築しました。
-    - **Sequential Stacking:** 透過率から蛍光への物性的依存関係をモデル化する、連鎖的なスタッキングアーキテクチャを構築。
-- **結果:** 蛍光予測部門 優勝（2026年2月）
-- **今後:** 学術誌「SLAS Technology」へ投稿準備中です。[Status: In preparation]
-- **使用ツール:** [mordred_descriptor_calculator](https://github.com/377H-Miru/mordred_descriptor_calculator) {:target="_blank"} ｜ [公式ニュース](https://www.eu-openscreen.eu/resources/eu-openscreen-news/ansicht/eu-openscreen-and-slas-announce-winners-of-the-second-joint-machine-learning-challenge-at-slas-2026.html) {:target="_blank"} ｜ [コンテスト概要](https://ochem.eu/static/challenge2025.do) {:target="_blank"} ｜ [技術解説ブログ](/posts/2026-02-25-euos25-review)
+<h2 id="euos">EUOS25 challenge 光学特性予測部門</h2>
+<ul>
+    <li><b>概要:</b> 約10万化合物のライブラリを用いた光学特性予測コンテスト。私たちは蛍光予測部門で優勝しました。</li>
+    <li><b>技術的アプローチ:</b>
+        <ul>
+            <li><b>Multimodal Strategy:</b> 外部計算済みの量子化学計算結果（MACE-xTB等）および1,800次元超の記述子を統合。特にπ共役系の品質を評価する Conjugation Features を独自に導入し、蛍光予測に特化した特徴量空間を構築しました。</li>
+            <li><b>Sequential Stacking:</b> 透過率から蛍光への物性的依存関係をモデル化する、連鎖的なスタッキングアーキテクチャを構築。</li>
+        </ul>
+    </li>
+    <li><b>結果:</b> 蛍光予測部門 優勝（2026年2月）</li>
+    <li><b>今後:</b> 学術誌「SLAS Technology」へ投稿準備中です。[Status: In preparation]</li>
+    <li><b>使用ツール・関連リンク:</b> 
+        <a href="https://github.com/377H-Miru/mordred_descriptor_calculator" target="_blank">mordred_descriptor_calculator</a> ｜ 
+        <a href="https://www.eu-openscreen.eu/resources/eu-openscreen-news/ansicht/eu-openscreen-and-slas-announce-winners-of-the-second-joint-machine-learning-challenge-at-slas-2026.html" target="_blank">公式ニュース</a> ｜ 
+        <a href="https://ochem.eu/static/challenge2025.do" target="_blank">コンテスト概要</a> ｜ 
+        <a href="/posts/2026-02-25-euos25-review">技術解説ブログ</a>
+    </li>
+</ul>
