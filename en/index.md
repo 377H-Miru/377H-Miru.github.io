@@ -28,13 +28,13 @@ Research Affiliation: <a href="https://u-lab.my-pharm.ac.jp/~mminfo/member/" tar
 <h2>My Journey</h2>
 <ul>
     <li>
-        <b><a href="https://ochem.eu/static/challenge2025.do" target="_blank">EUOS25 challenge, Optical Property Prediction: Winner</a></b> （February 2026）
+        <b><a href="https://ochem.eu/static/challenge2025.do" target="_blank">EUOS25 challenge, Optical Property Prediction: Winner</a></b> (February 2026)
         <ul>
             <li>Contribution: Led the integration of multimodal features and design of Sequential Stacking architectures. [Status: In preparation] ｜ <a href="/posts/2026-02-25-euos25-review">[Technical Review]</a> ｜ <a href="https://www.eu-openscreen.eu/resources/eu-openscreen-news/ansicht/eu-openscreen-and-slas-announce-winners-of-the-second-joint-machine-learning-challenge-at-slas-2026.html" target="_blank">[Official Results]</a></li>
         </ul>
     </li>
     <li>
-        <b>The 146th Annual Meeting of the Pharmaceutical Society of Japan</b> （March 2026）
+        <b>The 146th Annual Meeting of the Pharmaceutical Society of Japan</b> (March 2026)
         <ul>
             <li>Poster presentation on structural elucidation of rhabdomyolysis using FAERS and KAN.</li>
         </ul>
