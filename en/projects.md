@@ -19,7 +19,7 @@ permalink: /en/projects/
 ## EUOS25 challenge: Optical Property Prediction
 - **Summary:** A machine learning competition for predicting optical properties of ~100k compounds. Our team won the Fluorescence track.
 - **Technical Approach:**
-    - **Multimodal Strategy:** Integrating high-precision quantum chemistry (MOPAC/MACE-xTB) and 1,800+ descriptors. Specifically, integrated specialized Conjugation Features to evaluate the quality of $\pi$-conjugation systems, constructing a feature space specialized for fluorescence prediction.
+    - **Multimodal Strategy:** Integrating quantum chemistry results (e.g., MACE-xTB) and 1,800+ descriptors. Specifically, integrated specialized Conjugation Features to evaluate the quality of $\pi$-conjugation systems, constructing a feature space specialized for fluorescence prediction.
     - **Sequential Stacking:** Developed a chaining architecture that models the biophysical dependency from transmittance to fluorescence.
 - **Result:** Winner of the Fluorescence track (February 2026)
 - **Outlook:** Technical details and code to be submitted to "SLAS Technology". [Status: In preparation]

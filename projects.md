@@ -19,7 +19,7 @@ permalink: /projects/
 ## EUOS25 challenge 光学特性予測部門
 - **概要:** 約10万化合物のライブラリを用いた光学特性予測コンテスト。私たちは蛍光予測部門で優勝しました。
 - **技術的アプローチ:** 
-    - **Multimodal Strategy:** 6種類のMOPAC HamiltonianとMACE-xTBを用いた精密な量子化学計算、および1,800次元超の記述子を統合。特に$\pi$共役系の品質を評価する Conjugation Features を独自に導入し、蛍光予測に特化した特徴量空間を構築しました。
+    - **Multimodal Strategy:** 外部計算済みの量子化学計算結果（MACE-xTB等）および1,800次元超の記述子を統合。特に$\pi$共役系の品質を評価する Conjugation Features を独自に導入し、蛍光予測に特化した特徴量空間を構築しました。
     - **Sequential Stacking:** 透過率から蛍光への物性的依存関係をモデル化する、連鎖的なスタッキングアーキテクチャを構築。
 - **結果:** 蛍光予測部門 優勝（2026年2月）
 - **今後:** 学術誌「SLAS Technology」へ投稿準備中です。[Status: In preparation]

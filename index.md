@@ -21,7 +21,7 @@ permalink: /
 
 ## これまでの歩み (Recent Achievements)
 - **[EUOS25 challenge 光学特性予測部門 優勝](https://ochem.eu/static/challenge2025.do){:target="_blank"}**（2026年2月）
-    - 具体的貢献: 量子化学計算による構造最適化、Sequential Stackingアーキテクチャの設計・実装を主導しました。[Status: In preparation] [[技術解説]](/posts/2026-02-25-euos25-review) [[公式発表]](https://www.eu-openscreen.eu/resources/eu-openscreen-news/ansicht/eu-openscreen-and-slas-announce-winners-of-the-second-joint-machine-learning-challenge-at-slas-2026.html){:target="_blank"}
+    - 具体的貢献: 多角的な特徴量の統合、およびSequential Stackingアーキテクチャの設計・実装を主導しました。[Status: In preparation] [[技術解説]](/posts/2026-02-25-euos25-review) [[公式発表]](https://www.eu-openscreen.eu/resources/eu-openscreen-news/ansicht/eu-openscreen-and-slas-announce-winners-of-the-second-joint-machine-learning-challenge-at-slas-2026.html){:target="_blank"}
 - **第146年会 日本薬学会 ポスター発表**（2026年3月）
     - FAERSとKANを用いた横紋筋融解症の構造的特徴解明について発表しました。
 
