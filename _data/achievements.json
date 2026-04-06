@@ -1,15 +1,15 @@
 {
   "awards": [
     {
-      "title_ja": "明治薬科大学 奨励金 受賞",
-      "title_en": "Meiji Pharmaceutical University Research Incentive Award",
+      "title_ja": "明治薬科大学「次世代を担う研究者育成奨励金」 受賞",
+      "title_en": "Meiji Pharmaceutical University 'Next-Generation Researcher Development Incentive Award'",
       "date": "2026-03",
       "url": "https://www.my-pharm.ac.jp/",
       "result_url": "https://www.my-pharm.ac.jp/",
       "authors_ja": "宮原 渉",
       "authors_en": "Wataru Miyahara",
-      "description_ja": "学業および研究活動の成果が評価され、大学理事会にて選出。 (Awarded for outstanding academic and research performance by the Board of Trustees.)",
-      "description_en": "Selected by the Board of Trustees in recognition of outstanding academic and research achievements."
+      "description_ja": "EUOS25 challenge での優勝実績が高く評価され、大学理事会にて選出。",
+      "description_en": "Selected by the Board of Trustees in recognition of winning the EUOS25 challenge."
     },
     {
       "title_ja": "EUOS25 challenge 蛍光予測部門 優勝",
@@ -41,6 +41,10 @@
     {
       "name_ja": "日本薬学会 (The Pharmaceutical Society of Japan)",
       "name_en": "The Pharmaceutical Society of Japan"
+    },
+    {
+      "name_ja": "日本毒性学会 (The Japanese Society of Toxicology) - 2026年5月加入予定",
+      "name_en": "The Japanese Society of Toxicology (Joining May 2026)"
     }
   ],
   "publications": [],

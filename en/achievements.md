@@ -7,9 +7,9 @@ permalink: /en/achievements/
 
 {% assign data = site.data.achievements %}
 
-<h1>Achievements</h1>
+# Achievements
 
-<p><a href="/en/">[← Back to Home]</a></p>
+<p><a href="/en/">← Back to Home</a></p>
 
 <p>A summary of my research activities and contributions.</p>
 
@@ -25,7 +25,7 @@ permalink: /en/achievements/
             <li><a href="{{ award.result_url }}" target="_blank">[Official Results (News)]</a>
             {% if award.blog_url %}｜ <a href="{{ award.blog_url }}">[Technical Review Blog]</a>{% endif %}</li>
             <li>{{ award.description_en }}</li>
-            <li>Tools used: <a href="/en/tools">mordred_descriptor_calculator</a></li>
+            <li>Tools used: <a href="/en/tools/">mordred_descriptor_calculator</a></li>
         </ul>
     </li>
 {% endfor %}
@@ -39,7 +39,7 @@ permalink: /en/achievements/
     <li>
         {{ pres.authors_en }}. "{{ pres.title_en }}". <b>{{ pres.event_en }}</b>, {{ pres.role_en }}, {{ pres.date }}.
         <ul>
-            <li>Tools used: <a href="/en/tools">ecfp_cli</a></li>
+            <li>Tools used: <a href="/en/tools/">ecfp_cli</a></li>
         </ul>
     </li>
 {% endfor %}
@@ -58,7 +58,7 @@ permalink: /en/achievements/
 {% endif %}
 
 <h2>Software & Tools</h2>
-<p><a href="/en/tools">For detailed specifications, see the <b>Software & Tools page</b>.</a></p>
+<p><a href="/en/tools/">For detailed specifications, see the <b>Software & Tools page</b>.</a></p>
 <ul>
     <li>
         <b><a href="https://github.com/377H-Miru/ecfp_cli" target="_blank">ecfp_cli</a></b> (v0.1.1)
@@ -68,6 +68,15 @@ permalink: /en/achievements/
         <b><a href="https://github.com/377H-Miru/mordred_descriptor_calculator" target="_blank">mordred_descriptor_calculator</a></b> (v0.1.1)
         <br>Descriptor calculator with π-conjugated system support. Used for feature extraction in EUOS25 challenge.
     </li>
+</ul>
+
+<hr>
+
+<h2>Professional Memberships</h2>
+<ul>
+{% for member in data.memberships %}
+    <li>{{ member.name_en }}</li>
+{% endfor %}
 </ul>
 
 <hr>
