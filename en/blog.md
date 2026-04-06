@@ -19,11 +19,11 @@ permalink: /en/blog/
     .blog-item .blog-title { font-size: 1.2em; font-weight: bold; margin: 5px 0; color: var(--link-color); }
 </style>
 
-# Blog
+<h1>Blog</h1>
 
-[← Back to Home](/en/)
+<p><a href="/en/">[← Back to Home]</a></p>
 
-Monthly logs of research progress and daily thoughts.
+<p>Monthly logs of research progress and daily thoughts.</p>
 
 <div class="filter-controls">
     <button class="filter-btn active" data-filter="all" onclick="filterBlog('all')">All</button>
@@ -33,35 +33,34 @@ Monthly logs of research progress and daily thoughts.
 
 <hr>
 
-## April 2026
 <div class="blog-list">
+    <!-- Blog List (Manual Management) -->
     <a href="/posts/2026-04-02-kan-research-overview" class="blog-item" data-category="research">
         <span class="tag tag-research">Research</span>
         <span class="blog-date">2026-04-02</span>
         <div class="blog-title">Adverse Event Analysis Approach using Kolmogorov-Arnold Networks (KAN)</div>
-        <p>Introducing the technical challenges and approach for enhancing the interpretability of chemical structures using KAN.</p>
+        <p>Introducing technical challenges and approaches for enhancing interpretability of chemical structures using KAN.</p>
     </a>
+    
     <a href="/posts/2026-04-01-site-tech-stack" class="blog-item" data-category="research">
         <span class="tag tag-research">Research</span>
         <span class="blog-date">2026-04-01</span>
         <div class="blog-title">Technical Specifications of This Site</div>
-        <p>A technical note on how I built and maintain this portfolio.</p>
+        <p>Technical notes on how I built and maintain this portfolio.</p>
     </a>
+    
     <a href="/posts/2026-04-01-launch" class="blog-item" data-category="personal">
         <span class="tag tag-personal">Daily Life</span>
         <span class="blog-date">2026-04-01</span>
         <div class="blog-title">Site Launch</div>
         <p>Created a space to share my research progress and activities.</p>
     </a>
-</div>
 
-## February 2026
-<div class="blog-list">
     <a href="/posts/2026-02-25-euos25-review" class="blog-item" data-category="research">
         <span class="tag tag-research">Research</span>
         <span class="blog-date">2026-02-25</span>
         <div class="blog-title">Reflections on EUOS25 Challenge</div>
-        <p>A technical dive into the architecture for optical property prediction.</p>
+        <p>Technical dive into the architecture for optical property prediction.</p>
     </a>
 </div>
 

@@ -19,11 +19,11 @@ permalink: /blog/
     .blog-item .blog-title { font-size: 1.2em; font-weight: bold; margin: 5px 0; color: var(--link-color); }
 </style>
 
-# ブログ
+<h1>ブログ</h1>
 
-[← ホームに戻る](/)
+<p><a href="/">[← ホームに戻る]</a></p>
 
-研究の進捗や日々のちょっとした気づきをカテゴリ別にまとめています。
+<p>研究の進捗や日々のちょっとした気づきをカテゴリ別にまとめています。</p>
 
 <div class="filter-controls">
     <button class="filter-btn active" data-filter="all" onclick="filterBlog('all')">すべて</button>
@@ -33,30 +33,29 @@ permalink: /blog/
 
 <hr>
 
-## 2026年 4月
 <div class="blog-list">
+    <!-- 記事リスト (手動管理形式) -->
     <a href="/posts/2026-04-02-kan-research-overview" class="blog-item" data-category="research">
         <span class="tag tag-research">研究・技術</span>
         <span class="blog-date">2026-04-02</span>
         <div class="blog-title">Kolmogorov-Arnold Networks (KAN) による有害事象解析のアプローチ</div>
         <p>現在取り組んでいるKANを用いた有害事象誘発に関与する化学構造の解釈性向上について、技術的な課題とアプローチを紹介します。</p>
     </a>
+    
     <a href="/posts/2026-04-01-site-tech-stack" class="blog-item" data-category="research">
         <span class="tag tag-research">研究・技術</span>
         <span class="blog-date">2026-04-01</span>
         <div class="blog-title">ポートフォリオサイトの技術仕様について</div>
         <p>このサイトをどのように構築し、運用しているかについての技術メモです。</p>
     </a>
+    
     <a href="/posts/2026-04-01-launch" class="blog-item" data-category="personal">
         <span class="tag tag-personal">日々の雑記</span>
         <span class="blog-date">2026-04-01</span>
         <div class="blog-title">サイトを公開しました</div>
         <p>研究実績や活動をゆるやかに発信していく場所を作りました。</p>
     </a>
-</div>
 
-## 2026年 2月
-<div class="blog-list">
     <a href="/posts/2026-02-25-euos25-review" class="blog-item" data-category="research">
         <span class="tag tag-research">研究・技術</span>
         <span class="blog-date">2026-02-25</span>
