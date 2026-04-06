@@ -7,7 +7,7 @@ permalink: /en/projects/
 
 <h1>Projects</h1>
 
-[← Back to Home](/en/)
+<p><a href="/en/">← Back to Home</a></p>
 
 <h2 id="kan">Adverse Event Analysis via Kolmogorov-Arnold Networks (KAN)</h2>
 <ul>
@@ -19,12 +19,15 @@ permalink: /en/projects/
     <li><b>Resources:</b> <a href="https://github.com/377H-Miru/ecfp_cli" target="_blank">ecfp_cli</a> ｜ <a href="/en/posts/2026-04-02-kan-research-overview">Technical Review</a></li>
 </ul>
 
+<hr>
+
 <h2 id="euos">EUOS25 challenge: Optical Property Prediction</h2>
 <ul>
     <li><b>Summary:</b> A machine learning competition for predicting optical properties of ~100k compounds. Our team won the Fluorescence track.</li>
     <li><b>Technical Approach:</b>
         <ul>
-            <li><b>Multimodal Strategy:</b> Integrated pre-calculated quantum chemistry results (e.g., MACE-xTB) and 1,800+ descriptors. Specifically, developed a specialized feature space for fluorescence prediction by introducing unique Conjugation Features.</li>
+            <li><b>Massive Informatics:</b> In addition to 1,800+ Mordred descriptors, we expanded PathCounts (up to 50th order) to capture long-range correlations. Integrated Conjugation Features to evaluate the quality of π-conjugated systems, constructing a specialized feature space for fluorescence prediction.</li>
+            <li><b>GNN Feature Generation:</b> Utilized a custom GINE-Net to integrate graph-based embeddings as features.</li>
             <li><b>Sequential Stacking:</b> Developed a chaining architecture that models the biophysical dependency from transmittance to fluorescence.</li>
         </ul>
     </li>
