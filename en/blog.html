@@ -17,12 +17,13 @@ permalink: /en/blog/
     .blog-item:hover { transform: translateY(-2px); border-color: var(--link-color); }
     .blog-item .blog-date { font-size: 0.85em; color: #8b949e; }
     .blog-item .blog-title { font-size: 1.2em; font-weight: bold; margin: 5px 0; color: var(--link-color); }
+    .tag { font-size: 0.7em; padding: 2px 8px; border-radius: 5px; color: #fff; font-weight: bold; margin-right: 5px; display: inline-block; vertical-align: middle; }
+    .tag-research { background-color: #238636; }
+    .tag-personal { background-color: #8957e5; }
 </style>
 
 <h1>Blog</h1>
-
 <p><a href="/en/">← Back to Home</a></p>
-
 <p>Monthly logs of research progress and daily thoughts.</p>
 
 <div class="filter-controls">
@@ -34,32 +35,32 @@ permalink: /en/blog/
 <hr>
 
 <div class="blog-list" id="blogList">
-    <a href="/en/posts/2026-04-02-kan-research-overview" class="blog-item" data-category="research">
+    <a href="/posts/2026-04-02-kan-research-overview" class="blog-item" data-category="research">
         <span class="tag tag-research">Research</span>
         <span class="blog-date">2026-04-02</span>
         <div class="blog-title">Adverse Event Analysis Approach using Kolmogorov-Arnold Networks (KAN)</div>
-        <p>Introducing the technical challenges and approach for enhancing the interpretability of chemical structures using KAN.</p>
+        <p>Introducing technical challenges and approaches for enhancing interpretability of chemical structures using KAN.</p>
     </a>
-
-    <a href="/en/posts/2026-04-01-site-tech-stack" class="blog-item" data-category="research">
+    
+    <a href="/posts/2026-04-01-site-tech-stack" class="blog-item" data-category="research">
         <span class="tag tag-research">Research</span>
         <span class="blog-date">2026-04-01</span>
         <div class="blog-title">Technical Specifications of This Site</div>
-        <p>A technical note on how I built and maintain this portfolio.</p>
+        <p>Technical notes on how I built and maintain this portfolio.</p>
     </a>
-
-    <a href="/en/posts/2026-04-01-launch" class="blog-item" data-category="personal">
+    
+    <a href="/posts/2026-04-01-launch" class="blog-item" data-category="personal">
         <span class="tag tag-personal">Daily Life</span>
         <span class="blog-date">2026-04-01</span>
         <div class="blog-title">Site Launch</div>
         <p>Created a space to share my research progress and activities.</p>
     </a>
 
-    <a href="/en/posts/2026-02-25-euos25-review" class="blog-item" data-category="research">
+    <a href="/posts/2026-02-25-euos25-review" class="blog-item" data-category="research">
         <span class="tag tag-research">Research</span>
         <span class="blog-date">2026-02-25</span>
         <div class="blog-title">Reflections on EUOS25 Challenge</div>
-        <p>A technical dive into the architecture for optical property prediction.</p>
+        <p>Technical dive into the architecture for optical property prediction.</p>
     </a>
 </div>
 
@@ -71,7 +72,8 @@ permalink: /en/blog/
                 btn.classList.add('active');
             }
         });
-        document.querySelectorAll('.blog-item').forEach(item => {
+        const items = document.querySelectorAll('.blog-item');
+        items.forEach(item => {
             if (category === 'all' || item.getAttribute('data-category') === category) {
                 item.style.display = 'block';
             } else {

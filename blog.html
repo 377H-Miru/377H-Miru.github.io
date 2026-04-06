@@ -17,12 +17,13 @@ permalink: /blog/
     .blog-item:hover { transform: translateY(-2px); border-color: var(--link-color); }
     .blog-item .blog-date { font-size: 0.85em; color: #8b949e; }
     .blog-item .blog-title { font-size: 1.2em; font-weight: bold; margin: 5px 0; color: var(--link-color); }
+    .tag { font-size: 0.7em; padding: 2px 8px; border-radius: 5px; color: #fff; font-weight: bold; margin-right: 5px; display: inline-block; vertical-align: middle; }
+    .tag-research { background-color: #238636; }
+    .tag-personal { background-color: #8957e5; }
 </style>
 
 <h1>ブログ</h1>
-
 <p><a href="/">← ホームに戻る</a></p>
-
 <p>研究の進捗や日々のちょっとした気づきをカテゴリ別にまとめています。</p>
 
 <div class="filter-controls">
@@ -34,7 +35,6 @@ permalink: /blog/
 <hr>
 
 <div class="blog-list" id="blogList">
-    <!-- 記事リスト (手動管理形式) -->
     <a href="/posts/2026-04-02-kan-research-overview" class="blog-item" data-category="research">
         <span class="tag tag-research">研究・技術</span>
         <span class="blog-date">2026-04-02</span>
@@ -72,7 +72,8 @@ permalink: /blog/
                 btn.classList.add('active');
             }
         });
-        document.querySelectorAll('.blog-item').forEach(item => {
+        const items = document.querySelectorAll('.blog-item');
+        items.forEach(item => {
             if (category === 'all' || item.getAttribute('data-category') === category) {
                 item.style.display = 'block';
             } else {
