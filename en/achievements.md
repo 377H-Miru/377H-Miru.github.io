@@ -7,19 +7,39 @@ permalink: /en/achievements/
 
 {% assign data = site.data.achievements %}
 
-# Achievements
+<style>
+    .award-item { margin-bottom: 30px; padding: 20px; background: var(--card-bg); border: 1px solid var(--border-color); border-radius: 8px; }
+    .tag-badge { font-size: 0.75em; padding: 3px 10px; border-radius: 12px; background: var(--nav-bg); border: 1px solid var(--border-color); margin-right: 10px; color: #8b949e; }
+    .filter-controls { margin-bottom: 20px; display: flex; gap: 10px; flex-wrap: wrap; }
+    .filter-btn { 
+        background: var(--nav-bg); border: 1px solid var(--border-color); 
+        color: var(--text-color); padding: 5px 15px; border-radius: 15px; 
+        cursor: pointer; font-size: 0.9em; transition: 0.2s;
+    }
+    .filter-btn.active { background: var(--link-color) !important; color: #fff !important; border-color: var(--link-color) !important; }
+</style>
+
+<h1>Achievements</h1>
 
 <p><a href="/en/">← Back to Home</a></p>
-
-<p>A summary of my research activities and contributions.</p>
 
 <hr>
 
 <h2>Awards</h2>
-<ul>
-{% for award in data.awards %}
-    <li>
-        <b><a href="{{ award.url }}" target="_blank">{{ award.title_en }}</a></b> ({{ award.date }})
+
+<div class="filter-controls">
+    <button class="filter-btn active" onclick="filterAwards('all', this)">All</button>
+    <button class="filter-btn" onclick="filterAwards('University', this)">University</button>
+    <button class="filter-btn" onclick="filterAwards('Competition', this)">Competition</button>
+</div>
+
+<div id="award-list">
+{% assign sorted_awards = data.awards | sort: "date" | reverse %}
+{% for award in sorted_awards %}
+    <div class="award-item" data-tag="{{ award.tag }}">
+        <span class="tag-badge">{{ award.tag }}</span>
+        <span style="color: #8b949e; font-size: 0.9em;">{{ award.date }}</span>
+        <h3 style="margin: 10px 0;"><a href="{{ award.url }}" target="_blank">{{ award.title_en }}</a></h3>
         <ul>
             <li>Collaborators: {{ award.authors_en }}</li>
             <li><a href="{{ award.result_url }}" target="_blank">[Official Results (News)]</a>
@@ -27,9 +47,9 @@ permalink: /en/achievements/
             <li>{{ award.description_en }}</li>
             <li>Tools used: <a href="/en/tools/">mordred_descriptor_calculator</a></li>
         </ul>
-    </li>
+    </div>
 {% endfor %}
-</ul>
+</div>
 
 <hr>
 
@@ -43,31 +63,6 @@ permalink: /en/achievements/
         </ul>
     </li>
 {% endfor %}
-</ul>
-
-<hr>
-
-{% if data.publications.size > 0 %}
-<h2>Publications</h2>
-<ul>
-{% for pub in data.publications %}
-    <li>{{ pub.authors_en }}. "{{ pub.title_en }}". <i>{{ pub.journal_en }}</i>, {{ pub.year }}. <a href="{{ pub.url }}" target="_blank">[{{ pub.doi }}]</a></li>
-{% endfor %}
-</ul>
-<hr>
-{% endif %}
-
-<h2>Software & Tools</h2>
-<p><a href="/en/tools/">For detailed specifications, see the <b>Software & Tools page</b>.</a></p>
-<ul>
-    <li>
-        <b><a href="https://github.com/377H-Miru/ecfp_cli" target="_blank">ecfp_cli</a></b> (v0.1.1)
-        <br>High-speed ECFP fingerprint generator. Used for data preprocessing in PSJ 146th annual meeting.
-    </li>
-    <li>
-        <b><a href="https://github.com/377H-Miru/mordred_descriptor_calculator" target="_blank">mordred_descriptor_calculator</a></b> (v0.1.1)
-        <br>Descriptor calculator with π-conjugated system support. Used for feature extraction in EUOS25 challenge.
-    </li>
 </ul>
 
 <hr>
@@ -87,3 +82,18 @@ permalink: /en/achievements/
     <li>{{ edu.period_en }}: {{ edu.institution_en }}</li>
 {% endfor %}
 </ul>
+
+<script>
+function filterAwards(tag, btn) {
+    document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    const items = document.querySelectorAll('.award-item');
+    items.forEach(item => {
+        if (tag === 'all' || item.getAttribute('data-tag') === tag) {
+            item.style.display = 'block';
+        } else {
+            item.style.display = 'none';
+        }
+    });
+}
+</script>
