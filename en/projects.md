@@ -35,7 +35,7 @@ permalink: /en/projects/
     <li><b>Outlook:</b> Technical details and code to be submitted to "SLAS Technology". [Status: In preparation]</li>
     <li><b>Tools & Resources:</b> 
         <a href="https://github.com/377H-Miru/mordred_descriptor_calculator" target="_blank">mordred_descriptor_calculator</a> ｜ 
-        <a href="https://www.eu-openscreen.eu/resources/eu-openscreen-news/ansicht/eu-openscreen-and-slas-announce-winners-of-the-second-joint-machine-learning-challenge-at-slas-2026.html" target="_blank">Official News</a> ｜ 
+        <a href="https://www.eu-openscreen.eu/resources/eu-openscreen-news/ansicht/eu-openscreen-and-slas-announce-winners-of-the-second-joint-machine-learning-challenge-at-slas-2026" target="_blank">Official News</a> ｜ 
         <a href="https://ochem.eu/static/challenge2025.do" target="_blank">Challenge Info</a> ｜ 
         <a href="/en/posts/2026-02-25-euos25-review">Technical Review</a>
     </li>

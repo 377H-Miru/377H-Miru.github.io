@@ -35,7 +35,7 @@ permalink: /projects/
     <li><b>今後:</b> 学術誌「SLAS Technology」へ投稿準備中です。[Status: In preparation]</li>
     <li><b>使用ツール・関連リンク:</b> 
         <a href="https://github.com/377H-Miru/mordred_descriptor_calculator" target="_blank">mordred_descriptor_calculator</a> ｜ 
-        <a href="https://www.eu-openscreen.eu/resources/eu-openscreen-news/ansicht/eu-openscreen-and-slas-announce-winners-of-the-second-joint-machine-learning-challenge-at-slas-2026.html" target="_blank">公式ニュース</a> ｜ 
+        <a href="https://www.eu-openscreen.eu/resources/eu-openscreen-news/ansicht/eu-openscreen-and-slas-announce-winners-of-the-second-joint-machine-learning-challenge-at-slas-2026" target="_blank">公式ニュース</a> ｜ 
         <a href="https://ochem.eu/static/challenge2025.do" target="_blank">コンテスト概要</a> ｜ 
         <a href="/posts/2026-02-25-euos25-review">技術解説ブログ</a>
     </li>
