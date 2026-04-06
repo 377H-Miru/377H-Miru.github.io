@@ -75,7 +75,7 @@ permalink: /en/achievements/
 <h2>Professional Memberships</h2>
 <ul>
 {% for member in data.memberships %}
-    <li>{{ member.name_en }}</li>
+    <li>{{ member.name_en }} ({{ member.period_en }})</li>
 {% endfor %}
 </ul>
 

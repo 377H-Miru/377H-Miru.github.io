@@ -33,18 +33,22 @@
       "role_ja": "ポスター発表",
       "role_en": "Poster",
       "date": "2026-03-27",
-      "authors_ja": "宮原 渉, 朝田 瑞穂, 植沢 芳広",
-      "authors_en": "Wataru Miyahara, Mizuho Asada, Yoshihiro Uesawa"
+      "authors_ja": "<b>宮原 渉</b>, 朝田 瑞穂, 植沢 芳広",
+      "authors_en": "<b>Wataru Miyahara</b>, Mizuho Asada, Yoshihiro Uesawa"
     }
   ],
   "memberships": [
     {
       "name_ja": "日本薬学会 (The Pharmaceutical Society of Japan)",
-      "name_en": "The Pharmaceutical Society of Japan"
+      "name_en": "The Pharmaceutical Society of Japan",
+      "period_ja": "2022年4月 - 現在",
+      "period_en": "April 2022 - Present"
     },
     {
-      "name_ja": "日本毒性学会 (The Japanese Society of Toxicology) - 2026年5月加入予定",
-      "name_en": "The Japanese Society of Toxicology (Joining May 2026)"
+      "name_ja": "日本毒性学会 (The Japanese Society of Toxicology)",
+      "name_en": "The Japanese Society of Toxicology",
+      "period_ja": "2026年5月 - 現在 (予定)",
+      "period_en": "May 2026 - Present (Scheduled)"
     }
   ],
   "publications": [],
