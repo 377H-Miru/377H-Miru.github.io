@@ -1,14 +1,22 @@
-markdown: kramdown
-kramdown:
-  input: GFM
-  hard_wrap: false
-  syntax_highlighter: rouge
-  parse_block_html: true # HTMLブロック内のMarkdown解析を有効化
-
-# Site settings
+# Jekyll Configuration
 title: "宮原 渉 | Portfolio"
 description: "研究実績まとめ"
 url: "https://377H-Miru.github.io"
 baseurl: ""
 
-theme: jekyll-theme-minimal
+# Markdown settings (Reset to safe defaults)
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+# Exclude unnecessary files
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - .sass-cache
+  - .jekyll-cache
+  - .jekyll-metadata
