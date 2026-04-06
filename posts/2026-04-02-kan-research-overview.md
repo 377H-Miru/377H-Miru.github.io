@@ -9,7 +9,6 @@ date: 2026-04-02
 
 # Kolmogorov-Arnold Networks (KAN) による有害事象解析のアプローチ
 
-[← ブログ一覧に戻る](/blog)
 
 現在取り組んでいる主要な研究テーマである、**Kolmogorov-Arnold Networks (KAN)** を用いた有害事象誘発に関与する化学構造の解釈性向上について、その背景と技術的なアプローチを紹介します。
 
@@ -35,7 +34,6 @@ KANは、従来のMulti-Layer Perceptron (MLP) がノード（ニューロン）
 
 # Adverse Event Analysis Approach using Kolmogorov-Arnold Networks (KAN)
 
-[← Back to Blog](/en/blog)
 
 This post introduces the background and technical approach of my primary research theme: enhancing the interpretability of chemical structures contributing to adverse events using **Kolmogorov-Arnold Networks (KAN)**.
 
