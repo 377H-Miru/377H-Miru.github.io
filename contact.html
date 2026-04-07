@@ -1,0 +1,84 @@
+---
+layout: default
+title: Contact
+lang: ja
+permalink: /contact/
+---
+
+<h1>お問い合わせ (Contact)</h1>
+
+<p><a href="/">← ホームに戻る</a></p>
+
+<p>共同研究、発表のご依頼、その他お問い合わせは以下のフォームよりご連絡ください。</p>
+
+<div class="contact-box">
+    <!-- Success/Error Messages -->
+    <div id="contact-success" style="display:none; color: #2da44e; margin-bottom: 20px; font-weight: bold;">
+        メッセージをお送りいただきありがとうございます。内容を確認次第、ご連絡いたします。
+    </div>
+    <div id="contact-error" style="display:none; color: #cf222e; margin-bottom: 20px; font-weight: bold;">
+        送信中にエラーが発生しました。入力内容を確認して再度お試しください。
+    </div>
+
+    <form id="my-form" action="https://formspree.io/f/mvzvbodq" method="POST">
+        <div class="form-group" style="margin-bottom: 15px;">
+            <label style="display: block; margin-bottom: 5px;">お名前</label>
+            <input type="text" name="name" style="width: 100%; padding: 8px; background: var(--nav-bg); color: var(--text-color); border: 1px solid var(--border-color); border-radius: 4px;" required>
+        </div>
+        <div class="form-group" style="margin-bottom: 15px;">
+            <label style="display: block; margin-bottom: 5px;">メールアドレス</label>
+            <input type="email" name="email" style="width: 100%; padding: 8px; background: var(--nav-bg); color: var(--text-color); border: 1px solid var(--border-color); border-radius: 4px;" required>
+        </div>
+        <div class="form-group" style="margin-bottom: 15px;">
+            <label style="display: block; margin-bottom: 5px;">件名</label>
+            <input type="text" name="subject" style="width: 100%; padding: 8px; background: var(--nav-bg); color: var(--text-color); border: 1px solid var(--border-color); border-radius: 4px;" required>
+        </div>
+        <div class="form-group" style="margin-bottom: 20px;">
+            <label style="display: block; margin-bottom: 5px;">メッセージ内容</label>
+            <textarea name="message" rows="5" style="width: 100%; padding: 8px; background: var(--nav-bg); color: var(--text-color); border: 1px solid var(--border-color); border-radius: 4px;" required></textarea>
+        </div>
+        <button id="my-form-button" type="submit" style="background: var(--link-color); color: #fff; border: none; padding: 10px 20px; border-radius: 20px; cursor: pointer; font-weight: bold;">送信する</button>
+    </form>
+</div>
+
+<hr>
+<h4>ご案内</h4>
+<ul>
+    <li><b>返信の目安:</b> 通常、3営業日以内にご返信いたします。</li>
+    <li><b>お急ぎの場合:</b> [LinkedIn の DM](https://www.linkedin.com/in/wataru-miyahara-6947253ab/) まで直接ご連絡ください。</li>
+</ul>
+
+<script>
+    var form = document.getElementById("my-form");
+    async function handleSubmit(event) {
+      event.preventDefault();
+      var status_success = document.getElementById("contact-success");
+      var status_error = document.getElementById("contact-error");
+      var data = new FormData(event.target);
+      fetch(event.target.action, {
+        method: form.method,
+        body: data,
+        headers: {
+            'Accept': 'application/json'
+        }
+      }).then(response => {
+        if (response.ok) {
+          status_success.style.display = "block";
+          status_error.style.display = "none";
+          form.reset();
+          form.style.display = "none";
+        } else {
+          response.json().then(data => {
+            if (Object.hasOwn(data, 'errors')) {
+              status_error.innerHTML = data["errors"].map(error => error["message"]).join(", ");
+            } else {
+              status_error.style.display = "block";
+            }
+          })
+        }
+      }).catch(error => {
+        status_error.style.display = "block";
+      });
+    }
+    form.addEventListener("submit", handleSubmit)
+</script>
