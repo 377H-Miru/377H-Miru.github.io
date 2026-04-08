@@ -1,21 +1,11 @@
-# Jekyll Configuration
+# Site settings
 title: "宮原 渉 | Portfolio"
 description: "研究実績まとめ"
 url: "https://377H-Miru.github.io"
 baseurl: ""
 
-markdown: kramdown
-kramdown:
-  input: GFM
-  hard_wrap: false
-  syntax_highlighter: rouge
-  parse_block_html: true # これによりHTML内のMarkdownも処理可能に
-
-# Build settings
+# Permalinks
 permalink: /:title/
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - node_modules
-  - vendor
-# Last Force Build: 2026年  4月  6日 月曜日 15:22:52 JST
+
+# Theme
+theme: jekyll-theme-minimal
