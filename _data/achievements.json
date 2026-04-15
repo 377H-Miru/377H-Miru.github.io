@@ -1,11 +1,37 @@
 {
   "awards": [
     {
-      "id": "mpu-award",
-      "tag": "University",
-      "title_ja": "明治薬科大学「次世代を担う研究者育成奨励金」 受賞",
-      "title_en": "Meiji Pharmaceutical University 'Next-Generation Researcher Development Incentive Award'",
+      "id": "psj146-award",
+      "tag": "Academic",
+      "title_ja": "日本薬学会第146年会学生優秀発表賞（ポスター発表の部） 受賞",
+      "title_en": "Student Outstanding Presentation Award (Poster Section), The 146th Annual Meeting of the Pharmaceutical Society of Japan",
       "date": "2026-03",
+      "url": "https://confsys.biz/psj146/",
+      "result_url": "https://confsys.biz/psj146/",
+      "authors_ja": "宮原 渉, 朝田 瑞穂, 植沢 芳広",
+      "authors_en": "Wataru Miyahara, Mizuho Asada, Yoshihiro Uesawa",
+      "description_ja": "「FAERSデータベースとKolmogorov-Arnold Networksを用いた横紋筋融解症誘発に関与する医薬品の構造的特徴の解明と予測モデルの構築」の成果が評価され選出。",
+      "description_en": "Awarded for the presentation titled 'Elucidation of structural features and development of predictive models for rhabdomyolysis using FAERS and Kolmogorov-Arnold Networks.'"
+    },
+    {
+      "id": "mpu-award-2",
+      "tag": "University",
+      "title_ja": "明治薬科大学「次世代を担う研究者育成奨励金」 受賞 (2回目)",
+      "title_en": "Meiji Pharmaceutical University 'Next-Generation Researcher Development Incentive Award' (2nd Award)",
+      "date": "2026-03",
+      "url": "https://www.my-pharm.ac.jp/",
+      "result_url": "https://www.my-pharm.ac.jp/",
+      "authors_ja": "宮原 渉",
+      "authors_en": "Wataru Miyahara",
+      "description_ja": "日本薬学会第146年会における学生優秀発表賞の受賞成果が評価され、大学理事会にて選出。",
+      "description_en": "Selected by the Board of Trustees in recognition of winning the Student Outstanding Presentation Award at the PSJ 146th Annual Meeting."
+    },
+    {
+      "id": "mpu-award-1",
+      "tag": "University",
+      "title_ja": "明治薬科大学「次世代を担う研究者育成奨励金」 受賞 (1回目)",
+      "title_en": "Meiji Pharmaceutical University 'Next-Generation Researcher Development Incentive Award' (1st Award)",
+      "date": "2026-02",
       "url": "https://www.my-pharm.ac.jp/",
       "result_url": "https://www.my-pharm.ac.jp/",
       "authors_ja": "宮原 渉",
