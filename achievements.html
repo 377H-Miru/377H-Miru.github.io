@@ -5,6 +5,8 @@ lang: ja
 permalink: /achievements/
 ---
 
+{% assign data = site.data.achievements %}
+
 <style>
     .award-item { margin-bottom: 30px; padding: 20px; background: var(--card-bg); border: 1px solid var(--border-color); border-radius: 8px; }
     .tag-badge { font-size: 0.75em; padding: 3px 10px; border-radius: 12px; background: var(--nav-bg); border: 1px solid var(--border-color); margin-right: 10px; color: #8b949e; }
@@ -26,62 +28,61 @@ permalink: /achievements/
 
 <div class="filter-controls">
     <button class="filter-btn active" onclick="filterAwards('all', this)">すべて</button>
+    <button class="filter-btn" onclick="filterAwards('Academic', this)">学術</button>
     <button class="filter-btn" onclick="filterAwards('University', this)">大学内</button>
     <button class="filter-btn" onclick="filterAwards('Competition', this)">コンテスト</button>
 </div>
 
 <div id="award-list">
-    <div class="award-item" data-tag="University">
-        <span class="tag-badge">University</span>
-        <span style="color: #8b949e; font-size: 0.9em;">2026-03</span>
-        <h3 style="margin: 10px 0;"><a href="https://www.my-pharm.ac.jp/" target="_blank">明治薬科大学「次世代を担う研究者育成奨励金」 受賞</a></h3>
+{% assign sorted_awards = data.awards | sort: "date" | reverse %}
+{% for award in sorted_awards %}
+    <div class="award-item" data-tag="{{ award.tag }}">
+        <span class="tag-badge">{{ award.tag }}</span>
+        <span style="color: #8b949e; font-size: 0.9em;">{{ award.date }}</span>
+        <h3 style="margin: 10px 0;"><a href="{{ award.url }}" target="_blank">{{ award.title_ja }}</a></h3>
         <ul>
-            <li>共同研究者: 宮原 渉</li>
-            <li><a href="https://www.my-pharm.ac.jp/" target="_blank">[公式結果 (Official News)]</a></li>
-            <li>EUOS25 challenge での優勝実績が高く評価され、大学理事会にて選出。</li>
+            <li>共同研究者: {{ award.authors_ja }}</li>
+            <li><a href="{{ award.result_url }}" target="_blank">[詳細・ソース]</a> 
+            {% if award.blog_url %}｜ <a href="{{ award.blog_url }}">[技術解説ブログはこちら]</a>{% endif %}</li>
+            <li>{{ award.description_ja }}</li>
+            {% if award.id == 'euos25' or award.id == 'mpu-award-1' or award.id == 'mpu-award-2' %}
             <li>使用ツール: <a href="/tools/">mordred_descriptor_calculator</a></li>
+            {% endif %}
         </ul>
     </div>
-
-    <div class="award-item" data-tag="Competition">
-        <span class="tag-badge">Competition</span>
-        <span style="color: #8b949e; font-size: 0.9em;">2026-02</span>
-        <h3 style="margin: 10px 0;"><a href="https://ochem.eu/static/challenge2025.do" target="_blank">EUOS25 challenge 蛍光予測部門 優勝</a></h3>
-        <ul>
-            <li>共同研究者: Wataru Miyahara, Kaito Inden, Yuma Iwashita, Yoshihiro Uesawa</li>
-            <li><a href="https://www.eu-openscreen.eu/resources/eu-openscreen-news/ansicht/eu-openscreen-and-slas-announce-winners-of-the-second-joint-machine-learning-challenge-at-slas-2026.html" target="_blank">[公式結果 (Official News)]</a> 
-            ｜ <a href="/posts/2026-02-25-euos25-review">[技術解説ブログはこちら]</a></li>
-            <li>Multimodal Strategy: 外部計算済みの量子化学計算結果（MACE-xTB等）および1,800次元超の記述子を統合。特にπ共役系の品質を評価する Conjugation Features を独自に導入し、蛍光予測に特化した特徴量空間を構築しました。</li>
-            <li>使用ツール: <a href="/tools/">mordred_descriptor_calculator</a></li>
-        </ul>
-    </div>
+{% endfor %}
 </div>
 
 <hr>
 
 <h2>学会発表 (Presentations)</h2>
 <ul>
+{% for pres in data.presentations %}
     <li>
-        <b>宮原 渉</b>, 朝田 瑞穂, 植沢 芳広. "FAERSデータベースとKolmogorov-Arnold Networksを用いた横紋筋融解症誘発に関与する医薬品の構造的特徴の解明と予測モデルの構築". <b>第146年会 日本薬学会</b>, ポスター発表, 2026-03-27.
+        {{ pres.authors_ja }}. "{{ pres.title_ja }}". <b>{{ pres.event_ja }}</b>, {{ pres.role_ja }}, {{ pres.date }}.
         <ul>
             <li>使用ツール: <a href="/tools/">ecfp_cli</a></li>
         </ul>
     </li>
+{% endfor %}
 </ul>
 
 <hr>
 
 <h2>所属学会 (Professional Memberships)</h2>
 <ul>
-    <li>日本薬学会 (The Pharmaceutical Society of Japan) (2026年2月 - 現在)</li>
-    <li>日本毒性学会 (The Japanese Society of Toxicology) (2026年5月 - 現在 (予定))</li>
+{% for member in data.memberships %}
+    <li>{{ member.name_ja }} ({{ member.period_ja }})</li>
+{% endfor %}
 </ul>
 
 <hr>
 
 <h2>学歴・略歴 (Education)</h2>
 <ul>
-    <li>2022年4月 - 現在: 明治薬科大学 薬学部薬学科 在学</li>
+{% for edu in data.education %}
+    <li>{{ edu.period_ja }}: {{ edu.institution_ja }}</li>
+{% endfor %}
 </ul>
 
 <script>

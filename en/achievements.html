@@ -5,6 +5,8 @@ lang: en
 permalink: /en/achievements/
 ---
 
+{% assign data = site.data.achievements %}
+
 <style>
     .award-item { margin-bottom: 30px; padding: 20px; background: var(--card-bg); border: 1px solid var(--border-color); border-radius: 8px; }
     .tag-badge { font-size: 0.75em; padding: 3px 10px; border-radius: 12px; background: var(--nav-bg); border: 1px solid var(--border-color); margin-right: 10px; color: #8b949e; }
@@ -26,62 +28,61 @@ permalink: /en/achievements/
 
 <div class="filter-controls">
     <button class="filter-btn active" onclick="filterAwards('all', this)">All</button>
+    <button class="filter-btn" onclick="filterAwards('Academic', this)">Academic</button>
     <button class="filter-btn" onclick="filterAwards('University', this)">University</button>
     <button class="filter-btn" onclick="filterAwards('Competition', this)">Competition</button>
 </div>
 
 <div id="award-list">
-    <div class="award-item" data-tag="University">
-        <span class="tag-badge">University</span>
-        <span style="color: #8b949e; font-size: 0.9em;">2026-03</span>
-        <h3 style="margin: 10px 0;"><a href="https://www.my-pharm.ac.jp/" target="_blank">Next-Generation Researcher Development Incentive Award</a></h3>
+{% assign sorted_awards = data.awards | sort: "date" | reverse %}
+{% for award in sorted_awards %}
+    <div class="award-item" data-tag="{{ award.tag }}">
+        <span class="tag-badge">{{ award.tag }}</span>
+        <span style="color: #8b949e; font-size: 0.9em;">{{ award.date }}</span>
+        <h3 style="margin: 10px 0;"><a href="{{ award.url }}" target="_blank">{{ award.title_en }}</a></h3>
         <ul>
-            <li>Collaborators: Wataru Miyahara</li>
-            <li><a href="https://www.my-pharm.ac.jp/" target="_blank">[Official News]</a></li>
-            <li>Recognized by the Board of Trustees for achievement in the EUOS25 challenge.</li>
+            <li>Collaborators: {{ award.authors_en }}</li>
+            <li><a href="{{ award.result_url }}" target="_blank">[Results/Source]</a>
+            {% if award.blog_url %}｜ <a href="{{ award.blog_url }}">[Technical Review Blog]</a>{% endif %}</li>
+            <li>{{ award.description_en }}</li>
+            {% if award.id == 'euos25' or award.id == 'mpu-award-1' or award.id == 'mpu-award-2' %}
             <li>Tools used: <a href="/en/tools/">mordred_descriptor_calculator</a></li>
+            {% endif %}
         </ul>
     </div>
-
-    <div class="award-item" data-tag="Competition">
-        <span class="tag-badge">Competition</span>
-        <span style="color: #8b949e; font-size: 0.9em;">2026-02</span>
-        <h3 style="margin: 10px 0;"><a href="https://ochem.eu/static/challenge2025.do" target="_blank">EUOS25 challenge, Fluorescence Prediction Track: Winner</a></h3>
-        <ul>
-            <li>Collaborators: Wataru Miyahara, Kaito Inden, Yuma Iwashita, Yoshihiro Uesawa</li>
-            <li><a href="https://www.eu-openscreen.eu/resources/eu-openscreen-news/ansicht/eu-openscreen-and-slas-announce-winners-of-the-second-joint-machine-learning-challenge-at-slas-2026.html" target="_blank">[Official Results]</a> 
-            ｜ <a href="/en/posts/2026-02-25-euos25-review">[Technical Review Blog]</a></li>
-            <li>Multimodal Strategy: Integrated pre-calculated quantum chemistry results (e.g., MACE-xTB) and 1,800+ descriptors.</li>
-            <li>Tools used: <a href="/en/tools/">mordred_descriptor_calculator</a></li>
-        </ul>
-    </div>
+{% endfor %}
 </div>
 
 <hr>
 
 <h2>Presentations</h2>
 <ul>
+{% for pres in data.presentations %}
     <li>
-        <b>Wataru Miyahara</b>, Mizuho Asada, Yoshihiro Uesawa. "Elucidation of structural features and development of predictive models for rhabdomyolysis using FAERS and Kolmogorov-Arnold Networks." <b>The 146th Annual Meeting of the Pharmaceutical Society of Japan</b>, Poster, 2026-03-27.
+        {{ pres.authors_en }}. "{{ pres.title_en }}". <b>{{ pres.event_en }}</b>, {{ pres.role_en }}, {{ pres.date }}.
         <ul>
             <li>Tools used: <a href="/en/tools/">ecfp_cli</a></li>
         </ul>
     </li>
+{% endfor %}
 </ul>
 
 <hr>
 
 <h2>Professional Memberships</h2>
 <ul>
-    <li>The Pharmaceutical Society of Japan (Feb 2026 - Present)</li>
-    <li>The Japanese Society of Toxicology (May 2026 - Present (Scheduled))</li>
+{% for member in data.memberships %}
+    <li>{{ member.name_en }} ({{ member.period_en }})</li>
+{% endfor %}
 </ul>
 
 <hr>
 
 <h2>Education</h2>
 <ul>
-    <li>April 2022 - Present: Meiji Pharmaceutical University, Faculty of Pharmacy.</li>
+{% for edu in data.education %}
+    <li>{{ edu.period_en }}: {{ edu.institution_en }}</li>
+{% endfor %}
 </ul>
 
 <script>
