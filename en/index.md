@@ -31,7 +31,12 @@ Research Affiliation: <a href="https://u-lab.my-pharm.ac.jp/~mminfo/member/" tar
         <b>Student Outstanding Presentation Award (Poster Section), The 146th Annual Meeting of the Pharmaceutical Society of Japan</b> (March 2026)
     </li>
     <li>
-        <b>Meiji Pharmaceutical University 'Next-Generation Researcher Development Incentive Award'</b> (March 2026)
+        <b>Meiji Pharmaceutical University 'Next-Generation Researcher Development Incentive Award' (2nd Award)</b> (March 2026)
+        <p style="font-size: 0.9em; color: #8b949e; margin-top: 0;">*Awarded for achievements at the PSJ 146th Annual Meeting</p>
+    </li>
+    <li>
+        <b>Meiji Pharmaceutical University 'Next-Generation Researcher Development Incentive Award' (1st Award)</b> (February 2026)
+        <p style="font-size: 0.9em; color: #8b949e; margin-top: 0;">*Awarded for winning the EUOS25 challenge</p>
     </li>
     <li>
         <b><a href="https://ochem.eu/static/challenge2025.do" target="_blank">EUOS25 challenge, Optical Property Prediction: Winner</a></b> (February 2026)

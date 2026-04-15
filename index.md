@@ -31,7 +31,12 @@ permalink: /
         <b>第146年会 日本薬学会 学生優秀発表賞（ポスター発表の部） 受賞</b> （2026年3月）
     </li>
     <li>
-        <b>明治薬科大学「次世代を担う研究者育成奨励金」 受賞</b> （2026年3月）
+        <b>明治薬科大学「次世代を担う研究者育成奨励金」 受賞 (2回目)</b> （2026年3月）
+        <p style="font-size: 0.9em; color: #8b949e; margin-top: 0;">※日本薬学会での受賞成果が評価され選出</p>
+    </li>
+    <li>
+        <b>明治薬科大学「次世代を担う研究者育成奨励金」 受賞 (1回目)</b> （2026年2月）
+        <p style="font-size: 0.9em; color: #8b949e; margin-top: 0;">※EUOS25 challenge での優勝実績が評価され選出</p>
     </li>
     <li>
         <b><a href="https://ochem.eu/static/challenge2025.do" target="_blank">EUOS25 challenge 光学特性予測部門 優勝</a></b> （2026年2月）
