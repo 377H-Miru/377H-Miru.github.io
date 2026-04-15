@@ -163,6 +163,13 @@
 
         <div class="footer">
             <p>© 2026 宮原 渉 (Wataru Miyahara)</p>
+            <p style="font-size: 0.8em; margin-top: 10px; color: #8b949e;">
+                {% if page.lang == 'en' %}
+                Last updated: {{ site.time | date: "%B %d, %Y" }}
+                {% else %}
+                最終更新日: {{ site.time | date: "%Y年%m月%d日" }}
+                {% endif %}
+            </p>
         </div>
     </div>
 
