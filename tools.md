@@ -35,7 +35,7 @@ permalink: /tools/
     <li><b>主な機能</b>: 
         <ul>
             <li>3D構造生成のシード固定とMMFFエネルギー最小化による高い再現性。</li>
-            <li>π共役系の品質（Conjugation Features）を独自アルゴリズムで算出。</li>
+            <li>π共役系の品質（Conjugation Features）を手法を用いて算出。</li>
             <li>Mordred記述子（1,800次元超）の一括計算に対応。</li>
         </ul>
     </li>
