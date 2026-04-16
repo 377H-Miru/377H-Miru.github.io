@@ -28,7 +28,7 @@ Research Affiliation: <a href="https://u-lab.my-pharm.ac.jp/~mminfo/member/" tar
 <h2>My Journey</h2>
 <ul>
     <li>
-        <b>Student Outstanding Presentation Award (Poster Section), The 146th Annual Meeting of the Pharmaceutical Society of Japan</b> (March 2026)
+        <b>Student Outstanding Presentation Award (Poster Section) ｜ <a href="https://forum.nacos.com/146nenkai/award/pharm146_student-award_27-51-pm1-04S.pdf" target="_blank">[Certificate (PDF)]</a>, The 146th Annual Meeting of the Pharmaceutical Society of Japan</b> (March 2026)
     </li>
     <li>
         <b>Meiji Pharmaceutical University 'Next-Generation Researcher Development Incentive Award' (2nd Award)</b> (March 2026)
