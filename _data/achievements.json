@@ -6,7 +6,7 @@
       "title_ja": "日本薬学会第146年会学生優秀発表賞（ポスター発表の部） 受賞",
       "title_en": "Student Outstanding Presentation Award (Poster Section), The 146th Annual Meeting of the Pharmaceutical Society of Japan",
       "date": "2026-03",
-      "url": "https://confsys.biz/psj146/",
+      "url": "https://forum.nacos.com/146nenkai/award/pharm146_student-award_27-51-pm1-04S.pdf",
       "result_url": "https://forum.nacos.com/146nenkai/award/pharm146_student-award_27-51-pm1-04S.pdf",
       "authors_ja": "宮原 渉, 朝田 瑞穂, 植沢 芳広",
       "authors_en": "Wataru Miyahara, Mizuho Asada, Yoshihiro Uesawa",
@@ -23,8 +23,8 @@
       "result_url": "https://www.my-pharm.ac.jp/",
       "authors_ja": "宮原 渉",
       "authors_en": "Wataru Miyahara",
-      "description_ja": "日本薬学会第146年会における学生優秀発表賞の受賞成果が評価され、大学理事会にて選出。",
-      "description_en": "Selected by the Board of Trustees in recognition of winning the Student Outstanding Presentation Award at the PSJ 146th Annual Meeting."
+      "description_ja": "日本薬学会第146年会における学生優秀発表賞の受賞成果に基づき選出。",
+      "description_en": "Selected by the Board of Trustees following the Student Outstanding Presentation Award at the PSJ 146th Annual Meeting."
     },
     {
       "id": "mpu-award-1",
@@ -36,8 +36,8 @@
       "result_url": "https://www.my-pharm.ac.jp/",
       "authors_ja": "宮原 渉",
       "authors_en": "Wataru Miyahara",
-      "description_ja": "EUOS25 challenge での優勝実績がきっかけとなり、大学理事会にて選出。",
-      "description_en": "Selected by the Board of Trustees in recognition of winning the EUOS25 challenge."
+      "description_ja": "EUOS25 challenge での結果に基づき選出。",
+      "description_en": "Selected by the Board of Trustees following the results of the EUOS25 challenge."
     },
     {
       "id": "euos25",
@@ -50,8 +50,8 @@
       "blog_url": "/posts/2026-02-25-euos25-review",
       "authors_ja": "Wataru Miyahara, Kaito Inden, Yuma Iwashita, Yoshihiro Uesawa",
       "authors_en": "Wataru Miyahara, Kaito Inden, Yuma Iwashita, Yoshihiro Uesawa",
-      "description_ja": "Multimodal Strategy: 外部計算済みの量子化学計算結果（MACE-xTB等）および1,800次元超の記述子を統合。特にπ共役系の品質を評価する Conjugation Features を活用し、蛍光予測に特化した特徴量空間を構築しました。",
-      "description_en": "Multimodal Strategy: Integrated pre-calculated quantum chemistry results (e.g., MACE-xTB) and 1,800+ descriptors. Specifically, developed a specialized feature space for fluorescence prediction by introducing unique Conjugation Features to evaluate the quality of π-conjugated systems."
+      "description_ja": "Multimodal Strategy: 外部計算済みの量子化学計算結果（MACE-xTB等）および1,800次元超の記述子を統合。特にπ共役系の品質を評価する Conjugation Features を独自に導入し、蛍光予測に特化した特徴量空間を構築しました。(Manuscript in preparation)",
+      "description_en": "Multimodal Strategy: Integrated pre-calculated quantum chemistry results (e.g., MACE-xTB) and 1,800+ descriptors. Specifically, developed a specialized feature space for fluorescence prediction by introducing unique Conjugation Features to evaluate the quality of π-conjugated systems. (Manuscript in preparation)"
     }
   ],
   "presentations": [

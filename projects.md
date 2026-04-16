@@ -13,7 +13,7 @@ permalink: /projects/
 - **概要:** 最新のニューラルネットワークアーキテクチャであるKANを用い、有害事象誘発に寄与する化学構造の解釈性を高める研究に取り組んでいます。
 - **技術的課題へのアプローチ:** 
   KANは高い関数近似能力を持つ一方で、多次元入力（ECFP等）に対する計算コストの急激な増大や、過学習への脆弱性が公知の課題として存在します。本プロジェクトでは、特定の正則化手法やアーキテクチャの工夫を導入し、**「解釈性とスケーラビリティのトレードオフ」**をどのように克服できるかという観点から検証を進めています。
-- **取り組み:** 第146年会 日本薬学会にて発表、および論文投稿に向けた準備を進めています。[Status: In preparation]
+- **取り組み:** 第146年会 日本薬学会にて発表、および論文投稿に向けた準備を進めています。
 - **使用ツール:** [ecfp_cli](https://github.com/377H-Miru/ecfp_cli) ｜ [技術解説ブログ](/posts/2026-04-02-kan-research-overview)
 
 ---
@@ -25,5 +25,5 @@ permalink: /projects/
     - **GNN Feature Generation (グラフニューラルネットワーク):** カスタムの GINE-Net を活用し、グラフ構造から抽出されたエムベディングを特徴量として統合しました。
     - **Sequential Stacking:** 透過率から蛍光への物性的依存関係をモデル化する、連鎖的なスタッキングアーキテクチャを構築。
 - **結果:** 蛍光予測部門 優勝（2026年2月）
-- **今後:** 学術誌「SLAS Technology」へ投稿準備中です。[Status: In preparation]
+- **今後:** 学術誌「SLAS Technology」へ投稿準備中です。
 - **使用ツール:** [mordred_descriptor_calculator](https://github.com/377H-Miru/mordred_descriptor_calculator) ｜ [公式ニュース](https://www.eu-openscreen.eu/resources/eu-openscreen-news/ansicht/eu-openscreen-and-slas-announce-winners-of-the-second-joint-machine-learning-challenge-at-slas-2026.html) ｜ [コンテスト概要](https://ochem.eu/static/challenge2025.do) ｜ [技術解説ブログ](/posts/2026-02-25-euos25-review)

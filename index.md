@@ -18,7 +18,7 @@ permalink: /
     <li><b>副作用発現メカニズムの探求:</b> 
         Kolmogorov-Arnold Networks (KAN) の解釈性を活用したToxicophore（毒性発現部位）の同定に取り組んでいます。高次元入力時の計算コスト増や過学習への対応といった<b>KANの技術的課題</b>を検討し、分子・受容体レベルでの安全性評価の一助となることを目指しています。
     </li>
-    <li><b>実臨床データ（RWD）解析への展開:</b> 
+    <li><b>自発報告データ・実臨床データ解析への展開:</b> 
         自発報告データベース（FAERS）での知見をベースとした、実臨床データ解析への応用を検証しています。
     </li>
 </ul>
@@ -41,7 +41,6 @@ permalink: /
     <li>
         <b><a href="https://ochem.eu/static/challenge2025.do" target="_blank">EUOS25 challenge 光学特性予測部門 優勝</a></b> （2026年2月）
         <ul>
-            <li>内容: 特徴量の統合、およびSequential Stackingアーキテクチャの設計・実装を担当しました。[Status: In preparation] ｜ <a href="/posts/2026-02-25-euos25-review">[技術解説]</a> ｜ <a href="https://www.eu-openscreen.eu/resources/eu-openscreen-news/ansicht/eu-openscreen-and-slas-announce-winners-of-the-second-joint-machine-learning-challenge-at-slas-2026.html" target="_blank">[公式発表]</a></li>
         </ul>
     </li>
 </ul>
