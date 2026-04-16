@@ -8,8 +8,8 @@
       "date": "2026-03",
       "url": "https://forum.nacos.com/146nenkai/award/pharm146_student-award_27-51-pm1-04S.pdf",
       "result_url": "https://forum.nacos.com/146nenkai/award/pharm146_student-award_27-51-pm1-04S.pdf",
-      "authors_ja": "植沢 芳広(教授)",
-      "authors_en": "Prof. Yoshihiro Uesawa",
+      "authors_ja": "朝田 瑞穂, 植沢 芳広(教授)",
+      "authors_en": "Mizuho Asada, Prof. Yoshihiro Uesawa",
       "description_ja": "「FAERSデータベースとKolmogorov-Arnold Networksを用いた横紋筋融解症誘発に関与する医薬品の構造的特徴の解明と予測モデルの構築」の成果が評価され選出。",
       "description_en": "Awarded for the presentation titled 'Elucidation of structural features and development of predictive models for rhabdomyolysis using FAERS and Kolmogorov-Arnold Networks.'"
     },
@@ -51,7 +51,7 @@
       "authors_ja": "位田 佳唯斗(博士前期課程1年), 岩下 悠馬(博士前期課程2年), 植沢 芳広(教授)",
       "authors_en": "Kaito Inden (M1), Yuma Iwashita (M2), Prof. Yoshihiro Uesawa",
       "description_ja": "Multimodal Strategy: 外部計算済みの量子化学計算結果（MACE-xTB等）および1,800次元超の記述子を統合。特にπ共役系の品質を評価する Conjugation Features を独自に導入し、蛍光予測に特化した特徴量空間を構築しました。",
-      "description_en": "Multimodal Strategy: Integrated pre-calculated quantum chemistry results (e.g., MACE-xTB) and 1,800+ descriptors. Specifically, developed a specialized feature space for fluorescence prediction by introducing unique Conjugation Features to evaluate the quality of π-conjugated systems. "
+      "description_en": "Multimodal Strategy: Integrated pre-calculated quantum chemistry results (e.g., MACE-xTB) and 1,800+ descriptors. Specifically, developed a specialized feature space for fluorescence prediction by introducing unique Conjugation Features to evaluate the quality of π-conjugated systems."
     }
   ],
   "presentations": [
@@ -63,8 +63,8 @@
       "role_ja": "ポスター発表",
       "role_en": "Poster",
       "date": "2026-03",
-      "authors_ja": "植沢 芳広(教授)",
-      "authors_en": "Prof. Yoshihiro Uesawa"
+      "authors_ja": "朝田 瑞穂, 植沢 芳広(教授)",
+      "authors_en": "Mizuho Asada, Prof. Yoshihiro Uesawa"
     }
   ],
   "memberships": [
