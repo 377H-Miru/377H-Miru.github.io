@@ -13,7 +13,7 @@ permalink: /en/projects/
 - **Summary:** Utilizing KAN to enhance the interpretability of chemical structures contributing to adverse events.
 - **Addressing Technical Trade-offs:** 
   This project investigates overcoming the scalability-interpretability trade-off of KAN when applied to high-dimensional chemical datasets through specialized regularization and architectural optimizations.
-- **Status:** Presented at the PSJ Annual Meeting; .
+- **Status:** Presented at the PSJ Annual Meeting.
 - **Tools:** [ecfp_cli](https://github.com/377H-Miru/ecfp_cli) ｜ [Technical Review](/en/posts/2026-04-02-kan-research-overview)
 
 ---

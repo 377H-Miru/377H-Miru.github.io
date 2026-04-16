@@ -19,7 +19,6 @@ Research Affiliation: <a href="https://u-lab.my-pharm.ac.jp/~mminfo/member/" tar
         Exploring Toxicophore identification using KAN interpretability. My work focuses on addressing **technical challenges of KAN**, such as computational efficiency and overfitting, to contribute to safety assessment frameworks.
     </li>
     <li><b>Clinical Data (RWD) Analysis:</b> 
-        Validating the application of FAERS-based findings to the analysis of actual clinical datasets.
     </li>
 </ul>
 
