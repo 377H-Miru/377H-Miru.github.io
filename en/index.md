@@ -18,8 +18,6 @@ Research Affiliation: <a href="https://u-lab.my-pharm.ac.jp/~mminfo/member/" tar
     <li><b>Adverse Event Mechanisms:</b> 
         Exploring Toxicophore identification using KAN interpretability. My work focuses on addressing **technical challenges of KAN**, such as computational efficiency and overfitting, to contribute to safety assessment frameworks.
     </li>
-    <li><b>Clinical Data (RWD) Analysis:</b> 
-    </li>
 </ul>
 
 <hr>
@@ -27,7 +25,7 @@ Research Affiliation: <a href="https://u-lab.my-pharm.ac.jp/~mminfo/member/" tar
 <h2>My Journey (Recent Achievements)</h2>
 <ul>
     <li>
-        <b>Student Outstanding Presentation Award (Poster Section), The 146th Annual Meeting of the Pharmaceutical Society of Japan</b> (March 2026) ｜ <a href="https://forum.nacos.com/146nenkai/award/pharm146_student-award_27-51-pm1-04S.pdf" target="_blank">[Official Certificate(PDF)]</a>
+        <b>Student Outstanding Presentation Award (Poster Section), The 146th Annual Meeting of the Pharmaceutical Society of Japan</b> (March 2026) ｜ <a href="https://forum.nacos.com/146nenkai/award/pharm146_student-award_27-51-pm1-04S.pdf" target="_blank">[Certificate(PDF)]</a>
     </li>
     <li>
         <b>Meiji Pharmaceutical University 'Next-Generation Researcher Development Incentive Award' (2nd Award)</b> (March 2026)
@@ -40,6 +38,7 @@ Research Affiliation: <a href="https://u-lab.my-pharm.ac.jp/~mminfo/member/" tar
     <li>
         <b><a href="https://ochem.eu/static/challenge2025.do" target="_blank">EUOS25 challenge, Optical Property Prediction: Winner</a></b> (February 2026)
         <ul>
+            <li>Role: Contributed to feature integration and design of Sequential Stacking architectures. [Status: In preparation] ｜ <a href="/posts/2026-02-25-euos25-review">[Technical Review]</a> ｜ <a href="https://www.eu-openscreen.eu/resources/eu-openscreen-news/ansicht/eu-openscreen-and-slas-announce-winners-of-the-second-joint-machine-learning-challenge-at-slas-2026.html" target="_blank">[Official Results]</a></li>
         </ul>
     </li>
 </ul>
