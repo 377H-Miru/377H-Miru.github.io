@@ -1,0 +1,58 @@
+---
+layout: default
+title: Tools
+lang: en
+permalink: /en/tools/
+---
+
+# Software & Tools
+
+<p><a href="/en/">← Back to Home</a></p>
+
+<p>I share software developed during my research for cheminformatics and data analysis.</p>
+
+<hr>
+
+<h2><a href="https://github.com/377H-Miru/ecfp_cli" target="_blank">ecfp_cli</a> [Upcoming]</h2>
+<p><b>Fast and robust ECFP fingerprint generation from SMILES</b></p>
+<ul>
+    <li><b>Key Features</b>: 
+        <ul>
+            <li>High-speed parallel processing for large datasets.</li>
+            <li>Automatic detection of invalid SMILES with detailed error logging.</li>
+            <li>Built-in salt removal and fragment handling.</li>
+        </ul>
+    </li>
+    <li><b>Use Case</b>: Utilized for data preprocessing in the poster presentation at the 146th Annual Meeting of the Pharmaceutical Society of Japan.</li>
+    <li><b>Links</b>: <a href="https://github.com/377H-Miru/ecfp_cli" target="_blank">[GitHub Repository]</a> ｜ <a href="https://github.com/377H-Miru/ecfp_cli/releases/latest" target="_blank">[Latest Release (v0.1.1)]</a></li>
+</ul>
+
+<hr>
+
+<h2><a href="https://github.com/377H-Miru/mordred_descriptor_calculator" target="_blank">mordred_descriptor_calculator</a> [Upcoming]</h2>
+<p><b>Reproducible descriptor calculation with pi-conjugation support</b></p>
+<ul>
+    <li><b>Key Features</b>: 
+        <ul>
+            <li>High reproducibility via deterministic seeding and MMFF energy minimization.</li>
+            <li>Unique estimation of pi-conjugated system quality (Conjugation Features).</li>
+            <li>Batch calculation of 1,800+ Mordred descriptors.</li>
+        </ul>
+    </li>
+    <li><b>Use Case</b>: Utilized for feature extraction in the EUOS25 challenge (Fluorescence track winner).</li>
+    <li><b>Links</b>: <a href="https://github.com/377H-Miru/mordred_descriptor_calculator" target="_blank">[GitHub Repository]</a> ｜ <a href="https://github.com/377H-Miru/mordred_descriptor_calculator/releases/latest" target="_blank">[Latest Release (v0.1.1)]</a></li>
+</ul>
+
+<hr>
+
+<h3>Installation</h3>
+<p>After cloning the repository, install the dependencies using the following commands:</p>
+<pre><code># For ecfp_cli
+git clone https://github.com/377H-Miru/ecfp_cli.git
+cd ecfp_cli
+pip install -r requirements.txt
+
+# For mordred_descriptor_calculator
+git clone https://github.com/377H-Miru/mordred_descriptor_calculator.git
+cd mordred_descriptor_calculator
+pip install -r requirements.txt</code></pre>

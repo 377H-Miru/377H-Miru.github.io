@@ -49,7 +49,7 @@ Research Affiliation: <a href="https://u-lab.my-pharm.ac.jp/~mminfo/member/" tar
 <ul>
     <li><b>Machine Learning (KAN / GBDT / GNN):</b> Architecture design and implementation.</li>
     <li><b>CompChem:</b> Feature extraction via RDKit and application of MOPAC/xTB workflows.</li>
-    <li><b>Software Development:</b> Developer of <a href="/en/tools/">ecfp_cli</a> (Upcoming) and <a href="/en/tools/">mordred_descriptor_calculator</a> (Upcoming), used for data preprocessing.</li>
+    <li><b>Software Development:</b> Developer of <a href="/en/tools/">ecfp_cli</a> [Upcoming] and <a href="/en/tools/">mordred_descriptor_calculator</a> [Upcoming], used for data preprocessing.</li>
 </ul>
 <p><a href="/en/projects/">→ View project details</a></p>
 
