@@ -19,14 +19,18 @@
     <meta property="og:title" content="{{ page.title }} | Wataru Miyahara Portfolio">
     <meta property="og:description" content="{{ page.description | default: '医療分子解析学所属。EUOS25 challenge 優勝。機械学習・ケモインフォマティクス。' }}">
     <meta property="og:url" content="https://377H-Miru.github.io{{ page.url }}">
-    <meta property="og:image" content="https://377H-Miru.github.io/favicon.ico">
-    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://377H-Miru.github.io/assets/img/ogp.png">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@WataruM327906">
 
     <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🧪</text></svg>">
 
     <style>
+        @media (max-width: 600px) {
+            .award-item ul { padding-left: 15px; }
+            .award-item li { margin-bottom: 8px; }
+            .blog-item .blog-title { font-size: 1.1em; }
+        }
         :root {
             --bg-color: #0d1117;
             --text-color: #c9d1d9;

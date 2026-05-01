@@ -6,78 +6,24 @@ permalink: /en/contact/
 ---
 
 <h1>Contact</h1>
-
 <p><a href="/en/">← Back to Home</a></p>
 
-<p>For research collaborations, speaking invitations, or other inquiries, please use the form below.</p>
-
-<div class="contact-box">
-    <div id="contact-success-en" style="display:none; color: #2da44e; margin-bottom: 20px; font-weight: bold;">
-        Thank you for your message. I will get back to you as soon as possible.
-    </div>
-    <div id="contact-error-en" style="display:none; color: #cf222e; margin-bottom: 20px; font-weight: bold;">
-        An error occurred while sending. Please check your input and try again.
-    </div>
-
-    <form id="my-form-en" action="https://formspree.io/f/mvzvbodq" method="POST">
-        <div class="form-group" style="margin-bottom: 15px;">
-            <label style="display: block; margin-bottom: 5px;">Name</label>
-            <input type="text" name="name" style="width: 100%; padding: 8px; background: var(--nav-bg); color: var(--text-color); border: 1px solid var(--border-color); border-radius: 4px;" required>
-        </div>
-        <div class="form-group" style="margin-bottom: 15px;">
-            <label style="display: block; margin-bottom: 5px;">Email Address</label>
-            <input type="email" name="email" style="width: 100%; padding: 8px; background: var(--nav-bg); color: var(--text-color); border: 1px solid var(--border-color); border-radius: 4px;" required>
-        </div>
-        <div class="form-group" style="margin-bottom: 15px;">
-            <label style="display: block; margin-bottom: 5px;">Subject</label>
-            <input type="text" name="subject" style="width: 100%; padding: 8px; background: var(--nav-bg); color: var(--text-color); border: 1px solid var(--border-color); border-radius: 4px;" required>
-        </div>
-        <div class="form-group" style="margin-bottom: 20px;">
-            <label style="display: block; margin-bottom: 5px;">Message</label>
-            <textarea name="message" rows="5" style="width: 100%; padding: 8px; background: var(--nav-bg); color: var(--text-color); border: 1px solid var(--border-color); border-radius: 4px;" required></textarea>
-        </div>
-        <button id="my-form-button-en" type="submit" style="background: var(--link-color); color: #fff; border: none; padding: 10px 20px; border-radius: 20px; cursor: pointer; font-weight: bold;">Send Message</button>
-    </form>
-</div>
+<p>For research collaborations or professional inquiries, please use the form below. You can also contact me via <a href="https://www.linkedin.com/in/wataru-miyahara-6947253ab/" target="_blank">LinkedIn</a>.</p>
 
 <hr>
-<h4>Important Notes</h4>
-<ul>
-    <li><b>Response Time:</b> I typically respond within 3 business days.</li>
-    <li><b>Urgent Inquiries:</b> If you do not hear back, please feel free to reach out directly via [LinkedIn DM](https://www.linkedin.com/in/wataru-miyahara-6947253ab/).</li>
-</ul>
 
-<script>
-    var formEn = document.getElementById("my-form-en");
-    async function handleSubmitEn(event) {
-      event.preventDefault();
-      var status_success = document.getElementById("contact-success-en");
-      var status_error = document.getElementById("contact-error-en");
-      var data = new FormData(event.target);
-      fetch(event.target.action, {
-        method: formEn.method,
-        body: data,
-        headers: {
-            'Accept': 'application/json'
-        }
-      }).then(response => {
-        if (response.ok) {
-          status_success.style.display = "block";
-          status_error.style.display = "none";
-          formEn.reset();
-          formEn.style.display = "none";
-        } else {
-          response.json().then(data => {
-            if (Object.hasOwn(data, 'errors')) {
-              status_error.innerHTML = data["errors"].map(error => error["message"]).join(", ");
-            } else {
-              status_error.style.display = "block";
-            }
-          })
-        }
-      }).catch(error => {
-        status_error.style.display = "block";
-      });
-    }
-    formEn.addEventListener("submit", handleSubmitEn)
-</script>
+<form action="https://formspree.io/f/xvgrgrda" method="POST" style="max-width: 600px; margin: 0 auto;">
+    <div style="margin-bottom: 20px;">
+        <label style="display: block; margin-bottom: 5px;">Name</label>
+        <input type="text" name="name" style="width: 100%; padding: 10px; border-radius: 5px; border: 1px solid var(--border-color); background: var(--nav-bg); color: var(--text-color);" placeholder="Your Name" required>
+    </div>
+    <div style="margin-bottom: 20px;">
+        <label style="display: block; margin-bottom: 5px;">Email</label>
+        <input type="email" name="_replyto" style="width: 100%; padding: 10px; border-radius: 5px; border: 1px solid var(--border-color); background: var(--nav-bg); color: var(--text-color);" placeholder="email@example.com" required>
+    </div>
+    <div style="margin-bottom: 20px;">
+        <label style="display: block; margin-bottom: 5px;">Message</label>
+        <textarea name="message" rows="5" style="width: 100%; padding: 10px; border-radius: 5px; border: 1px solid var(--border-color); background: var(--nav-bg); color: var(--text-color);" placeholder="How can I help you?" required></textarea>
+    </div>
+    <button type="submit" style="padding: 10px 30px; background: var(--link-color); color: #fff; border: none; border-radius: 5px; cursor: pointer;">Send Message</button>
+</form>
