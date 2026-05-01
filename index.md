@@ -48,7 +48,7 @@ permalink: /
 <ul>
     <li><b>機械学習 (KAN / GBDT / GNN):</b> 予測アーキテクチャの設計・実装。</li>
     <li><b>計算化学 (Cheminformatics):</b> RDKitを用いた特徴量抽出、量子化学計算(MOPAC/xTB)ワークフローの活用。</li>
-    <li><b>ツール開発:</b> データ前処理に活用した <a href="/tools/">ecfp_cli</a> や <a href="/tools/">mordred_descriptor_calculator</a> の開発。</li>
+    <li><b>ツール開発:</b> データ前処理に活用した <a href="/tools/">ecfp_cli</a> (公開予定) や <a href="/tools/">mordred_descriptor_calculator</a> (公開予定) の開発。</li>
 </ul>
 <p><a href="/projects/">→ 各プロジェクトの詳細はこちら</a></p>
 
