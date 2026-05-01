@@ -62,10 +62,16 @@
       "period_en": "February 2026 - Present"
     },
     {
+      "name_ja": "日本コンピュータ化学会 (The Society of Computer Chemistry, Japan)",
+      "name_en": "The Society of Computer Chemistry, Japan (SCCJ)",
+      "period_ja": "2026年4月 - 現在",
+      "period_en": "April 2026 - Present"
+    },
+    {
       "name_ja": "日本毒性学会 (The Japanese Society of Toxicology)",
       "name_en": "The Japanese Society of Toxicology",
-      "period_ja": "2026年5月 - 現在 (予定)",
-      "period_en": "May 2026 - Present (Scheduled)"
+      "period_ja": "2026年5月 - 現在",
+      "period_en": "May 2026 - Present"
     }
   ],
   "publications": [],
