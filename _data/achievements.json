@@ -43,6 +43,18 @@
   ],
   "presentations": [
     {
+      "title_ja": "光学特性予測QSARコンペティション \"EUOS25 Challenge\" 参加報告",
+      "title_en": "Report on Participation in the Optical Property Prediction QSAR Competition 'EUOS25 Challenge'",
+      "event_ja": "日本コンピュータ化学会 2026年春季年会",
+      "event_en": "SCCJ 2026 Spring Annual Meeting",
+      "role_ja": "ポスター発表 (1P08)",
+      "role_en": "Poster (1P08)",
+      "date": "2026-04",
+      "authors_ja": "<b>宮原 渉</b>, 位田 佳唯斗, 岩下 悠馬, 植沢 芳広",
+      "authors_en": "<b>Wataru Miyahara</b>, Kaito Inden, Yuma Iwashita, Yoshihiro Uesawa",
+      "url": "https://www.sccj.net/events/nenkai/2026sp/program.html"
+    },
+    {
       "title_ja": "FAERSデータベースとKolmogorov-Arnold Networksを用いた横紋筋融解症誘発に関与する医薬品の構造的特徴の解明と予測モデルの構築",
       "title_en": "Elucidation of structural features and development of predictive models for rhabdomyolysis using FAERS and Kolmogorov-Arnold Networks.",
       "event_ja": "第146年会 日本薬学会",
@@ -50,8 +62,8 @@
       "role_ja": "ポスター発表",
       "role_en": "Poster",
       "date": "2026-03",
-      "authors_ja": "朝田 瑞穂, 植沢 芳広(教授)",
-      "authors_en": "Mizuho Asada, Prof. Yoshihiro Uesawa"
+      "authors_ja": "<b>宮原 渉</b>, 朝田 瑞穂, 植沢 芳広",
+      "authors_en": "<b>Wataru Miyahara</b>, Mizuho Asada, Yoshihiro Uesawa"
     }
   ],
   "memberships": [
