@@ -1,0 +1,43 @@
+---
+layout: default
+title: Projects
+lang: en
+permalink: /en/projects/
+---
+
+<h1>Projects</h1>
+<p><a href="/en/">← Back to Home</a></p>
+
+<hr>
+
+<h2 id="kan">Adverse Event Analysis via Interpretable ML (KAN Approach)</h2>
+<ul>
+    <li><b>Overview:</b> Focusing on AI-driven scientific discovery, I am researching ways to enhance the interpretability of chemical structures contributing to adverse events. As one approach, we utilize Kolmogorov-Arnold Networks (KAN).</li>
+    <li><b>Addressing Technical Trade-offs:</b> 
+        While KAN offers high function approximation capabilities, it faces challenges like computational cost spikes and overfitting in high-dimensional settings (e.g., ECFP). This project investigates overcoming the <b>scalability-interpretability trade-off</b> through specialized regularization and architectural optimizations.
+    </li>
+    <li><b>Status:</b> Presented at the PSJ 146th Annual Meeting.</li>
+    <li><b>Resources:</b> <a href="https://github.com/377H-Miru/ecfp_cli" target="_blank">ecfp_cli</a> ｜ <a href="/en/posts/2026-04-02-kan-research-overview">Technical Review</a></li>
+</ul>
+
+<hr>
+
+<h2 id="euos">EUOS25 challenge: Optical Property Prediction</h2>
+<ul>
+    <li><b>Overview:</b> Winner of the Fluorescence track in a large-scale competition involving ~100k compounds.</li>
+    <li><b>Technical Approach:</b>
+        <ul>
+            <li><b>Massive Informatics:</b> Expanded PathCounts (up to 50th order) beyond 1,800+ Mordred descriptors. Integrated Conjugation Features to evaluate π-conjugated systems, constructing a specialized feature space for fluorescence prediction.</li>
+            <li><b>GNN Feature Generation:</b> Integrated graph-based embeddings using a custom GINE-Net.</li>
+            <li><b>Sequential Stacking:</b> Chained architecture modeling biophysical dependencies from transmittance to fluorescence.</li>
+        </ul>
+    </li>
+    <li><b>Result:</b> Winner of the Fluorescence track (February 2026)</li>
+    <li><b>Publication:</b> Preprint available: <a href="https://chemrxiv.org/doi/full/10.26434/chemrxiv.15002662/v1" target="_blank">ChemRxiv</a></li>
+    <li><b>Tools & Links:</b> 
+        <a href="https://github.com/377H-Miru/mordred_descriptor_calculator" target="_blank">mordred_descriptor_calculator</a> ｜ 
+        <a href="https://www.eu-openscreen.eu/resources/eu-openscreen-news/ansicht/eu-openscreen-and-slas-announce-winners-of-the-second-joint-machine-learning-challenge-at-slas-2026.html" target="_blank">Official News</a> ｜ 
+        <a href="https://ochem.eu/static/challenge2025.do" target="_blank">Challenge Info</a> ｜ 
+        <a href="/en/posts/2026-02-25-euos25-review">Technical Review</a>
+    </li>
+</ul>

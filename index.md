@@ -6,17 +6,20 @@ permalink: /
 ---
 
 <h1>宮原 渉 (Wataru Miyahara)</h1>
-<p><b>Computational toxicology researcher focused on interpretable ML and cheminformatics.</b></p>
+<p><b>解釈可能な機械学習（Interpretable ML）による創薬・毒性学への貢献を目指す研究者。</b></p>
 
 <p>明治薬科大学 薬学部薬学科（2028年3月卒業予定）<br>
 <a href="https://u-lab.my-pharm.ac.jp/~mminfo/member/" target="_blank">医療分子解析学研究室（研究メンバー）</a> 所属</p>
 
 <hr>
 
-<h2>研究領域 (Research Focus)</h2>
+<h2>研究の方針 (Research Philosophy)</h2>
 <ul>
-    <li><b>副作用発現メカニズムの探求:</b> 
-        Kolmogorov-Arnold Networks (KAN) の解釈性を活用したToxicophore（毒性発現部位）の同定に取り組んでいます。高次元入力時の計算コスト増や過学習への対応といった<b>KANの技術的課題</b>を検討し、分子・受容体レベルでの安全性評価の一助となることを目指しています。
+    <li><b>科学的発見を促す機械学習:</b> 
+        単なる予測精度の追求にとどまらず、モデルが「なぜその予測を出したのか」を化学的・生物学的に解釈可能な形で提示する技術（Interpretable ML）を重視しています。AIをブラックボックス化させず、研究者が新たな知見を得るための「探索ツール」として機能させることで、創薬プロセスや安全性評価の高度化に貢献することを目指しています。
+    </li>
+    <li><b>主要なアプローチ:</b> 
+        現在は、Kolmogorov-Arnold Networks (KAN) の解釈性を活用したToxicophore（毒性発現部位）の同定や、構造記述子の最適化、GINE-Net等のグラフニューラルネットワークを用いたマルチモーダル解析に取り組んでいます。
     </li>
 </ul>
 
@@ -47,7 +50,7 @@ permalink: /
 
 <h2>スキル・経験 (Skills & Experience)</h2>
 <ul>
-    <li><b>機械学習 (KAN / GBDT / GNN):</b> 予測アーキテクチャの設計・実装。</li>
+    <li><b>機械学習 (Interpretable ML / KAN / GNN):</b> 解釈性を重視した予測アーキテクチャの設計・実装。</li>
     <li><b>計算化学 (Cheminformatics):</b> RDKitを用いた特徴量抽出、量子化学計算(MOPAC/xTB)ワークフローの活用。</li>
     <li><b>ツール開発:</b> データ前処理に活用した <a href="/tools/">ecfp_cli</a> や <a href="/tools/">mordred_descriptor_calculator</a> の開発。</li>
 </ul>
