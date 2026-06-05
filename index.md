@@ -31,7 +31,7 @@ permalink: /
         <b>日本コンピュータ化学会 2026年春季年会 ポスター発表</b> （2026年4月） ｜ <a href="https://www.sccj.net/events/nenkai/2026sp/program.html" target="_blank">[発表プログラム]</a>
     </li>
     <li>
-        <b>第146年会 日本薬学会 学生優秀発表賞（ポスター発表の部） 受賞</b> （2026年3月） ｜ <a href="https://forum.nacos.com/146nenkai/award/pharm146_student-award_27-51-pm1-04S.pdf" target="_blank">[賞状(PDF)]</a>
+        <b>第146年会 日本薬学会 学生優秀発表賞（ポスター発表の部） 受賞</b> （2026年3月） ｜ <a href="https://forum.nacos.com/146nenkai/award/pharm146_student-award_27-51-pm1-04S.pdf" target="_blank">[賞状(PDF)]</a> ｜ <a href="https://confsys.biz/psj146/" target="_blank">[発表プログラム]</a>
     </li>
     <li>
         <b>明治薬科大学「次世代を担う研究者育成奨励金」 受賞 (1回目)</b> （2026年2月）
