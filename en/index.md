@@ -31,7 +31,7 @@ Research Affiliation: <a href="https://u-lab.my-pharm.ac.jp/~mminfo/member/" tar
         <b>SCCJ 2026 Spring Annual Meeting Poster Presentation</b> (April 2026) ｜ <a href="https://www.sccj.net/events/nenkai/2026sp/program.html" target="_blank">[Program]</a>
     </li>
     <li>
-        <b>Student Outstanding Presentation Award (Poster Section), The 146th Annual Meeting of the Pharmaceutical Society of Japan</b> (March 2026) ｜ <a href="https://forum.nacos.com/146nenkai/award/pharm146_student-award_27-51-pm1-04S.pdf" target="_blank">[Certificate(PDF)]</a> ｜ <a href="https://confsys.biz/psj146/" target="_blank">[Program]</a>
+        <b>Student Outstanding Presentation Award (Poster Section), The 146th Annual Meeting of the Pharmaceutical Society of Japan</b> (March 2026) ｜ <a href="https://forum.nacos.com/146nenkai/award/pharm146_student-award_27-51-pm1-04S.pdf" target="_blank">[Certificate(PDF)]</a> ｜ <a href="https://confit.atlas.jp/guide/event/pharm146/subject/27-51-pm1-04S/detail?kind=html" target="_blank">[Program]</a>
     </li>
     <li>
         <b>Meiji Pharmaceutical University 'Next-Generation Researcher Development Incentive Award' (1st Award)</b> (February 2026)
@@ -52,7 +52,7 @@ Research Affiliation: <a href="https://u-lab.my-pharm.ac.jp/~mminfo/member/" tar
 <ul>
     <li><b>Machine Learning (Interpretable ML / KAN / GNN):</b> Architecture design focused on model interpretability.</li>
     <li><b>CompChem:</b> Feature extraction via RDKit and application of MOPAC/xTB workflows.</li>
-    <li><b>Software Development:</b> Developer of <a href="/en/tools/">ecfp_cli</a> and <a href="/en/tools/">mordred_descriptor_calculator</a>, used for data preprocessing.</li>
+    <li><b>Software Development:</b> Developer of <a href="/en/tools/">ecfp_cli</a> [Upcoming] and <a href="/en/tools/">mordred_descriptor_calculator</a> [Upcoming], used for data preprocessing.</li>
 </ul>
 <p><a href="/en/projects/">→ View project details</a></p>
 
