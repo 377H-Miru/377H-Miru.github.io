@@ -65,7 +65,8 @@
       "date": "2026-04",
       "authors_ja": "<b>宮原 渉</b>, 位田 佳唯斗, 岩下 悠馬, 植沢 芳広",
       "authors_en": "<b>Wataru Miyahara</b>, Kaito Inden, Yuma Iwashita, Yoshihiro Uesawa",
-      "url": "https://www.sccj.net/events/nenkai/2026sp/program.html"
+      "url": "https://www.sccj.net/events/nenkai/2026sp/program.html",
+      "tool": "mordred_descriptor_calculator"
     },
     {
       "title_ja": "FAERSデータベースとKolmogorov-Arnold Networksを用いた横紋筋融解症誘発に関与する医薬品の構造的特徴の解明と予測モデルの構築",
@@ -77,7 +78,8 @@
       "date": "2026-03",
       "authors_ja": "<b>宮原 渉</b>, 朝田 瑞穂, 植沢 芳広",
       "authors_en": "<b>Wataru Miyahara</b>, Mizuho Asada, Yoshihiro Uesawa",
-      "url": "https://confit.atlas.jp/guide/event/pharm146/subject/27-51-pm1-04S/detail?kind=html"
+      "url": "https://confit.atlas.jp/guide/event/pharm146/subject/27-51-pm1-04S/detail?kind=html",
+      "tool": "ecfp_cli"
     }
   ],
   "memberships": [

@@ -61,7 +61,11 @@ permalink: /achievements/
     <li>
         {{ pres.authors_ja }}. "{{ pres.title_ja }}". <b>{{ pres.event_ja }}</b>, {{ pres.role_ja }}, {{ pres.date }}.
         <ul>
+            {% if pres.tool == 'mordred_descriptor_calculator' %}
+            <li>使用ツール: <a href="/tools/">mordred_descriptor_calculator</a> [公開予定]</li>
+            {% elsif pres.tool == 'ecfp_cli' %}
             <li>使用ツール: <a href="/tools/">ecfp_cli</a> [公開予定]</li>
+            {% endif %}
         </ul>
     </li>
 {% endfor %}

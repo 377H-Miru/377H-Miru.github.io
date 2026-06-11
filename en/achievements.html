@@ -61,7 +61,11 @@ permalink: /en/achievements/
     <li>
         {{ pres.authors_en }}. "{{ pres.title_en }}". <b>{{ pres.event_en }}</b>, {{ pres.role_en }}, {{ pres.date }}.
         <ul>
+            {% if pres.tool == 'mordred_descriptor_calculator' %}
+            <li>Tools used: <a href="/en/tools/">mordred_descriptor_calculator</a> [Upcoming]</li>
+            {% elsif pres.tool == 'ecfp_cli' %}
             <li>Tools used: <a href="/en/tools/">ecfp_cli</a> [Upcoming]</li>
+            {% endif %}
         </ul>
     </li>
 {% endfor %}
