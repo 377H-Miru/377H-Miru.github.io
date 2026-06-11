@@ -6,20 +6,17 @@ permalink: /
 ---
 
 <h1>宮原 渉 (Wataru Miyahara)</h1>
-<p><b>解釈可能な機械学習（Interpretable ML）による創薬・毒性学への貢献を目指す研究者。</b></p>
+<p><b>Computational toxicology researcher focused on interpretable ML and cheminformatics.</b></p>
 
 <p>明治薬科大学 薬学部薬学科（2028年3月卒業予定）<br>
 <a href="https://u-lab.my-pharm.ac.jp/~mminfo/member/" target="_blank">医療分子解析学研究室（研究メンバー）</a> 所属</p>
 
 <hr>
 
-<h2>研究の方針 (Research Philosophy)</h2>
+<h2>研究領域 (Research Focus)</h2>
 <ul>
-    <li><b>科学的発見を促す機械学習:</b> 
-        単なる予測精度の追求にとどまらず、モデルが「なぜその予測を出したのか」を化学的・生物学的に解釈可能な形で提示する技術（Interpretable ML）を重視しています。AIをブラックボックス化させず、研究者が新たな知見を得るための「探索ツール」として機能させることで、創薬プロセスや安全性評価の高度化に貢献することを目指しています。
-    </li>
-    <li><b>主要なアプローチ:</b> 
-        現在は、Kolmogorov-Arnold Networks (KAN) の解釈性を活用したToxicophore（毒性発現部位）の同定や、構造記述子の最適化、GINE-Net等のグラフニューラルネットワークを用いたマルチモーダル解析に取り組んでいます。
+    <li><b>副作用発現メカニズムの探求:</b> 
+        Kolmogorov-Arnold Networks (KAN) の解釈性を活用したToxicophore（毒性発現部位）の同定に取り組んでいます。高次元入力時の計算コスト増や過学習への対応といった<b>KANの技術的課題</b>を検討し、分子・受容体レベルでの安全性評価の一助となることを目指しています。
     </li>
 </ul>
 
@@ -28,10 +25,11 @@ permalink: /
 <h2>これまでの歩み (Recent Achievements)</h2>
 <ul>
     <li>
-        <b>日本コンピュータ化学会 2026年春季年会 ポスター発表</b> （2026年4月） ｜ <a href="https://www.sccj.net/events/nenkai/2026sp/program.html" target="_blank">[発表プログラム]</a>
+        <b>明治薬科大学「次世代を担う研究者育成奨励金」 受賞 (2回目)</b> （2026年4月）
+        <p style="font-size: 0.9em; color: #8b949e; margin-top: 0;">※日本薬学会での発表成果に基づく選出</p>
     </li>
     <li>
-        <b>第146年会 日本薬学会 学生優秀発表賞（ポスター発表の部） 受賞</b> （2026年3月） ｜ <a href="https://forum.nacos.com/146nenkai/award/pharm146_student-award_27-51-pm1-04S.pdf" target="_blank">[賞状(PDF)]</a> ｜ <a href="https://confit.atlas.jp/guide/event/pharm146/subject/27-51-pm1-04S/detail?kind=html" target="_blank">[発表プログラム]</a>
+        <b>第146年会 日本薬学会 学生優秀発表賞（ポスター発表の部） 受賞</b> （2026年3月） ｜ <a href="https://forum.nacos.com/146nenkai/award/pharm146_student-award_27-51-pm1-04S.pdf" target="_blank">[賞状(PDF)]</a>
     </li>
     <li>
         <b>明治薬科大学「次世代を担う研究者育成奨励金」 受賞 (1回目)</b> （2026年2月）
@@ -40,7 +38,7 @@ permalink: /
     <li>
         <b><a href="https://ochem.eu/static/challenge2025.do" target="_blank">EUOS25 challenge 光学特性予測部門 優勝</a></b> （2026年2月）
         <ul>
-            <li>内容: 特徴量の統合、およびSequential Stackingアーキテクチャの設計・実装を担当しました。 ｜ <a href="/posts/2026-02-25-euos25-review">[技術解説]</a> ｜ <a href="https://chemrxiv.org/doi/full/10.26434/chemrxiv.15002662/v1" target="_blank">[Preprint (ChemRxiv)]</a> ｜ <a href="https://www.eu-openscreen.eu/resources/eu-openscreen-news/ansicht/eu-openscreen-and-slas-announce-winners-of-the-second-joint-machine-learning-challenge-at-slas-2026.html" target="_blank">[公式発表]</a></li>
+            <li>内容: 特徴量の統合、およびSequential Stackingアーキテクチャの設計・実装を担当しました。 ｜ <a href="/posts/2026-02-25-euos25-review">[技術解説]</a> ｜ <a href="https://chemrxiv.org/doi/full/10.26434/chemrxiv.15002662/v1" target="_blank">[Preprint (ChemRxiv)]</a></li>
         </ul>
     </li>
 </ul>
@@ -50,8 +48,8 @@ permalink: /
 
 <h2>スキル・経験 (Skills & Experience)</h2>
 <ul>
-    <li><b>機械学習 (Interpretable ML / KAN / GNN):</b> 解釈性を重視した予測アーキテクチャの設計・実装。</li>
-    <li><b>計算化学 (Cheminformatics):</b> RDKitを用いた特徴量抽出、量子化学計算(MOPAC/xTB)ワークフローの活用. </li>
+    <li><b>機械学習 (KAN / GBDT / GNN):</b> 予測アーキテクチャの設計・実装。</li>
+    <li><b>計算化学 (Cheminformatics):</b> RDKitを用いた特徴量抽出、量子化学計算(MOPAC/xTB)ワークフローの活用。</li>
     <li><b>ツール開発:</b> データ前処理に活用した <a href="/tools/">ecfp_cli</a> [公開予定] や <a href="/tools/">mordred_descriptor_calculator</a> [公開予定] の開発。</li>
 </ul>
 <p><a href="/projects/">→ 各プロジェクトの詳細はこちら</a></p>
