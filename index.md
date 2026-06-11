@@ -28,6 +28,10 @@ permalink: /
 <h2>これまでの歩み (Recent Achievements)</h2>
 <ul>
     <li>
+        <b>明治薬科大学「次世代を担う研究者育成奨励金」 受賞 (2回目)</b> （2026年4月）
+        <p style="font-size: 0.9em; color: #8b949e; margin-top: 0;">※日本薬学会での発表成果に基づく選出</p>
+    </li>
+    <li>
         <b>日本コンピュータ化学会 2026年春季年会 ポスター発表</b> （2026年4月） ｜ <a href="https://www.sccj.net/events/nenkai/2026sp/program.html" target="_blank">[発表プログラム]</a>
     </li>
     <li>

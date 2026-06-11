@@ -1,6 +1,19 @@
 {
   "awards": [
     {
+      "id": "mpu-award-2",
+      "tag": "University",
+      "title_ja": "明治薬科大学「次世代を担う研究者育成奨励金」 受賞 (2回目)",
+      "title_en": "Meiji Pharmaceutical University 'Next-Generation Researcher Development Incentive Award' (2nd Award)",
+      "date": "2026-04",
+      "url": "https://www.my-pharm.ac.jp/",
+      "result_url": "https://www.my-pharm.ac.jp/",
+      "authors_ja": "-",
+      "authors_en": "-",
+      "description_ja": "日本薬学会第146年会における「学生優秀発表賞」の受賞成果に基づき選出。",
+      "description_en": "Selected by the Board of Trustees following the Student Outstanding Presentation Award at the PSJ 146th Annual Meeting."
+    },
+    {
       "id": "psj146-award",
       "tag": "Academic",
       "title_ja": "日本薬学会第146年会学生優秀発表賞（ポスター発表の部） 受賞",

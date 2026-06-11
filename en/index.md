@@ -28,6 +28,10 @@ Research Affiliation: <a href="https://u-lab.my-pharm.ac.jp/~mminfo/member/" tar
 <h2>My Journey (Recent Achievements)</h2>
 <ul>
     <li>
+        <b>Meiji Pharmaceutical University 'Next-Generation Researcher Development Incentive Award' (2nd Award)</b> (April 2026)
+        <p style="font-size: 0.9em; color: #8b949e; margin-top: 0;">*Selected based on results at the PSJ 146th Annual Meeting</p>
+    </li>
+    <li>
         <b>SCCJ 2026 Spring Annual Meeting Poster Presentation</b> (April 2026) ｜ <a href="https://www.sccj.net/events/nenkai/2026sp/program.html" target="_blank">[Program]</a>
     </li>
     <li>
