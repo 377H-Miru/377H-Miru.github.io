@@ -1,26 +1,13 @@
 {
   "awards": [
     {
-      "id": "mpu-award-2",
-      "tag": "University",
-      "title_ja": "明治薬科大学「次世代を担う研究者育成奨励金」 受賞 (2回目)",
-      "title_en": "Meiji Pharmaceutical University 'Next-Generation Researcher Development Incentive Award' (2nd Award)",
-      "date": "2026-04",
-      "url": "https://www.my-pharm.ac.jp/",
-      "result_url": "https://www.my-pharm.ac.jp/",
-      "authors_ja": "-",
-      "authors_en": "-",
-      "description_ja": "日本薬学会第146年会における「学生優秀発表賞」の受賞成果に基づき選出。",
-      "description_en": "Selected by the Board of Trustees following the Student Outstanding Presentation Award at the PSJ 146th Annual Meeting."
-    },
-    {
       "id": "psj146-award",
       "tag": "Academic",
       "title_ja": "日本薬学会第146年会学生優秀発表賞（ポスター発表の部） 受賞",
       "title_en": "Student Outstanding Presentation Award (Poster Section), The 146th Annual Meeting of the Pharmaceutical Society of Japan",
       "date": "2026-03",
       "url": "https://forum.nacos.com/146nenkai/award/pharm146_student-award_27-51-pm1-04S.pdf",
-      "result_url": "https://chemrxiv.org/doi/full/10.26434/chemrxiv.15002662/v1",
+      "result_url": "https://confit.atlas.jp/guide/event/pharm146/subject/27-51-pm1-04S/detail?kind=html",
       "authors_ja": "朝田 瑞穂, 植沢 芳広(教授)",
       "authors_en": "Mizuho Asada, Prof. Yoshihiro Uesawa",
       "description_ja": "「FAERSデータベースとKolmogorov-Arnold Networksを用いた横紋筋融解症誘発に関与する医薬品の構造的特徴の解明と予測モデルの構築」の成果が評価され選出。",
@@ -56,15 +43,28 @@
   ],
   "presentations": [
     {
+      "title_ja": "光学特性予測QSARコンペティション \"EUOS25 Challenge\" 参加報告",
+      "title_en": "Report on Participation in the Optical Property Prediction QSAR Competition 'EUOS25 Challenge'",
+      "event_ja": "日本コンピュータ化学会 2026年春季年会",
+      "event_en": "SCCJ 2026 Spring Annual Meeting",
+      "role_ja": "ポスター発表 (1P08)",
+      "role_en": "Poster (1P08)",
+      "date": "2026-04",
+      "authors_ja": "<b>宮原 渉</b>, 位田 佳唯斗, 岩下 悠馬, 植沢 芳広",
+      "authors_en": "<b>Wataru Miyahara</b>, Kaito Inden, Yuma Iwashita, Yoshihiro Uesawa",
+      "url": "https://www.sccj.net/events/nenkai/2026sp/program.html"
+    },
+    {
       "title_ja": "FAERSデータベースとKolmogorov-Arnold Networksを用いた横紋筋融解症誘発に関与する医薬品の構造的特徴の解明と予測モデルの構築",
       "title_en": "Elucidation of structural features and development of predictive models for rhabdomyolysis using FAERS and Kolmogorov-Arnold Networks.",
       "event_ja": "第146年会 日本薬学会",
       "event_en": "The 146th Annual Meeting of the Pharmaceutical Society of Japan",
-      "role_ja": "ポスター発表",
-      "role_en": "Poster",
+      "role_ja": "ポスター発表 (27-51-pm1-04S)",
+      "role_en": "Poster (27-51-pm1-04S)",
       "date": "2026-03",
-      "authors_ja": "朝田 瑞穂, 植沢 芳広(教授)",
-      "authors_en": "Mizuho Asada, Prof. Yoshihiro Uesawa"
+      "authors_ja": "<b>宮原 渉</b>, 朝田 瑞穂, 植沢 芳広",
+      "authors_en": "<b>Wataru Miyahara</b>, Mizuho Asada, Yoshihiro Uesawa",
+      "url": "https://confit.atlas.jp/guide/event/pharm146/subject/27-51-pm1-04S/detail?kind=html"
     }
   ],
   "memberships": [
@@ -77,6 +77,18 @@
     {
       "name_ja": "日本コンピュータ化学会 (The Society of Computer Chemistry, Japan)",
       "name_en": "The Society of Computer Chemistry, Japan (SCCJ)",
+      "period_ja": "2026年4月 - 現在",
+      "period_en": "April 2026 - Present"
+    },
+    {
+      "name_ja": "日本医薬品安全性学会 (Japanese Society of Drug Safety)",
+      "name_en": "Japanese Society of Drug Safety",
+      "period_ja": "2026年4月 - 現在",
+      "period_en": "April 2026 - Present"
+    },
+    {
+      "name_ja": "日本医療薬学会 (Japanese Society of Pharmaceutical Health Care and Sciences)",
+      "name_en": "Japanese Society of Pharmaceutical Health Care and Sciences",
       "period_ja": "2026年4月 - 現在",
       "period_en": "April 2026 - Present"
     },
