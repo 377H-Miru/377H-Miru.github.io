@@ -18,9 +18,11 @@ permalink: /en/tools/
 <ul>
     <li><b>Key Features</b>: 
         <ul>
-            <li>Fast parallel computation for large-scale datasets using multiprocessing.</li>
-            <li>Automatic detection of invalid SMILES with detailed error logging.</li>
-            <li>Built-in molecular desalting (standardization) options.</li>
+            <li>Intuitive CLI interface (`ecfp-gen --input ... --output ...`).</li>
+            <li>Fast parallel computation and streaming chunk execution for large-scale datasets.</li>
+            <li>Built-in desalting (`--desalt`) and optional standardization (`--standardize`).</li>
+            <li>Flexible column naming options (custom bit prefix and zero-indexed bit columns).</li>
+            <li>Multi-stage structured error logging (`.errors.tsv` / `.errors.csv`) for full workflow transparency.</li>
         </ul>
     </li>
     <li><b>Track Record</b>: Used for data preprocessing in the 146th Annual Meeting of the Pharmaceutical Society of Japan.</li>

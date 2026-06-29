@@ -14,13 +14,15 @@ permalink: /tools/
 <hr>
 
 <h2><a href="https://github.com/377H-Miru/ecfp_cli" target="_blank">ecfp_cli (`ecfp-gen`)</a></h2>
-<p><b>SMILESからECFPフィンガープリントを高速・堅牢に生成するCLIツール</b></p>
+<p><b>SMILESからECFPフィンガープリントを高速・堅牢に一括生成するCLIツール</b></p>
 <ul>
     <li><b>主な機能</b>: 
         <ul>
-            <li>マルチプロセスによる大規模データの高速並列計算。</li>
-            <li>不正なSMILESの自動検知と詳細なエラーログ出力。</li>
-            <li>脱塩処理（Salt removal）の標準搭載。</li>
+            <li>`ecfp-gen` CLIによる直感的な操作（`--input`, `--output`, `--radius`, `--bits`）。</li>
+            <li>マルチプロセス並列処理およびチャンクストリーミングによる大規模データの高速処理。</li>
+            <li>脱塩処理（`--desalt`）の標準対応および分子標準化（`--standardize`）オプション。</li>
+            <li>ビットプレフィックスや0開始インデックスなどの柔軟なカラム命名設定。</li>
+            <li>多段階構造化エラーログ（`.errors.tsv` / `.errors.csv`）による高透過な処理結果追跡。</li>
         </ul>
     </li>
     <li><b>活用実績</b>: 日本薬学会第146年会でのポスター発表におけるデータ前処理に使用。</li>
