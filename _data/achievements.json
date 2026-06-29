@@ -129,6 +129,21 @@
       "doi": "",
       "description_ja": "局所構造フラグメント特徴量と分子全体記述子を明示的に統合し、高い解釈性と高精度を両立する新たな毒性予測スタッキング手法を提案。",
       "description_en": "Introduces a novel stacking methodology integrating local structural fragment features with whole-molecule descriptors for highly interpretable toxicological machine learning models."
+    },
+    {
+      "id": "euos25-chemrxiv",
+      "status": "preprint",
+      "title_ja": "Multimodal Machine Learning and Sequential Stacking Strategy for Optical Property Prediction: EUOS25 Challenge",
+      "title_en": "Multimodal Machine Learning and Sequential Stacking Strategy for Optical Property Prediction: EUOS25 Challenge",
+      "authors_ja": "位田 佳唯斗, 岩下 悠馬, <b>宮原 渉</b>, 植沢 芳広*",
+      "authors_en": "Kaito Inden, Yuma Iwashita, <b>Wataru Miyahara</b>, Yoshihiro Uesawa*",
+      "journal_ja": "ChemRxiv (Preprint)",
+      "journal_en": "ChemRxiv (Preprint)",
+      "date": "2026",
+      "url": "https://chemrxiv.org/doi/full/10.26434/chemrxiv.15002662/v1",
+      "doi": "10.26434/chemrxiv.15002662/v1",
+      "description_ja": "EUOS25 challenge 蛍光予測部門優勝に貢献したマルチモーダル量子化学特徴量と Sequential Stacking アーキテクチャのプレプリント。",
+      "description_en": "Preprint detailing the multimodal quantum chemistry feature integration and Sequential Stacking architecture used to win the EUOS25 challenge fluorescence track."
     }
   ],
   "education": [
