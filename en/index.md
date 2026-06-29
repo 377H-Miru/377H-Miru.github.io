@@ -28,9 +28,9 @@ Research Affiliation: <a href="https://u-lab.my-pharm.ac.jp/~mminfo/member/" tar
 <h2>My Journey (Recent Achievements)</h2>
 <ul>
     <li>
-        <b>Preprint Accepted (Preprints.org)</b> (June 2026)
+        <b>Preprint Published (Preprints.org)</b> (June 2026)
         <ul>
-            <li>Paper on novel toxicity prediction stacking methodology integrating local fragment features and whole-molecule descriptors (Fragment–Molecular Evidence Stacking) accepted at Preprints.org (public link forthcoming).</li>
+            <li>Paper on novel toxicity prediction stacking methodology integrating local fragment features and whole-molecule descriptors (Fragment–Molecular Evidence Stacking) published on Preprints.org. ｜ <a href="https://www.preprints.org/manuscript/202606.2071" target="_blank">[Preprint (Preprints.org)]</a></li>
         </ul>
     </li>
     <li>
@@ -62,7 +62,7 @@ Research Affiliation: <a href="https://u-lab.my-pharm.ac.jp/~mminfo/member/" tar
 <ul>
     <li><b>Machine Learning (Interpretable ML / KAN / GNN):</b> Architecture design focused on model interpretability.</li>
     <li><b>CompChem:</b> Feature extraction via RDKit and application of MOPAC/xTB workflows.</li>
-    <li><b>Software Development:</b> Developer of <a href="/en/tools/">ecfp_cli</a> [Upcoming] and <a href="/en/tools/">mordred_descriptor_calculator</a> [Upcoming], used for data preprocessing.</li>
+    <li><b>Software Development:</b> Developer of <a href="/en/tools/">ecfp_cli</a> and <a href="/en/tools/">mordred_descriptor_calculator</a>, used for data preprocessing.</li>
 </ul>
 <p><a href="/en/projects/">→ View project details</a></p>
 
