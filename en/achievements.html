@@ -55,6 +55,21 @@ permalink: /en/achievements/
 
 <hr>
 
+<h2>Publications & Preprints</h2>
+<ul>
+{% for pub in data.publications %}
+    <li>
+        {{ pub.authors_en }}. "{{ pub.title_en }}". <b>{{ pub.journal_en }}</b>, {{ pub.date }}.
+        {% if pub.url != "" %}<a href="{{ pub.url }}" target="_blank">[Paper/Preprint]</a>{% else %}<span style="color: #8b949e; font-size: 0.9em;">[Forthcoming]</span>{% endif %}
+        <ul>
+            <li>{{ pub.description_en }}</li>
+        </ul>
+    </li>
+{% endfor %}
+</ul>
+
+<hr>
+
 <h2>Presentations</h2>
 <ul>
 {% for pres in data.presentations %}

@@ -55,6 +55,21 @@ permalink: /achievements/
 
 <hr>
 
+<h2>原著論文・プレプリント (Publications & Preprints)</h2>
+<ul>
+{% for pub in data.publications %}
+    <li>
+        {{ pub.authors_ja }}. "{{ pub.title_ja }}". <b>{{ pub.journal_ja }}</b>, {{ pub.date }}.
+        {% if pub.url != "" %}<a href="{{ pub.url }}" target="_blank">[Paper/Preprint]</a>{% else %}<span style="color: #8b949e; font-size: 0.9em;">[公開準備中 / Forthcoming]</span>{% endif %}
+        <ul>
+            <li>{{ pub.description_ja }}</li>
+        </ul>
+    </li>
+{% endfor %}
+</ul>
+
+<hr>
+
 <h2>学会発表 (Presentations)</h2>
 <ul>
 {% for pres in data.presentations %}
