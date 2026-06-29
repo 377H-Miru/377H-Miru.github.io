@@ -28,6 +28,12 @@ permalink: /
 <h2>これまでの歩み (Recent Achievements)</h2>
 <ul>
     <li>
+        <b>プレプリント採択 (Preprints.org)</b> （2026年6月）
+        <ul>
+            <li>局所構造フラグメント特徴量と分子全体記述子を統合する新たな毒性予測スタッキング手法（Fragment–Molecular Evidence Stacking）に関する論文が Preprints.org に採択済（公開準備中）。</li>
+        </ul>
+    </li>
+    <li>
         <b>明治薬科大学「次世代を担う研究者育成奨励金」 受賞 (2回目)</b> （2026年4月）
         <p style="font-size: 0.9em; color: #8b949e; margin-top: 0;">※日本薬学会での発表成果に基づく選出</p>
     </li>

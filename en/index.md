@@ -28,6 +28,12 @@ Research Affiliation: <a href="https://u-lab.my-pharm.ac.jp/~mminfo/member/" tar
 <h2>My Journey (Recent Achievements)</h2>
 <ul>
     <li>
+        <b>Preprint Accepted (Preprints.org)</b> (June 2026)
+        <ul>
+            <li>Paper on novel toxicity prediction stacking methodology integrating local fragment features and whole-molecule descriptors (Fragment–Molecular Evidence Stacking) accepted at Preprints.org (public link forthcoming).</li>
+        </ul>
+    </li>
+    <li>
         <b>Meiji Pharmaceutical University 'Next-Generation Researcher Development Incentive Award' (2nd Award)</b> (April 2026)
         <p style="font-size: 0.9em; color: #8b949e; margin-top: 0;">*Selected based on results at the PSJ 146th Annual Meeting</p>
     </li>
