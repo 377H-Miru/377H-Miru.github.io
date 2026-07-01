@@ -56,6 +56,19 @@
   ],
   "presentations": [
     {
+      "title_ja": "医薬品の有害事象誘発リスク予測におけるKolmogorov-Arnold Networksの有用性の検討",
+      "title_en": "Evaluation of the Utility of Kolmogorov-Arnold Networks in Predicting Drug-Induced Adverse Event Risks",
+      "event_ja": "第53回日本毒性学会学術年会",
+      "event_en": "The 53rd Annual Meeting of the Japanese Society of Toxicology",
+      "role_ja": "ポスター発表",
+      "role_en": "Poster",
+      "date": "2026-07",
+      "authors_ja": "<b>宮原 渉</b>, 植沢 芳広",
+      "authors_en": "<b>Wataru Miyahara</b>, Yoshihiro Uesawa",
+      "url": "https://jsot2026.jp/",
+      "tool": "ecfp_cli"
+    },
+    {
       "title_ja": "光学特性予測QSARコンペティション \"EUOS25 Challenge\" 参加報告",
       "title_en": "Report on Participation in the Optical Property Prediction QSAR Competition 'EUOS25 Challenge'",
       "event_ja": "日本コンピュータ化学会 2026年春季年会",

@@ -28,6 +28,12 @@ permalink: /
 <h2>これまでの歩み (Recent Achievements)</h2>
 <ul>
     <li>
+        <b>第53回日本毒性学会学術年会 ポスター発表</b> （2026年7月） ｜ <a href="https://jsot2026.jp/" target="_blank">[大会HP]</a>
+        <ul>
+            <li>演題: 「医薬品の有害事象誘発リスク予測におけるKolmogorov-Arnold Networksの有用性の検討」</li>
+        </ul>
+    </li>
+    <li>
         <b>プレプリント公開 (Preprints.org)</b> （2026年6月）
         <ul>
             <li>局所構造フラグメント特徴量と分子全体記述子を統合する新たな毒性予測スタッキング手法（Fragment–Molecular Evidence Stacking）に関する論文を Preprints.org にて公開。 ｜ <a href="https://www.preprints.org/manuscript/202606.2071" target="_blank">[Preprint (Preprints.org)]</a></li>
