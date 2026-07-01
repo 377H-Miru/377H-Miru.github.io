@@ -81,6 +81,9 @@ permalink: /en/achievements/
             {% elsif pres.tool == 'ecfp_cli' %}
             <li>Tools used: <a href="/en/tools/">ecfp_cli</a></li>
             {% endif %}
+            {% if pres.preprint_url %}
+            <li>Related Preprint: <a href="{{ pres.preprint_url }}" target="_blank">"{{ pres.preprint_title_en }}" (Preprints.org)</a></li>
+            {% endif %}
         </ul>
     </li>
 {% endfor %}
