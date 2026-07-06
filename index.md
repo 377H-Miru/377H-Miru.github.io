@@ -36,7 +36,7 @@ permalink: /
     <li>
         <b>日本医療薬学会 第9回フレッシャーズ・カンファランス 一般発表</b> （2026年7月） ｜ <a href="https://www.jsphcs.jp/" target="_blank">[学会HP]</a>
         <ul>
-            <li>演題: 「Kolmogorov-Arnold Networks（KAN）を用いたFAERSデータベース解析の有用性の検証」</li>
+            <li>演題: 「FAERSを用いた薬剤性肝障害に関するリスク分類予測モデル構築と関連する化学構造的特徴の解析」</li>
         </ul>
     </li>
     <li>

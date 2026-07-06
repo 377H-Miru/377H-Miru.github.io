@@ -71,8 +71,8 @@
       "preprint_title_en": "Interpretable Toxicity Prediction Using Fragment–Molecular Evidence Stacking: Explicit Integration of Local Fragment and Whole-Molecule Evidence"
     },
     {
-      "title_ja": "Kolmogorov-Arnold Networks（KAN）を用いたFAERSデータベース解析の有用性の検証",
-      "title_en": "Verification of the Utility of FAERS Database Analysis Using Kolmogorov-Arnold Networks (KAN)",
+      "title_ja": "FAERSを用いた薬剤性肝障害に関するリスク分類予測モデル構築と関連する化学構造的特徴の解析",
+      "title_en": "Construction of a Risk Classification Prediction Model for Drug-Induced Liver Injury and Analysis of Associated Chemical Structural Features Using FAERS",
       "event_ja": "日本医療薬学会 第9回フレッシャーズ・カンファランス",
       "event_en": "The 9th JSPHCS Freshers Conference",
       "role_ja": "一般発表 (ポスター)",
