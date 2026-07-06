@@ -9,11 +9,12 @@ permalink: /projects/
 
 [← ホームに戻る](/)
 
-## Kolmogorov-Arnold Networks (KAN) による有害事象解析
+## FiDES: Kolmogorov-Arnold Networks (KAN) による有害事象解析
 - **概要:** 最新のニューラルネットワークアーキテクチャであるKANを用い、有害事象誘発に寄与する化学構造の解釈性を高める研究に取り組んでいます。
 - **技術的課題へのアプローチ:** 
   KANは高い関数近似能力を持つ一方で、多次元入力（ECFP等）に対する計算コストの急激な増大や、過学習への脆弱性が公知の課題として存在します。本プロジェクトでは、特定の正則化手法やアーキテクチャの工夫を導入し、**「解釈性とスケーラビリティのトレードオフ」**をどのように克服できるかという観点から検証を進めています。
 - **取り組み:** 第146年会 日本薬学会、第9回フレッシャーズ・カンファランス、および第53回日本毒性学会学術年会にて発表
+- **論文情報:** Preprint: [Preprints.org (Fragment–Molecular Evidence Stacking)](https://www.preprints.org/manuscript/202606.2071)
 - **使用ツール:** [ecfp_cli](https://github.com/377H-Miru/ecfp_cli) ｜ [技術解説ブログ](/posts/2026-04-02-kan-research-overview)
 
 ---
