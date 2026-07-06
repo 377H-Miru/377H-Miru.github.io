@@ -93,7 +93,10 @@
       "date": "2026-07-04",
       "authors_ja": "<b>宮原 渉</b>, 植沢 芳広",
       "authors_en": "<b>Wataru Miyahara</b>, Yoshihiro Uesawa",
-      "url": "https://www.jsphcs.jp/"
+      "url": "https://www.jsphcs.jp/",
+      "preprint_url": "https://www.preprints.org/manuscript/202606.2071",
+      "preprint_title_ja": "Interpretable Toxicity Prediction Using Fragment–Molecular Evidence Stacking: Explicit Integration of Local Fragment and Whole-Molecule Evidence",
+      "preprint_title_en": "Interpretable Toxicity Prediction Using Fragment–Molecular Evidence Stacking: Explicit Integration of Local Fragment and Whole-Molecule Evidence"
     },
     {
       "title_ja": "光学特性予測QSARコンペティション \"EUOS25 Challenge\" 参加報告",
