@@ -28,15 +28,15 @@ Research Affiliation: <a href="https://u-lab.my-pharm.ac.jp/~mminfo/member/" tar
 <h2>My Journey (Recent Achievements)</h2>
 <ul>
     <li>
-        <b>The 53rd Annual Meeting of the Japanese Society of Toxicology Poster Presentation</b> (July 2026) ｜ <a href="https://jsot2026.jp/" target="_blank">[Conference Website]</a>
-        <ul>
-            <li>Title: "Evaluation of the Utility of Kolmogorov-Arnold Networks in Predicting Drug-Induced Adverse Event Risks"</li>
-        </ul>
-    </li>
-    <li>
         <b>The 9th JSPHCS Freshers Conference Presentation</b> (July 2026) ｜ <a href="https://www.jsphcs.jp/" target="_blank">[Society Website]</a>
         <ul>
             <li>Title: "Construction of a Risk Classification Prediction Model for Drug-Induced Liver Injury and Analysis of Associated Chemical Structural Features Using FAERS"</li>
+        </ul>
+    </li>
+    <li>
+        <b>The 53rd Annual Meeting of the Japanese Society of Toxicology Poster Presentation</b> (July 2026) ｜ <a href="https://jsot2026.jp/" target="_blank">[Conference Website]</a>
+        <ul>
+            <li>Title: "Evaluation of the Utility of Kolmogorov-Arnold Networks in Predicting Drug-Induced Adverse Event Risks"</li>
         </ul>
     </li>
     <li>
