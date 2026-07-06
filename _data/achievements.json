@@ -1,6 +1,19 @@
 {
   "awards": [
     {
+      "id": "jsphcs9-award",
+      "tag": "Academic",
+      "title_ja": "日本医療薬学会 第9回フレッシャーズ・カンファランス 優秀演題発表賞 受賞",
+      "title_en": "Outstanding Presentation Award, The 9th JSPHCS Freshers Conference",
+      "date": "2026-07-05",
+      "url": "https://www.jsphcs.jp/",
+      "result_url": "https://www.jsphcs.jp/",
+      "authors_ja": "-",
+      "authors_en": "-",
+      "description_ja": "「FAERSを用いた薬剤性肝障害に関するリスク分類予測モデル構築と関連する化学構造的特徴の解析」の発表成果に基づき選出。",
+      "description_en": "Selected in recognition of the presentation titled 'Construction of a Risk Classification Prediction Model for Drug-Induced Liver Injury and Analysis of Associated Chemical Structural Features Using FAERS.'"
+    },
+    {
       "id": "mpu-award-2",
       "tag": "University",
       "title_ja": "明治薬科大学「次世代を担う研究者育成奨励金」 受賞 (2回目)",
