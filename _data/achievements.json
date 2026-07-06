@@ -71,6 +71,18 @@
       "preprint_title_en": "Interpretable Toxicity Prediction Using Fragment–Molecular Evidence Stacking: Explicit Integration of Local Fragment and Whole-Molecule Evidence"
     },
     {
+      "title_ja": "Kolmogorov-Arnold Networks（KAN）を用いたFAERSデータベース解析の有用性の検証",
+      "title_en": "Verification of the Utility of FAERS Database Analysis Using Kolmogorov-Arnold Networks (KAN)",
+      "event_ja": "日本医療薬学会 第9回フレッシャーズ・カンファランス",
+      "event_en": "The 9th JSPHCS Freshers Conference",
+      "role_ja": "一般発表 (ポスター)",
+      "role_en": "Poster",
+      "date": "2026-07-04",
+      "authors_ja": "<b>宮原 渉</b>, 植沢 芳広",
+      "authors_en": "<b>Wataru Miyahara</b>, Yoshihiro Uesawa",
+      "url": "https://www.jsphcs.jp/"
+    },
+    {
       "title_ja": "光学特性予測QSARコンペティション \"EUOS25 Challenge\" 参加報告",
       "title_en": "Report on Participation in the Optical Property Prediction QSAR Competition 'EUOS25 Challenge'",
       "event_ja": "日本コンピュータ化学会 2026年春季年会",

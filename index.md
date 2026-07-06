@@ -34,6 +34,12 @@ permalink: /
         </ul>
     </li>
     <li>
+        <b>日本医療薬学会 第9回フレッシャーズ・カンファランス 一般発表</b> （2026年7月） ｜ <a href="https://www.jsphcs.jp/" target="_blank">[学会HP]</a>
+        <ul>
+            <li>演題: 「Kolmogorov-Arnold Networks（KAN）を用いたFAERSデータベース解析の有用性の検証」</li>
+        </ul>
+    </li>
+    <li>
         <b>プレプリント公開 (Preprints.org)</b> （2026年6月）
         <ul>
             <li>局所構造フラグメント特徴量と分子全体記述子を統合する新たな毒性予測スタッキング手法（Fragment–Molecular Evidence Stacking）に関する論文を Preprints.org にて公開。 ｜ <a href="https://www.preprints.org/manuscript/202606.2071" target="_blank">[Preprint (Preprints.org)]</a></li>

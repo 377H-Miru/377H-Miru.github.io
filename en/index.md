@@ -34,6 +34,12 @@ Research Affiliation: <a href="https://u-lab.my-pharm.ac.jp/~mminfo/member/" tar
         </ul>
     </li>
     <li>
+        <b>The 9th JSPHCS Freshers Conference Presentation</b> (July 2026) ｜ <a href="https://www.jsphcs.jp/" target="_blank">[Society Website]</a>
+        <ul>
+            <li>Title: "Verification of the Utility of FAERS Database Analysis Using Kolmogorov-Arnold Networks (KAN)"</li>
+        </ul>
+    </li>
+    <li>
         <b>Preprint Published (Preprints.org)</b> (June 2026)
         <ul>
             <li>Paper on novel toxicity prediction stacking methodology integrating local fragment features and whole-molecule descriptors (Fragment–Molecular Evidence Stacking) published on Preprints.org. ｜ <a href="https://www.preprints.org/manuscript/202606.2071" target="_blank">[Preprint (Preprints.org)]</a></li>
