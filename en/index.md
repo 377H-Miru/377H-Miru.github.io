@@ -28,7 +28,7 @@ Research Affiliation: <a href="https://u-lab.my-pharm.ac.jp/~mminfo/member/" tar
 <h2>My Journey (Recent Achievements)</h2>
 <ul>
     <li>
-        <b>Outstanding Presentation Award, The 9th JSPHCS Freshers Conference</b> (July 2026) ｜ <a href="https://fc.jsphcs.jp/2026/" target="_blank">[Society Website]</a> ｜ <a href="https://www.preprints.org/manuscript/202606.2071" target="_blank">[Related Preprint]</a>
+        <b>Outstanding Presentation Award, The 9th JSPHCS Freshers Conference</b> (July 2026) ｜ <a href="/assets/pdf/jsphcs9_freshers_award.pdf" target="_blank">[Certificate(PDF)]</a> ｜ <a href="https://fc.jsphcs.jp/2026/" target="_blank">[Society Website]</a> ｜ <a href="https://www.preprints.org/manuscript/202606.2071" target="_blank">[Related Preprint]</a>
         <ul>
             <li>Title: "Construction of a Risk Classification Prediction Model for Drug-Induced Liver Injury and Analysis of Associated Chemical Structural Features Using FAERS"</li>
         </ul>

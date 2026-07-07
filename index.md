@@ -28,7 +28,7 @@ permalink: /
 <h2>これまでの歩み (Recent Achievements)</h2>
 <ul>
     <li>
-        <b>日本医療薬学会 第9回フレッシャーズ・カンファランス 優秀演題発表賞 受賞</b> （2026年7月） ｜ <a href="https://fc.jsphcs.jp/2026/" target="_blank">[学会HP]</a> ｜ <a href="https://www.preprints.org/manuscript/202606.2071" target="_blank">[関連プレプリント]</a>
+        <b>日本医療薬学会 第9回フレッシャーズ・カンファランス 優秀演題発表賞 受賞</b> （2026年7月） ｜ <a href="/assets/pdf/jsphcs9_freshers_award.pdf" target="_blank">[賞状(PDF)]</a> ｜ <a href="https://fc.jsphcs.jp/2026/" target="_blank">[学会HP]</a> ｜ <a href="https://www.preprints.org/manuscript/202606.2071" target="_blank">[関連プレプリント]</a>
         <ul>
             <li>演題: 「FAERSを用いた薬剤性肝障害に関するリスク分類予測モデル構築と関連する化学構造的特徴の解析」</li>
         </ul>
