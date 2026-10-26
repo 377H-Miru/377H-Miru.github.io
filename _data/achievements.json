@@ -69,6 +69,18 @@
   ],
   "presentations": [
     {
+      "title_ja": "吸収特性を用いた直列スタッキングによる化合物蛍光予測：第2回EUOS/SLAS Joint Challenge Fluorescence部門優勝モデルの紹介",
+      "title_en": "Compound fluorescence prediction by serial stacking using absorption properties: the winning model of the Fluorescence track in the 2nd EUOS/SLAS Joint Challenge",
+      "event_ja": "CBI学会2026年大会",
+      "event_en": "CBI Annual Meeting 2026 (Chem-Bio Informatics Society)",
+      "role_ja": "口頭発表 (フォーカストセッション FS02)",
+      "role_en": "Oral presentation (Focused Session FS02)",
+      "date": "2026-10-27",
+      "authors_ja": "<b>宮原 渉</b>, 位田 佳唯斗, 岩下 悠馬, 植沢 芳広",
+      "authors_en": "<b>Wataru Miyahara</b>, Kaito Inden, Yuma Iwashita, Yoshihiro Uesawa",
+      "url": "https://cbi-society.org/taikai/taikai26/sessionFS.html#FS02"
+    },
+    {
       "title_ja": "副作用データベース FAERS の機械学習解析による横紋筋融解症関連医薬品の構造的特徴探索",
       "title_en": "Exploration of structural features of rhabdomyolysis-related drugs by machine learning analysis of the adverse event database FAERS",
       "event_ja": "第12回日本医薬品安全性学会学術大会",
