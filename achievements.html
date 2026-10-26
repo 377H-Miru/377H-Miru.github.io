@@ -45,9 +45,6 @@ permalink: /achievements/
             <li><a href="{{ award.result_url }}" target="_blank">[詳細・ソース]</a> 
             {% if award.blog_url %}｜ <a href="{{ award.blog_url }}">[技術解説ブログはこちら]</a>{% endif %}</li>
             <li>{{ award.description_ja }}</li>
-            {% if award.id == 'euos25' or award.id == 'mpu-award-1' or award.id == 'mpu-award-2' %}
-            <li>使用ツール: <a href="/tools/">mordred_descriptor_calculator</a></li>
-            {% endif %}
         </ul>
     </div>
 {% endfor %}
@@ -76,11 +73,6 @@ permalink: /achievements/
     <li>
         {{ pres.authors_ja }}. "{{ pres.title_ja }}". <b>{{ pres.event_ja }}</b>, {{ pres.role_ja }}, {{ pres.date }}.
         <ul>
-            {% if pres.tool == 'mordred_descriptor_calculator' %}
-            <li>使用ツール: <a href="/tools/">mordred_descriptor_calculator</a></li>
-            {% elsif pres.tool == 'ecfp_cli' %}
-            <li>使用ツール: <a href="/tools/">ecfp_cli</a></li>
-            {% endif %}
             {% if pres.preprint_url %}
             <li>関連プレプリント: <a href="{{ pres.preprint_url }}" target="_blank">"{{ pres.preprint_title_ja }}" (Preprints.org)</a></li>
             {% endif %}

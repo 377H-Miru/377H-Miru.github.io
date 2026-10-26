@@ -7,50 +7,44 @@ date: 2026-04-02
 
 <div data-lang-content="ja" markdown="1">
 
-# Kolmogorov-Arnold Networks (KAN) による有害事象解析のアプローチ
+# Kolmogorov-Arnold Networks (KAN) を用いた有害事象予測の取り組み
 
+現在取り組んでいるテーマの一つである、**Kolmogorov-Arnold Networks (KAN)** を用いた有害事象の予測と、その予測に関わる化学構造の検討について、背景と方針を紹介します。
 
-現在取り組んでいる主要な研究テーマである、**Kolmogorov-Arnold Networks (KAN)** を用いた有害事象誘発に関与する化学構造の解釈性向上について、その背景と技術的なアプローチを紹介します。
+## KAN とは
+KAN は、従来の多層パーセプトロン（MLP）がノードに活性化関数を持つのに対し、エッジ（結合）上にスプラインなどの学習可能な関数を持つニューラルネットワークです。学習した関数を個別に確認できるため、解釈のしやすさの面で注目されています。
 
-## KANとは何か？
-KANは、従来のMulti-Layer Perceptron (MLP) がノード（ニューロン）に活性化関数を持つのに対し、エッジ（結合重み）上にスプラインベースの活性化関数を持つ新しいニューラルネットワークアーキテクチャです。理論上、少ないパラメータ数で高い関数近似能力を持ち、特に**解釈性**において大きなアドバンテージを持つと期待されています。
+## ケモインフォマティクスで使うときの課題
+有害事象の予測のように高次元でスパースなデータに KAN を使うと、次のような課題があります。
 
-## ケモインフォマティクスにおける技術的課題
-しかし、KANをケモインフォマティクス、特に有害事象（副作用）予測という高次元・スパースなデータセットに適用する際には、いくつかの公知の課題に直面します。
+1. **計算コスト**: ECFP のような数千次元の入力では、エッジごとに関数を持つ KAN の計算コストが大きくなります。
+2. **過学習**: 表現力が高いため、FAERS のようなノイズの多いデータでは過学習しやすくなります。
 
-1. **計算コストの増大**: ECFP（Extended-Connectivity Fingerprints）のような数千次元のスパースな入力を扱う際、エッジ上に複雑な関数を持つKANは計算コストが急激に増大します。
-2. **過学習への脆弱性**: 表現力が高すぎるため、ノイズの多い実臨床データ（FAERS等）を学習させると、容易に過学習を引き起こします。
+## 取り組んでいること
+スパース性を促す正則化などの工夫によって、これらの課題がどこまで軽減できるかを検証しています。
 
-## 解決へのアプローチ：解釈性とスケーラビリティのトレードオフ
-私たちの研究では、この**「解釈性とスケーラビリティのトレードオフ」**を克服するための手法を検証しています。具体的には、特定の正則化手法（スパース性誘導ペナルティなど）の導入や、アーキテクチャレイヤーの工夫により、高次元入力時でもKANの解釈性を維持しつつ計算効率を上げるためのフレームワークを構築しています。
-
-このアプローチにより、医薬品の構造から「なぜその副作用が誘発されるのか」を局所的な部分構造（Toxicophore）レベルで特定し、分子・受容体レベルでの安全性評価基盤へと発展させることを目指しています。
-
-本研究の初期成果については、第146年会 日本薬学会にてポスター発表を行いました。現在、本内容に関する論文およびソースコードの公開準備を進めています。
+初期の結果は、日本薬学会 第146年会でポスター発表しました。関連する手法は、[Preprints.org のプレプリント](https://www.preprints.org/manuscript/202606.2071)（2026年6月）にまとめています。
 
 </div>
 
 <div data-lang-content="en" markdown="1">
 
-# Adverse Event Analysis Approach using Kolmogorov-Arnold Networks (KAN)
+# Adverse Event Prediction with Kolmogorov-Arnold Networks (KAN)
 
-
-This post introduces the background and technical approach of my primary research theme: enhancing the interpretability of chemical structures contributing to adverse events using **Kolmogorov-Arnold Networks (KAN)**.
+This post introduces the background and approach of one of my current topics: predicting drug adverse events with **Kolmogorov-Arnold Networks (KAN)** and examining the chemical structures related to those predictions.
 
 ## What is KAN?
-Unlike traditional Multi-Layer Perceptrons (MLPs) that place activation functions on nodes (neurons), KANs place spline-based activation functions on edges (weights). Theoretically, they offer high function approximation capabilities with fewer parameters and are expected to have significant advantages in **interpretability**.
+Unlike multi-layer perceptrons (MLPs), which place activation functions on nodes, KANs place learnable functions such as splines on edges. Because each learned function can be inspected, KANs have attracted attention for interpretability.
 
-## Technical Challenges in Cheminformatics
-However, applying KAN to cheminformatics—especially for predicting adverse events using high-dimensional and sparse datasets—presents several well-documented challenges.
+## Issues in cheminformatics
+Applying KAN to high-dimensional, sparse data such as adverse-event prediction raises some issues:
 
-1. **Computational Overhead**: When dealing with sparse inputs of thousands of dimensions like ECFP (Extended-Connectivity Fingerprints), having complex functions on edges causes a rapid increase in computational cost.
-2. **Susceptibility to Overfitting**: Due to their extreme expressive power, learning from noisy real-world clinical data (such as FAERS) easily leads to overfitting.
+1. **Computational cost**: with inputs of thousands of dimensions, such as ECFP, a KAN with a function on every edge becomes expensive.
+2. **Overfitting**: because the model is expressive, it tends to overfit noisy data such as FAERS.
 
-## Our Approach: The Interpretability vs. Scalability Trade-off
-Our research investigates methods to overcome this **"interpretability vs. scalability trade-off"**. Specifically, we are constructing a framework to maintain KAN's interpretability while improving computational efficiency even with high-dimensional inputs. This is achieved by introducing specific regularization techniques (e.g., sparsity-inducing penalties) and architectural layer optimizations.
+## What I am working on
+I am testing how far measures such as sparsity-promoting regularization reduce these issues.
 
-Through this approach, we aim to identify *why* a particular adverse event is triggered from a drug's structure at the level of local substructures (Toxicophores), ultimately developing a safety assessment foundation at the molecular and receptor levels.
-
-Initial results from this research were presented as a poster at the 146th Annual Meeting of the Pharmaceutical Society of Japan. We are currently preparing to publish the manuscript and the corresponding source code.
+Early results were presented as a poster at the 146th Annual Meeting of the Pharmaceutical Society of Japan. A related method is described in a [preprint on Preprints.org](https://www.preprints.org/manuscript/202606.2071) (June 2026).
 
 </div>

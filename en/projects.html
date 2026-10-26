@@ -12,33 +12,32 @@ permalink: /en/projects/
 
 <h2 id="kan">FiDES: Adverse Event Analysis via Interpretable ML (KAN Approach)</h2>
 <ul>
-    <li><b>Overview:</b> Focusing on AI-driven scientific discovery, I am researching ways to enhance the interpretability of chemical structures contributing to adverse events. As one approach, we utilize Kolmogorov-Arnold Networks (KAN).</li>
-    <li><b>Addressing Technical Trade-offs:</b> 
-        While KAN offers high function approximation capabilities, it faces challenges like computational cost spikes and overfitting in high-dimensional settings (e.g., ECFP). This project investigates overcoming the <b>scalability-interpretability trade-off</b> through specialized regularization and architectural optimizations.
+    <li><b>Overview:</b> Research on chemical structures involved in drug adverse events, using interpretable machine learning. One of the methods is Kolmogorov-Arnold Networks (KAN).</li>
+    <li><b>Technical issues:</b> 
+        KAN is expressive, but with high-dimensional inputs such as ECFP its computational cost and overfitting become problems. This project tests how far regularization and similar measures help with these issues.
     </li>
     <li><b>Status:</b> Presented at the PSJ 146th Annual Meeting, the 9th JSPHCS Freshers Conference, and the 53rd Annual Meeting of the Japanese Society of Toxicology (JSOT).</li>
     <li><b>Publication:</b> Preprint available: <a href="https://www.preprints.org/manuscript/202606.2071" target="_blank">Preprints.org (FMES)</a></li>
-    <li><b>Resources:</b> <a href="https://github.com/377H-Miru/ecfp_cli" target="_blank">ecfp_cli</a> ｜ <a href="/en/posts/2026-04-02-kan-research-overview">Technical Review</a></li>
+    <li><b>Related post:</b> <a href="/posts/2026-04-02-kan-research-overview">Blog post</a></li>
 </ul>
 
 <hr>
 
-<h2 id="euos">EUOS25 challenge: Optical Property Prediction</h2>
+<h2 id="euos">EUOS25 challenge (Fluorescence track)</h2>
 <ul>
-    <li><b>Overview:</b> Winner of the Fluorescence track in a large-scale competition involving ~100k compounds.</li>
+    <li><b>Overview:</b> A competition on predicting optical properties (transmittance and fluorescence) of a compound library. Our team (Team microsomes) won the Fluorescence track.</li>
     <li><b>Technical Approach:</b>
         <ul>
-            <li><b>Massive Informatics:</b> Expanded PathCounts (up to 50th order) beyond 1,800+ Mordred descriptors. Integrated Conjugation Features to evaluate π-conjugated systems, constructing a specialized feature space for fluorescence prediction.</li>
-            <li><b>GNN Feature Generation:</b> Integrated graph-based embeddings using a custom GINE-Net.</li>
-            <li><b>Sequential Stacking:</b> Chained architecture modeling biophysical dependencies from transmittance to fluorescence.</li>
+            <li><b>Descriptors:</b> Mordred descriptors plus PathCounts and π-conjugation features.</li>
+            <li><b>Graph neural network:</b> embeddings from a GINE-Net added as features.</li>
+            <li><b>Sequential stacking:</b> predicted transmittance used as an input to the fluorescence model.</li>
         </ul>
     </li>
     <li><b>Result:</b> Winner of the Fluorescence track (February 2026)</li>
     <li><b>Publication:</b> Preprint available: <a href="https://chemrxiv.org/doi/full/10.26434/chemrxiv.15002662/v1" target="_blank">ChemRxiv</a></li>
-    <li><b>Tools & Links:</b> 
-        <a href="https://github.com/377H-Miru/mordred_descriptor_calculator" target="_blank">mordred_descriptor_calculator</a> ｜ 
+    <li><b>Links:</b> 
         <a href="https://www.eu-openscreen.eu/resources/eu-openscreen-news/ansicht/eu-openscreen-and-slas-announce-winners-of-the-second-joint-machine-learning-challenge-at-slas-2026.html" target="_blank">Official News</a> ｜ 
         <a href="https://ochem.eu/static/challenge2025.do" target="_blank">Challenge Info</a> ｜ 
-        <a href="/en/posts/2026-02-25-euos25-review">Technical Review</a>
+        <a href="/posts/2026-02-25-euos25-review">Blog post</a>
     </li>
 </ul>

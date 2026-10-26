@@ -49,8 +49,8 @@
       "result_url": "https://www.my-pharm.ac.jp/",
       "authors_ja": "位田 佳唯斗(博士前期課程1年), 岩下 悠馬(博士前期課程2年)",
       "authors_en": "Kaito Inden (M1), Yuma Iwashita (M2)",
-      "description_ja": "EUOS25 challenge での優勝実績が高く評価され、チームとして大学理事会にて選出。",
-      "description_en": "Selected by the Board of Trustees as a team in recognition of winning the EUOS25 challenge."
+      "description_ja": "EUOS25 challenge 蛍光予測部門での優勝に基づき、チームとして選出。",
+      "description_en": "Selected as a team based on winning the Fluorescence track of the EUOS25 challenge."
     },
     {
       "id": "euos25",
@@ -63,8 +63,8 @@
       "blog_url": "/posts/2026-02-25-euos25-review",
       "authors_ja": "位田 佳唯斗(博士前期課程1年), 岩下 悠馬(博士前期課程2年), 植沢 芳広(教授)",
       "authors_en": "Kaito Inden (M1), Yuma Iwashita (M2), Prof. Yoshihiro Uesawa",
-      "description_ja": "Multimodal Strategy: 外部計算済みの量子化学計算結果（MACE-xTB等）および1,800次元超の記述子を統合。特にπ共役系の品質を評価する Conjugation Features を独自に導入し、蛍光予測に特化した特徴量空間を構築しました。",
-      "description_en": "Multimodal Strategy: Integrated pre-calculated quantum chemistry results (e.g., MACE-xTB) and 1,800+ descriptors. Specifically, developed a specialized feature space for fluorescence prediction by introducing unique Conjugation Features to evaluate the quality of π-conjugated systems."
+      "description_ja": "量子化学計算の結果（MACE-xTB 等）と Mordred 記述子などを特徴量として統合し、透過率の予測値を蛍光の予測に用いる直列スタッキングモデルを用いた。",
+      "description_en": "We combined quantum-chemistry results (e.g., MACE-xTB) and descriptors such as Mordred as features, and used a serial stacking model that feeds predicted transmittance into the fluorescence prediction."
     }
   ],
   "presentations": [
@@ -135,8 +135,7 @@
       "date": "2026-06-04",
       "authors_ja": "<b>宮原 渉</b>, 位田 佳唯斗, 岩下 悠馬, 植沢 芳広",
       "authors_en": "<b>Wataru Miyahara</b>, Kaito Inden, Yuma Iwashita, Yoshihiro Uesawa",
-      "url": "https://www.sccj.net/events/nenkai/2026sp/program.html",
-      "tool": "mordred_descriptor_calculator"
+      "url": "https://www.sccj.net/events/nenkai/2026sp/program.html"
     },
     {
       "title_ja": "FAERSデータベースとKolmogorov-Arnold Networksを用いた横紋筋融解症誘発に関与する医薬品の構造的特徴の解明と予測モデルの構築",
@@ -148,8 +147,7 @@
       "date": "2026-03-27",
       "authors_ja": "<b>宮原 渉</b>, 朝田 瑞穂, 植沢 芳広",
       "authors_en": "<b>Wataru Miyahara</b>, Mizuho Asada, Yoshihiro Uesawa",
-      "url": "https://confit.atlas.jp/guide/event/pharm146/subject/27-51-pm1-04S/detail?kind=html",
-      "tool": "ecfp_cli"
+      "url": "https://confit.atlas.jp/guide/event/pharm146/subject/27-51-pm1-04S/detail?kind=html"
     }
   ],
   "memberships": [
@@ -197,8 +195,8 @@
       "date": "2026-06-29",
       "url": "https://www.preprints.org/manuscript/202606.2071",
       "doi": "10.20944/preprints202606.2071.v1",
-      "description_ja": "局所構造フラグメント特徴量と分子全体記述子を明示的に統合し、高い解釈性と高精度を両立する新たな毒性予測スタッキング手法を提案。",
-      "description_en": "Introduces a novel stacking methodology integrating local structural fragment features with whole-molecule descriptors for highly interpretable toxicological machine learning models."
+      "description_ja": "局所構造フラグメント特徴量と分子全体の記述子を明示的に統合する、毒性予測のスタッキング手法を提案。",
+      "description_en": "Proposes a stacking method for toxicity prediction that explicitly integrates local fragment features and whole-molecule descriptors."
     },
     {
       "id": "euos25-chemrxiv",
@@ -212,8 +210,8 @@
       "date": "2026-05-04",
       "url": "https://chemrxiv.org/doi/full/10.26434/chemrxiv.15002662/v1",
       "doi": "10.26434/chemrxiv.15002662/v1",
-      "description_ja": "EUOS25 challenge 蛍光予測部門優勝に貢献したマルチモーダル量子化学特徴量と Sequential Stacking アーキテクチャのプレプリント。",
-      "description_en": "Preprint detailing the multimodal quantum chemistry feature integration and Sequential Stacking architecture used to win the EUOS25 challenge fluorescence track."
+      "description_ja": "EUOS25 challenge 蛍光予測部門で用いた特徴量と直列スタッキングモデルに関するプレプリント。",
+      "description_en": "Preprint describing the features and the sequential stacking model used in the Fluorescence track of the EUOS25 challenge."
     }
   ],
   "education": [

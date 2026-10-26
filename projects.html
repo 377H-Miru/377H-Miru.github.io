@@ -12,33 +12,32 @@ permalink: /projects/
 
 <h2 id="kan">FiDES: 解釈可能な機械学習による有害事象解析 (KANによるアプローチ)</h2>
 <ul>
-    <li><b>概要:</b> AIによる科学的発見を重視し、有害事象誘発に寄与する化学構造の解釈性を高める研究に取り組んでいます。手法の一つとして最新のニューラルネットワークアーキテクチャであるKAN（Kolmogorov-Arnold Networks）を用いています。</li>
+    <li><b>概要:</b> 有害事象の誘発に関わる化学構造を、解釈可能な機械学習で調べる研究です。手法の一つとして KAN（Kolmogorov-Arnold Networks）を用いています。</li>
     <li><b>技術的課題へのアプローチ:</b> 
-        KANは高い関数近似能力を持つ一方で、多次元入力（ECFP等）に対する計算コストの急激な増大や、過学習への脆弱性が公知の課題として存在します。本プロジェクトでは、特定の正則化手法やアーキテクチャの工夫を導入し、<b>「解釈性とスケーラビリティのトレードオフ」</b>をどのように克服できるかという観点から検証を進めています。
+        KAN は表現力が高い一方で、ECFP のような高次元の入力では計算コストと過学習が課題になります。本プロジェクトでは、正則化などの工夫がこれらの課題にどこまで有効かを検証しています。
     </li>
     <li><b>取り組み:</b> 第146年会 日本薬学会、第9回フレッシャーズ・カンファランス（一般発表）、および第53回日本毒性学会学術年会（ポスター発表）にて発表</li>
     <li><b>論文情報:</b> Preprint available: <a href="https://www.preprints.org/manuscript/202606.2071" target="_blank">Preprints.org (FMES)</a></li>
-    <li><b>リソース:</b> <a href="https://github.com/377H-Miru/ecfp_cli" target="_blank">ecfp_cli</a> ｜ <a href="/posts/2026-04-02-kan-research-overview">技術解説ブログ</a></li>
+    <li><b>関連記事:</b> <a href="/posts/2026-04-02-kan-research-overview">ブログ記事</a></li>
 </ul>
 
 <hr>
 
-<h2 id="euos">EUOS25 challenge 光学特性予測部門</h2>
+<h2 id="euos">EUOS25 challenge（蛍光予測部門）</h2>
 <ul>
-    <li><b>概要:</b> 約10万化合物のライブラリを用いた光学特性予測コンテスト。私たちは蛍光予測部門で優勝しました。</li>
+    <li><b>概要:</b> 化合物ライブラリを用いた光学特性（透過率・蛍光）の予測コンテスト。私たちのチーム（Team microsomes）は蛍光予測部門で優勝しました。</li>
     <li><b>技術的アプローチ:</b>
         <ul>
-            <li><b>Massive Informatics (大規模記述子):</b> 1,800次元超の Mordred 記述子に加え、長距離相関を捉えるための PathCounts（最大50次）を独自拡張。π共役系の品質を評価する Conjugation Features を統合し、蛍光予測に特化した特徴量空間を構築しました。</li>
-            <li><b>GNN Feature Generation (グラフニューラルネットワーク):</b> カスタムの GINE-Net を活用し、グラフ構造から抽出されたエムベディングを特徴量として統合しました。</li>
-            <li><b>Sequential Stacking:</b> 透過率から蛍光への物性的依存関係をモデル化する、連鎖的なスタッキングアーキテクチャを構築。</li>
+            <li><b>記述子:</b> Mordred 記述子に、PathCounts と π 共役に関する特徴量を加えました。</li>
+            <li><b>グラフニューラルネットワーク:</b> GINE-Net から得た埋め込みを特徴量に加えました。</li>
+            <li><b>直列スタッキング:</b> 透過率の予測値を、蛍光を予測するモデルの入力に加えました。</li>
         </ul>
     </li>
     <li><b>結果:</b> 蛍光予測部門 優勝（2026年2月）</li>
     <li><b>論文情報:</b> Preprint available: <a href="https://chemrxiv.org/doi/full/10.26434/chemrxiv.15002662/v1" target="_blank">ChemRxiv</a></li>
-    <li><b>使用ツール・関連リンク:</b> 
-        <a href="https://github.com/377H-Miru/mordred_descriptor_calculator" target="_blank">mordred_descriptor_calculator</a> ｜ 
+    <li><b>関連リンク:</b> 
         <a href="https://www.eu-openscreen.eu/resources/eu-openscreen-news/ansicht/eu-openscreen-and-slas-announce-winners-of-the-second-joint-machine-learning-challenge-at-slas-2026.html" target="_blank">公式ニュース</a> ｜ 
         <a href="https://ochem.eu/static/challenge2025.do" target="_blank">コンテスト概要</a> ｜ 
-        <a href="/posts/2026-02-25-euos25-review">技術解説ブログ</a>
+        <a href="/posts/2026-02-25-euos25-review">ブログ記事</a>
     </li>
 </ul>
