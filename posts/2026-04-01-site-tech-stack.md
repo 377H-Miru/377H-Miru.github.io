@@ -1,6 +1,7 @@
 ---
 layout: default
 title: サイト構築の技術仕様
+description: "このサイトの構成（GitHub Pages + Jekyll、実績データの JSON 管理、日英ページの分離）と更新手順のメモ。"
 ---
 
 <div data-lang-content="ja" markdown="1">

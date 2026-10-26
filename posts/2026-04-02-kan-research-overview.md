@@ -3,6 +3,7 @@ layout: default
 title: Kolmogorov-Arnold Networks (KAN) による有害事象解析のアプローチ
 title_en: "Adverse Event Analysis Approach using Kolmogorov-Arnold Networks (KAN)"
 date: 2026-04-02
+description: "Kolmogorov-Arnold Networks (KAN) を用いた有害事象予測の背景、高次元入力での課題、取り組んでいる検証の紹介。"
 ---
 
 <div data-lang-content="ja" markdown="1">

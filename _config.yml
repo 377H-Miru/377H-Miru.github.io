@@ -1,11 +1,16 @@
 # Site settings
 title: "宮原 渉 | Portfolio"
-description: "研究実績まとめ"
-url: "https://377H-Miru.github.io"
+description: "明治薬科大学 薬学部 宮原 渉（Wataru Miyahara）のポートフォリオ。機械学習を用いた医薬品の有害事象予測と化合物の物性予測、学会発表・受賞の記録。"
+description_en: "Portfolio of Wataru Miyahara, Faculty of Pharmacy, Meiji Pharmaceutical University: machine-learning prediction of drug adverse events and compound properties, presentations and awards."
+url: "https://377h-miru.github.io"
 baseurl: ""
 
 # Permalinks
 permalink: /:title/
+
+# Plugins (GitHub Pages で利用可能)
+plugins:
+  - jekyll-sitemap
 
 # Theme
 theme: jekyll-theme-minimal
