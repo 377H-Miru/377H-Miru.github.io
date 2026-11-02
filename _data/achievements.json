@@ -78,7 +78,9 @@
       "date": "2026-10-27",
       "authors_ja": "<b>宮原 渉</b>, 位田 佳唯斗, 岩下 悠馬, 植沢 芳広",
       "authors_en": "<b>Wataru Miyahara</b>, Kaito Inden, Yuma Iwashita, Yoshihiro Uesawa",
-      "url": "https://cbi-society.org/taikai/taikai26/sessionFS.html#FS02"
+      "url": "https://cbi-society.org/taikai/taikai26/sessionFS.html#FS02",
+      "description_ja": "EUOS25 蛍光予測部門で用いた特徴量の統合と、透過率予測を蛍光予測につなぐモデル構成を紹介。",
+      "description_en": "Presentation of the feature integration and model setup linking transmittance prediction to fluorescence prediction in the EUOS25 challenge."
     },
     {
       "title_ja": "副作用データベース FAERS の機械学習解析による横紋筋融解症関連医薬品の構造的特徴探索",
@@ -91,9 +93,8 @@
       "authors_ja": "<b>宮原 渉</b>, 植沢 芳広",
       "authors_en": "<b>Wataru Miyahara</b>, Yoshihiro Uesawa",
       "url": "https://jasds2026.org/",
-      "preprint_url": "https://www.preprints.org/manuscript/202606.2071",
-      "preprint_title_ja": "Interpretable Toxicity Prediction Using Fragment–Molecular Evidence Stacking: Explicit Integration of Local Fragment and Whole-Molecule Evidence",
-      "preprint_title_en": "Interpretable Toxicity Prediction Using Fragment–Molecular Evidence Stacking: Explicit Integration of Local Fragment and Whole-Molecule Evidence"
+      "description_ja": "FAERS と機械学習を用い、横紋筋融解症に関連する医薬品の構造的特徴を探索。",
+      "description_en": "Exploration of structural features of drugs associated with rhabdomyolysis using FAERS and machine learning."
     },
     {
       "title_ja": "FAERSを用いた薬剤性肝障害に関するリスク分類予測モデル構築と関連する化学構造的特徴の解析",
@@ -106,9 +107,8 @@
       "authors_ja": "<b>宮原 渉</b>, 植沢 芳広",
       "authors_en": "<b>Wataru Miyahara</b>, Yoshihiro Uesawa",
       "url": "https://fc.jsphcs.jp/2026/",
-      "preprint_url": "https://www.preprints.org/manuscript/202606.2071",
-      "preprint_title_ja": "Interpretable Toxicity Prediction Using Fragment–Molecular Evidence Stacking: Explicit Integration of Local Fragment and Whole-Molecule Evidence",
-      "preprint_title_en": "Interpretable Toxicity Prediction Using Fragment–Molecular Evidence Stacking: Explicit Integration of Local Fragment and Whole-Molecule Evidence"
+      "description_ja": "FAERS を用いた薬剤性肝障害のリスク分類モデルと、関連する構造的特徴の解析について発表。",
+      "description_en": "Presentation of a risk-classification model for drug-induced liver injury using FAERS and an analysis of associated structural features."
     },
     {
       "title_ja": "医薬品の有害事象誘発リスク予測におけるKolmogorov-Arnold Networksの有用性の検討",
@@ -121,9 +121,8 @@
       "authors_ja": "<b>宮原 渉</b>, 植沢 芳広",
       "authors_en": "<b>Wataru Miyahara</b>, Yoshihiro Uesawa",
       "url": "https://jsot2026.jp/",
-      "preprint_url": "https://www.preprints.org/manuscript/202606.2071",
-      "preprint_title_ja": "Interpretable Toxicity Prediction Using Fragment–Molecular Evidence Stacking: Explicit Integration of Local Fragment and Whole-Molecule Evidence",
-      "preprint_title_en": "Interpretable Toxicity Prediction Using Fragment–Molecular Evidence Stacking: Explicit Integration of Local Fragment and Whole-Molecule Evidence"
+      "description_ja": "有害事象誘発リスクの予測に KAN を用いるアプローチの有用性を検討。",
+      "description_en": "Evaluation of KAN as an approach to predicting drug-induced adverse-event risks."
     },
     {
       "title_ja": "光学特性予測QSARコンペティション \"EUOS25 Challenge\" 参加報告",
@@ -135,7 +134,9 @@
       "date": "2026-06-04",
       "authors_ja": "<b>宮原 渉</b>, 位田 佳唯斗, 岩下 悠馬, 植沢 芳広",
       "authors_en": "<b>Wataru Miyahara</b>, Kaito Inden, Yuma Iwashita, Yoshihiro Uesawa",
-      "url": "https://www.sccj.net/events/nenkai/2026sp/program.html"
+      "url": "https://www.sccj.net/events/nenkai/2026sp/program.html",
+      "description_ja": "光学特性予測コンテスト EUOS25 Challenge への参加内容を報告。",
+      "description_en": "Report on participation in the EUOS25 optical-property prediction challenge."
     },
     {
       "title_ja": "FAERSデータベースとKolmogorov-Arnold Networksを用いた横紋筋融解症誘発に関与する医薬品の構造的特徴の解明と予測モデルの構築",
@@ -147,7 +148,9 @@
       "date": "2026-03-27",
       "authors_ja": "<b>宮原 渉</b>, 朝田 瑞穂, 植沢 芳広",
       "authors_en": "<b>Wataru Miyahara</b>, Mizuho Asada, Yoshihiro Uesawa",
-      "url": "https://confit.atlas.jp/guide/event/pharm146/subject/27-51-pm1-04S/detail?kind=html"
+      "url": "https://confit.atlas.jp/guide/event/pharm146/subject/27-51-pm1-04S/detail?kind=html",
+      "description_ja": "FAERS と KAN を用いた横紋筋融解症の予測モデル構築と、関連する構造的特徴の検討。",
+      "description_en": "Development of a rhabdomyolysis prediction model using FAERS and KAN, with examination of associated structural features."
     }
   ],
   "memberships": [
@@ -183,21 +186,6 @@
     }
   ],
   "publications": [
-    {
-      "id": "fragment-molecular-evidence-stacking",
-      "status": "preprint",
-      "title_ja": "Interpretable Toxicity Prediction Using Fragment–Molecular Evidence Stacking: Explicit Integration of Local Fragment and Whole-Molecule Evidence",
-      "title_en": "Interpretable Toxicity Prediction Using Fragment–Molecular Evidence Stacking: Explicit Integration of Local Fragment and Whole-Molecule Evidence",
-      "authors_ja": "<b>宮原 渉</b>, 植沢 芳広*",
-      "authors_en": "<b>Wataru Miyahara</b>, Yoshihiro Uesawa*",
-      "journal_ja": "Preprints.org (Preprint)",
-      "journal_en": "Preprints.org (Preprint)",
-      "date": "2026-06-29",
-      "url": "https://www.preprints.org/manuscript/202606.2071",
-      "doi": "10.20944/preprints202606.2071.v1",
-      "description_ja": "局所構造フラグメント特徴量と分子全体の記述子を明示的に統合する、毒性予測のスタッキング手法を提案。",
-      "description_en": "Proposes a stacking method for toxicity prediction that explicitly integrates local fragment features and whole-molecule descriptors."
-    },
     {
       "id": "euos25-chemrxiv",
       "status": "preprint",

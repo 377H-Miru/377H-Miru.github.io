@@ -22,10 +22,13 @@ description: "Achievements of Wataru Miyahara (Meiji Pharmaceutical University):
 
 <h1>Achievements</h1>
 <p><a href="/en/">← Back to Home</a></p>
+<p>A record of my work on adverse-event analysis, toxicity prediction, and compound optical properties. Entries include presentation titles, coauthors, formats, and links to available materials.</p>
+<p><a href="#awards">Awards</a> | <a href="#publications">Publications</a> | <a href="#presentations">Presentations</a> | <a href="#memberships">Memberships</a> | <a href="#education">Education</a></p>
+
 
 <hr>
 
-<h2>Awards</h2>
+<h2 id="awards">Awards</h2>
 
 <div class="filter-controls">
     <button class="filter-btn active" onclick="filterAwards('all', this)">All</button>
@@ -53,7 +56,7 @@ description: "Achievements of Wataru Miyahara (Meiji Pharmaceutical University):
 
 <hr>
 
-<h2>Publications & Preprints</h2>
+<h2 id="publications">Publications & Preprints</h2>
 <ul>
 {% for pub in data.publications %}
     <li>
@@ -68,15 +71,14 @@ description: "Achievements of Wataru Miyahara (Meiji Pharmaceutical University):
 
 <hr>
 
-<h2>Presentations</h2>
+<h2 id="presentations">Presentations</h2>
 <ul>
 {% for pres in data.presentations %}
     <li>
         {{ pres.authors_en }}. "{{ pres.title_en }}". <b>{{ pres.event_en }}</b>, {{ pres.role_en }}, {{ pres.date }}.
         <ul>
-            {% if pres.preprint_url %}
-            <li>Related Preprint: <a href="{{ pres.preprint_url }}" target="_blank">"{{ pres.preprint_title_en }}" (Preprints.org)</a></li>
-            {% endif %}
+            {% if pres.description_en %}<li>{{ pres.description_en }}</li>{% endif %}
+            {% if pres.url %}<li><a href="{{ pres.url }}" target="_blank">Presentation program / session details</a></li>{% endif %}
         </ul>
     </li>
 {% endfor %}
@@ -84,7 +86,7 @@ description: "Achievements of Wataru Miyahara (Meiji Pharmaceutical University):
 
 <hr>
 
-<h2>Professional Memberships</h2>
+<h2 id="memberships">Professional Memberships</h2>
 <ul>
 {% for member in data.memberships %}
     <li>{{ member.name_en }} ({{ member.period_en }})</li>
@@ -93,7 +95,7 @@ description: "Achievements of Wataru Miyahara (Meiji Pharmaceutical University):
 
 <hr>
 
-<h2>Education</h2>
+<h2 id="education">Education</h2>
 <ul>
 {% for edu in data.education %}
     <li>{{ edu.period_en }}: {{ edu.institution_en }}</li>

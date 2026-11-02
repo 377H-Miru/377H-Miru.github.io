@@ -24,7 +24,13 @@ KAN は、従来の多層パーセプトロン（MLP）がノードに活性化�
 ## 取り組んでいること
 スパース性を促す正則化などの工夫によって、これらの課題がどこまで軽減できるかを検証しています。
 
-初期の結果は、日本薬学会 第146年会でポスター発表しました。関連する手法は、[Preprints.org のプレプリント](https://www.preprints.org/manuscript/202606.2071)（2026年6月）にまとめています。
+初期の結果は、日本薬学会 第146年会でポスター発表しました。研究の概要は[プロジェクトページ](/projects/#kan)でも紹介しています。
+
+## 発表した研究テーマ
+- 日本薬学会 第146年会：FAERS と KAN を用いた横紋筋融解症の予測モデルと構造的特徴の検討。
+- 第53回日本毒性学会学術年会：有害事象誘発リスク予測における KAN の有用性の検討。
+
+演題、発表形式、共著者は[研究実績](/achievements/#presentations)をご覧ください。
 
 </div>
 
@@ -46,6 +52,12 @@ Applying KAN to high-dimensional, sparse data such as adverse-event prediction r
 ## What I am working on
 I am testing how far measures such as sparsity-promoting regularization reduce these issues.
 
-Early results were presented as a poster at the 146th Annual Meeting of the Pharmaceutical Society of Japan. A related method is described in a [preprint on Preprints.org](https://www.preprints.org/manuscript/202606.2071) (June 2026).
+Early results were presented as a poster at the 146th Annual Meeting of the Pharmaceutical Society of Japan. The [Projects page](/en/projects/#kan) also introduces this research.
+
+## Research Presented
+- PSJ 146th Annual Meeting: rhabdomyolysis prediction and associated structural features using FAERS and KAN.
+- 53rd JSOT Annual Meeting: evaluation of KAN for predicting drug-induced adverse-event risks.
+
+See [Achievements](/en/achievements/#presentations) for titles, formats, and coauthors.
 
 </div>

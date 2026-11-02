@@ -22,10 +22,13 @@ description: "宮原 渉（明治薬科大学）の研究実績。受賞歴、�
 
 <h1>研究実績</h1>
 <p><a href="/">← ホームに戻る</a></p>
+<p>有害事象解析、毒性予測、化合物の光学特性予測に関する実績をまとめています。各発表の演題・共著者・発表形式と、公開資料へのリンクを掲載しています。</p>
+<p><a href="#awards">受賞</a> ｜ <a href="#publications">論文・プレプリント</a> ｜ <a href="#presentations">学会発表</a> ｜ <a href="#memberships">所属学会</a> ｜ <a href="#education">学歴</a></p>
+
 
 <hr>
 
-<h2>受賞歴 (Awards)</h2>
+<h2 id="awards">受賞歴 (Awards)</h2>
 
 <div class="filter-controls">
     <button class="filter-btn active" onclick="filterAwards('all', this)">すべて</button>
@@ -53,7 +56,7 @@ description: "宮原 渉（明治薬科大学）の研究実績。受賞歴、�
 
 <hr>
 
-<h2>原著論文・プレプリント (Publications & Preprints)</h2>
+<h2 id="publications">原著論文・プレプリント (Publications & Preprints)</h2>
 <ul>
 {% for pub in data.publications %}
     <li>
@@ -68,15 +71,14 @@ description: "宮原 渉（明治薬科大学）の研究実績。受賞歴、�
 
 <hr>
 
-<h2>学会発表 (Presentations)</h2>
+<h2 id="presentations">学会発表 (Presentations)</h2>
 <ul>
 {% for pres in data.presentations %}
     <li>
         {{ pres.authors_ja }}. "{{ pres.title_ja }}". <b>{{ pres.event_ja }}</b>, {{ pres.role_ja }}, {{ pres.date }}.
         <ul>
-            {% if pres.preprint_url %}
-            <li>関連プレプリント: <a href="{{ pres.preprint_url }}" target="_blank">"{{ pres.preprint_title_ja }}" (Preprints.org)</a></li>
-            {% endif %}
+            {% if pres.description_ja %}<li>{{ pres.description_ja }}</li>{% endif %}
+            {% if pres.url %}<li><a href="{{ pres.url }}" target="_blank">発表プログラム・セッション情報</a></li>{% endif %}
         </ul>
     </li>
 {% endfor %}
@@ -84,7 +86,7 @@ description: "宮原 渉（明治薬科大学）の研究実績。受賞歴、�
 
 <hr>
 
-<h2>所属学会 (Professional Memberships)</h2>
+<h2 id="memberships">所属学会 (Professional Memberships)</h2>
 <ul>
 {% for member in data.memberships %}
     <li>{{ member.name_ja }} ({{ member.period_ja }})</li>
@@ -93,7 +95,7 @@ description: "宮原 渉（明治薬科大学）の研究実績。受賞歴、�
 
 <hr>
 
-<h2>学歴・略歴 (Education)</h2>
+<h2 id="education">学歴・略歴 (Education)</h2>
 <ul>
 {% for edu in data.education %}
     <li>{{ edu.period_ja }}: {{ edu.institution_ja }}</li>
