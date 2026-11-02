@@ -187,6 +187,21 @@
   ],
   "publications": [
     {
+      "id": "fragment-molecular-evidence-stacking",
+      "status": "preprint",
+      "title_ja": "Interpretable Toxicity Prediction Using Fragment–Molecular Evidence Stacking: Explicit Integration of Local Fragment and Whole-Molecule Evidence",
+      "title_en": "Interpretable Toxicity Prediction Using Fragment–Molecular Evidence Stacking: Explicit Integration of Local Fragment and Whole-Molecule Evidence",
+      "authors_ja": "<b>宮原 渉</b>, 植沢 芳広*",
+      "authors_en": "<b>Wataru Miyahara</b>, Yoshihiro Uesawa*",
+      "journal_ja": "Preprints.org (Preprint)",
+      "journal_en": "Preprints.org (Preprint)",
+      "date": "2026-06-29",
+      "url": "https://www.preprints.org/manuscript/202606.2071",
+      "doi": "10.20944/preprints202606.2071.v1",
+      "description_ja": "局所構造フラグメント特徴量と分子全体の記述子を明示的に統合する、毒性予測のスタッキング手法を提案。",
+      "description_en": "Proposes a stacking method for toxicity prediction that explicitly integrates local fragment features and whole-molecule descriptors."
+    },
+    {
       "id": "euos25-chemrxiv",
       "status": "preprint",
       "title_ja": "Multimodal Machine Learning and Sequential Stacking Strategy for Optical Property Prediction: EUOS25 Challenge",
